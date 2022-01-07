@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # aws bash - https://go.aws/3t3FOm7
 
