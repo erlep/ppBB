@@ -15,14 +15,14 @@
   git status
   # : Modifikace obsahu
   echo su tu vGitv8v >> bbCeny.csv
+  # Ceny aktualizace
+  python3 bbDoChk.py
+
   # : Nahrani na git
   # git commit -a  -m "AWS bash cmd line"
     git commit .  -m 'AWS bash cmd line'
   git push
   git pull
   git status
-
-:Pause
-
 
 # End
