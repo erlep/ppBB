@@ -16,7 +16,8 @@
   # : Modifikace obsahu
   echo su tu >> bbCeny.csv
   # : Nahrani na git
-  git commit -a  -m "AWS bash cmd line"
+  # git commit -a  -m "AWS bash cmd line"
+    git commit .  -m 'AWS bash cmd line'
   git push
   git pull
   git status
