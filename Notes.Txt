@@ -1,0 +1,58 @@
+================================================================================
+:Cesty
+--------------------------------------------------------------------------------
+C:\aaC\vEnv\R-I.txt
+C:\aaC\vEnv\vEnvPy\requirements.txt
+--
+S:\USB\Cv\Ofrs\eLearn.Txt
+S:\USB\UsbBckp\MyKh\Base\PrgLngKh.Txt
+--
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+================================================================================
+:Windows
+--------------------------------------------------------------------------------
+  C:\aaC\vEnv\R-I.txt
+set ccd=%cd%
+cd    c:\aaC\vEnv\vEnvPy
+vEnv\Scripts\activate
+cd %ccd%
+--
+DoChk.bat
+DoWeb.bat
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+================================================================================
+:AWS
+--------------------------------------------------------------------------------
+05.11.2021
+s:\USB\1WrkDir\eeWrk\aws\AWS-KeyPair1.pem
+ssh ec2-18-193-125-149.eu-central-1.compute.amazonaws.com
+ssh 18.193.125.149
+--
+https://eu-central-1.console.aws.amazon.com/ec2/v2/connect/ec2-user/i-0bc2f0a661006564f
+--
+sudo yum update -y
+--------------------------------------------------------------------------------
+s:\USB\1WrkDir\eeWrk\aws\aws_kp_01.pem
+ssh ec2-3-16-111-38.us-east-2.compute.amazonaws.com
+ssh 3.16.111.38
+--------------------------------------------------------------------------------
+How To Install Python 3.8 on Amazon Linux 2 - https://bit.ly/301rvSu
+Yum crashed with Keyboard Interrupt error - https://bit.ly/3BVMpQr
+  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+--
+How To Install Git In AWS EC2 Instance -
+--
+Clone Existing Repo to AWS EC2 - https://bit.ly/3o5cZBD
+--
+git clone https://github.com/erlep/WebTest
+pip3 install --use-feature=2020-resolver  -r requirements.txt
+python3 bbDoChk.py
+streamlit run bbWeb.py
+  Network URL: http://172.31.38.30:8501
+  External URL: http://3.16.111.38:8501
+================================================================================
+

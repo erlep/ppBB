@@ -1,0 +1,1135 @@
+
+---15.11.2021--13:14--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.21 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.3
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 37.2
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---15.11.2021--13:14--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---15.11.2021--16:56--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.21 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.3
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 37.2
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---15.11.2021--16:56--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---16.11.2021--08:47--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.21 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5  +0.2 Cena: 36.5 Old: 36.3 2021-11-16 08:47:30 - zmena ceny
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 37.2
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---16.11.2021--08:47--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\ppBB\bbSaveXls.py:36:
+FutureWarning: Inferring datetime64[ns] from data containing strings is deprecated
+and will be removed in a future version. To retain the old behavior explicitly
+pass Series(data, dtype={value.dtype})
+  dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm)
+
+---16.11.2021--15:10--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.21 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 37.2
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---16.11.2021--15:11--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---16.11.2021--15:23--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.21 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 37.2
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---16.11.2021--15:24--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---16.11.2021--15:49--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.21 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 37.2
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---16.11.2021--15:50--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---16.11.2021--15:51--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.21 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 37.2
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---16.11.2021--15:51--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---16.11.2021--16:07--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.21 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 37.2
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---16.11.2021--16:08--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---18.11.2021--09:49--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.22 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9  -0.3 Cena: 36.9 Old: 37.2 2021-11-18 09:50:16 - zmena ceny
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---18.11.2021--09:50--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---19.11.2021--09:02--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.22 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.4
+
+---19.11.2021--09:03--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---22.11.2021--09:13--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.22 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.6  +0.2 Cena: 37.6 Old: 37.4 2021-11-22 09:14:08 - zmena ceny
+
+---22.11.2021--09:14--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---23.11.2021--08:57--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.22 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.6
+
+---23.11.2021--08:58--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---24.11.2021--08:23--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.22 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.6
+
+---24.11.2021--08:23--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---25.11.2021--11:03--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.22 - Natural 95 prices in Brno - Python Version
+TankONO                 : 35.5
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.6
+
+---25.11.2021--11:04--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+
+---29.11.2021--10:44--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.23 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9  -0.6 Cena: 34.9 Old: 35.5 2021-11-29 10:44:31 - zmena ceny 
+Tesco - Mapy            : 36.2 
+Globus                  : 36.5 
+Makro                   : 36.2 
+Error v bbMapy.py:  <class 'AttributeError'>
+Cena nezjistena -   Nazev: Shell Olomoucká - Mapy   Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká - Mapy  : 37.9 
+MOL Olomoucká - Mapy    : 37.9 
+Benzina Albert Modøice  : 36.9 
+OMV IKEA - Mapy         : 37.9 
+EuroOil Opuštìná-Mapy   : 37.6 
+
+---29.11.2021--10:44--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---30.11.2021--08:45--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.23 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 
+Tesco - Mapy            : 36.2 
+Globus                  : 36.5 
+Makro                   : 36.2 
+Error v bbMapy.py:  <class 'AttributeError'>
+Cena nezjistena -   Nazev: Shell Olomoucká - Mapy   Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká - Mapy  : 37.9 
+MOL Olomoucká - Mapy    : 37.9 
+Benzina Albert Modøice  : 36.9 
+OMV IKEA - Mapy         : 37.9 
+EuroOil Opuštìná-Mapy   : 37.6 
+
+---30.11.2021--08:45--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---30.11.2021--13:21--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.23 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 
+Tesco - Mapy            : 36.2 
+Globus                  : 36.5 
+Makro                   : 36.2 
+Error v bbMapy.py:  <class 'AttributeError'>
+Cena nezjistena -   Nazev: Shell Olomoucká - Mapy   Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká - Mapy  : 37.9 
+MOL Olomoucká - Mapy    : 37.9 
+Benzina Albert Modøice  : 36.9 
+OMV IKEA - Mapy         : 37.9 
+EuroOil Opuštìná-Mapy   : 37.6 
+
+---30.11.2021--13:22--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---30.11.2021--13:49--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 
+Tesco                   : 36.2 
+Globus                  : 36.5 
+Makro                   : 36.2 
+Shell Olomoucká         : 37.9 
+MOL Olomoucká           : 37.9 
+Benzina Albert Modøice  : 36.9 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.6 
+
+---30.11.2021--13:50--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---01.12.2021--10:49--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 
+Tesco                   : 36.2 
+Globus                  : 36.5 
+Makro                   : 35.9  -0.3 Cena: 35.9 Old: 36.2 2021-12-01 10:49:23 - zmena ceny 
+Shell Olomoucká         : 37.9 
+MOL Olomoucká           : 37.9 
+Benzina Albert Modøice  : 36.9 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.6 
+
+---01.12.2021--10:49--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---01.12.2021--10:51--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 
+Tesco                   : 36.2 
+Globus                  : 36.5 
+Makro                   : 35.9 
+Shell Olomoucká         : 37.9 
+MOL Olomoucká           : 37.9 
+Benzina Albert Modøice  : 36.9 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.6 
+
+---01.12.2021--10:51--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---02.12.2021--10:13--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 
+Tesco                   : 36.2 
+Globus                  : 36.5 
+Makro                   : 35.9 
+Shell Olomoucká         : 37.9 
+MOL Olomoucká           : 37.9 
+Benzina Albert Modøice  : 36.9 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.6 
+
+---02.12.2021--10:14--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---03.12.2021--10:22--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 
+Tesco                   : 36.2 
+Globus                  : 36.5 
+Makro                   : 35.9 
+Shell Olomoucká         : 37.9 
+MOL Olomoucká           : 37.9 
+Benzina Albert Modøice  : 36.9 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.6 
+
+---03.12.2021--10:23--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---06.12.2021--09:05--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 33.5  -1.4 Cena: 33.5 Old: 34.9 2021-12-06 09:05:31 - zmena ceny 
+Tesco                   : 35.9  -0.3 Cena: 35.9 Old: 36.2 2021-12-06 09:05:40 - zmena ceny 
+Globus                  : 36.5 
+Makro                   : 35.9 
+Shell Olomoucká         : 37.9 
+MOL Olomoucká           : 37.9 
+Benzina Albert Modøice  : 36.5  -0.4 Cena: 36.5 Old: 36.9 2021-12-06 09:05:48 - zmena ceny 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.6 
+
+---06.12.2021--09:05--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---07.12.2021--10:32--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 33.5 
+Tesco                   : 35.9 
+Globus                  : 36.5 
+Makro                   : 35.9 
+Shell Olomoucká         : 37.9 
+MOL Olomoucká           : 37.7  -0.2 Cena: 37.7 Old: 37.9 2021-12-07 10:33:15 - zmena ceny 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.6 
+
+---07.12.2021--10:33--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---08.12.2021--09:00--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 33.5 
+Tesco                   : 35.9 
+Globus                  : 36.5 
+Makro                   : 35.9 
+Shell Olomoucká         : 37.9 
+MOL Olomoucká           : 37.7 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.2  -0.4 Cena: 37.2 Old: 37.6 2021-12-08 09:01:08 - zmena ceny 
+
+---08.12.2021--09:01--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---09.12.2021--08:36--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 33.5 
+Tesco                   : 35.9 
+Globus                  : 36.5 
+Makro                   : 34.5  -1.4 Cena: 34.5 Old: 35.9 2021-12-09 08:36:39 - zmena ceny 
+Shell Olomoucká         : 37.7  -0.2 Cena: 37.7 Old: 37.9 2021-12-09 08:36:43 - zmena ceny 
+MOL Olomoucká           : 37.7 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.2 
+
+---09.12.2021--08:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---09.12.2021--14:37--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 33.5 
+Tesco                   : 34.5  -1.4 Cena: 34.5 Old: 35.9 2021-12-09 14:37:26 - zmena ceny 
+Globus                  : 36.5 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.7 
+MOL Olomoucká           : 37.7 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+Error v bbMapy.py:  <class 'AttributeError'>
+Cena nezjistena -   Nazev: EuroOil Opuštìná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštìná        : 37.2 
+
+---09.12.2021--14:37--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---09.12.2021--14:38--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 33.5 
+Tesco                   : 34.5 
+Globus                  : 36.5 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.7 
+MOL Olomoucká           : 37.7 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.2 
+
+---09.12.2021--14:39--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---09.12.2021--14:49--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 33.5 
+Tesco                   : 34.5 
+Globus                  : 36.5 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.7 
+MOL Olomoucká           : 37.7 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.2 
+
+---09.12.2021--14:49--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---10.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9  -0.6 Cena: 32.9 Old: 33.5 2021-12-10 05:35:58 - zmena ceny 
+Tesco                   : 34.5 
+Globus                  : 36.5 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.7 
+MOL Olomoucká           : 37.7 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.2 
+
+---10.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---10.12.2021--08:12--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9  -1.6 Cena: 34.9 Old: 36.5 2021-12-10 08:12:56 - zmena ceny 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.7 
+MOL Olomoucká           : 37.7 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.2 
+
+---10.12.2021--08:13--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---11.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.71  +0.01 Cena: 37.71 Old: 37.7 2021-12-11 05:36:17 - zmena ceny 
+MOL Olomoucká           : 37.5  -0.2 Cena: 37.5 Old: 37.7 2021-12-11 05:36:20 - zmena ceny 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 37.2 
+
+---11.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---12.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.71 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9  -0.3 Cena: 36.9 Old: 37.2 2021-12-12 05:36:22 - zmena ceny 
+
+---12.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---13.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9  +0.4 Cena: 34.9 Old: 34.5 2021-12-13 05:36:06 - zmena ceny 
+Shell Olomoucká         : 37.71 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---13.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---13.12.2021--08:38--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.71 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.5 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---13.12.2021--08:38--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---13.12.2021--14:29--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.7  -0.01 Cena: 37.7 Old: 37.71 2021-12-13 14:29:32 - zmena ceny 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.2  -0.3 Cena: 36.2 Old: 36.5 2021-12-13 14:29:36 - zmena ceny 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---13.12.2021--14:29--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---14.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.7 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---14.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---15.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.5  -0.2 Cena: 37.5 Old: 37.7 2021-12-15 05:36:15 - zmena ceny 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---15.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---15.12.2021--09:05--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---15.12.2021--09:05--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---15.12.2021--12:46--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---15.12.2021--12:46--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---16.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5  -0.4 Cena: 34.5 Old: 34.9 2021-12-16 05:36:07 - zmena ceny 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.5 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---16.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---17.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.29  -0.21 Cena: 37.29 Old: 37.5 2021-12-17 05:36:13 - zmena ceny 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---17.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---17.12.2021--14:53--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---17.12.2021--14:53--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---18.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---18.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---19.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---19.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---20.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9  +0.4 Cena: 34.9 Old: 34.5 2021-12-20 05:36:07 - zmena ceny 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---20.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---20.12.2021--09:08--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.5 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---20.12.2021--09:09--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---21.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.29  -0.21 Cena: 37.29 Old: 37.5 2021-12-21 05:36:16 - zmena ceny 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---21.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---21.12.2021--08:02--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.29 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---21.12.2021--08:03--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---22.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.29 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---22.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---22.12.2021--07:43--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.9 
+Shell Olomoucká         : 37.29 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---22.12.2021--07:43--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---23.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5  -0.4 Cena: 34.5 Old: 34.9 2021-12-23 05:36:07 - zmena ceny 
+Shell Olomoucká         : 37.29 
+MOL Olomoucká           : 37.29 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---23.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---23.12.2021--08:54--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 34.5 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 37.29 
+MOL Olomoucká           : 36.9  -0.39 Cena: 36.9 Old: 37.29 2021-12-23 08:54:36 - zmena ceny 
+Benzina Albert Modøice  : 36.2 
+OMV IKEA                : 37.9 
+EuroOil Opuštìná        : 36.9 
+
+---23.12.2021--08:54--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---03.01.2022--13:31--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 33.9  -0.6 Cena: 33.9 Old: 34.5 2022-01-03 13:32:04 - zmena ceny 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 36.7  -0.59 Cena: 36.7 Old: 37.29 2022-01-03 13:32:08 - zmena ceny 
+MOL Olomoucká           : 36.7  -0.2 Cena: 36.7 Old: 36.9 2022-01-03 13:32:12 - zmena ceny 
+Benzina Albert Modøice  : 35.9  -0.3 Cena: 35.9 Old: 36.2 2022-01-03 13:32:13 - zmena ceny 
+OMV IKEA                : 37.5  -0.4 Cena: 37.5 Old: 37.9 2022-01-03 13:32:17 - zmena ceny 
+EuroOil Opuštìná        : 36.5  -0.4 Cena: 36.5 Old: 36.9 2022-01-03 13:32:20 - zmena ceny 
+
+---03.01.2022--13:32--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---04.01.2022--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 33.9 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 36.7 
+MOL Olomoucká           : 36.7 
+Benzina Albert Modøice  : 35.9 
+OMV IKEA                : 37.5 
+EuroOil Opuštìná        : 36.5 
+
+---04.01.2022--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---05.01.2022--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 33.9 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 36.7 
+MOL Olomoucká           : 36.7 
+Benzina Albert Modøice  : 35.9 
+OMV IKEA                : 37.5 
+EuroOil Opuštìná        : 36.5 
+
+---05.01.2022--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---06.01.2022--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 33.9 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 36.7 
+MOL Olomoucká           : 36.7 
+Benzina Albert Modøice  : 35.9 
+OMV IKEA                : 37.5 
+EuroOil Opuštìná        : 36.5 
+
+---06.01.2022--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---07.01.2022--05:35--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 33.9 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 36.7 
+MOL Olomoucká           : 36.7 
+Benzina Albert Modøice  : 35.9 
+OMV IKEA                : 37.5 
+EuroOil Opuštìná        : 36.5 
+
+---07.01.2022--05:36--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
+
+---07.01.2022--10:41--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
+TankONO                 : 32.9 
+Tesco                   : 33.9 
+Globus                  : 34.9 
+Makro                   : 34.5 
+Shell Olomoucká         : 36.7 
+MOL Olomoucká           : 36.7 
+Benzina Albert Modøice  : 35.9 
+OMV IKEA                : 37.5 
+EuroOil Opuštìná        : 36.5 
+
+---07.01.2022--10:42--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
