@@ -5,7 +5,7 @@ pridano
 
 verze z pc
 
-bbNmVR = 0.24
+bbNmVR = 0.25
 
 # Benzin_Brno - Natural 95 prices in Brno - Python Version
 
@@ -34,5 +34,10 @@ Benzin_Brno na Mapy.Cz: https://frame.mapy.cz/s/lohezoreba
 --
 
 History:
+07.01.2022 14:00
+bbNmVR = 0.25
+- CSV file
+- cmd a bash scripts
+----
 - new Python Version
 - v4 klikaci obrazek
