@@ -7,6 +7,15 @@ verze z pc
 
 bbNmVR = 0.25
 
+---
+
+## odkazy
+
+
+
+
+---
+
 # Benzin_Brno - Natural 95 prices in Brno - Python Version
 
 Google Sheet script to monitor petrol prices in Brno city.
