@@ -12,7 +12,8 @@
   git pull
   git status
   : Modifikace obsahu
-  echo su tu >> bbCeny.csv
+  @REM echo su tu >> bbCeny.csv
+
   : Nahrani na git
   git commit -a  -m "Win cmd line"
   git push
