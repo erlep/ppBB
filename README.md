@@ -7,7 +7,7 @@ Python & Streamlit application to monitor petrol prices in Brno city. The web sc
 https://github.com/erlep/ppBB
 
 
-https://erlep.github.io/ppBB/
+https://erlep.github.io/ppBB
 
 
 pridano
