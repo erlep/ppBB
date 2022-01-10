@@ -5,6 +5,7 @@ pridano
 
 verze z pc
 
+bbNmVR = 0.26
 bbNmVR = 0.25
 vGitv8v
 vGitv9v
@@ -14,7 +15,12 @@ vGitv11v
 
 ## odkazy
 
+https://share.streamlit.io/erlep/ppbb/main/bbWeb.py
 
+picture
+
+
+<iframe src="https://share.streamlit.io/erlep/ppbb/main/bbWeb.py"></iframe>
 
 
 ---
