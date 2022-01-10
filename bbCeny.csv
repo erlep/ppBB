@@ -1,10 +1,10 @@
-,Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 10.01.2022 12:05
-0,TankONO                ,33.5,32.9,0.6,2022-01-07 15:17:06,http://www.tank-ono.cz/cz/index.php?page=cenik
-1,Tesco                  ,33.9,34.5,-0.6,2022-01-03 13:32:04,https://bit.ly/3izRnLE
-2,Globus                 ,34.9,36.5,-1.6,2021-12-10 08:12:56,https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
-3,Makro                  ,34.5,34.9,-0.4,2021-12-23 05:36:07,https://www.makro.cz/prodejny/brno
-4,Shell Olomoucká        ,36.7,37.29,-0.59,2022-01-03 13:32:08,https://mapy.cz/s/megolelafe
-5,MOL Olomoucká          ,36.7,36.9,-0.2,2022-01-03 13:32:12,https://mapy.cz/s/kepegubeve
-6,Benzina Albert Modřice ,35.9,36.2,-0.3,2022-01-03 13:32:13,https://bit.ly/3ltfpd1
-7,OMV IKEA               ,37.5,37.9,-0.4,2022-01-03 13:32:17,https://mapy.cz/s/jatejehoda
-8,EuroOil Opuštěná       ,36.2,36.5,-0.3,2022-01-10 08:04:35,https://mapy.cz/s/cutobofugo
+Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 10.01.2022 12:15
+TankONO                ,33.5,32.9,0.6,2022-01-07 15:17:06,http://www.tank-ono.cz/cz/index.php?page=cenik
+Tesco                  ,33.9,34.5,-0.6,2022-01-03 13:32:04,https://bit.ly/3izRnLE
+Globus                 ,34.9,36.5,-1.6,2021-12-10 08:12:56,https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
+Makro                  ,34.5,34.9,-0.4,2021-12-23 05:36:07,https://www.makro.cz/prodejny/brno
+Shell Olomoucká        ,36.7,37.29,-0.59,2022-01-03 13:32:08,https://mapy.cz/s/megolelafe
+MOL Olomoucká          ,36.7,36.9,-0.2,2022-01-03 13:32:12,https://mapy.cz/s/kepegubeve
+Benzina Albert Modřice ,35.9,36.2,-0.3,2022-01-03 13:32:13,https://bit.ly/3ltfpd1
+OMV IKEA               ,37.5,37.9,-0.4,2022-01-03 13:32:17,https://mapy.cz/s/jatejehoda
+EuroOil Opuštěná       ,36.2,36.5,-0.3,2022-01-10 08:04:35,https://mapy.cz/s/cutobofugo
