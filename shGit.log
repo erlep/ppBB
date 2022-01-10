@@ -1,2 +1,22 @@
 
 shGit.sh v1.0 App: shGit.sh  Path: /home/ec2-user/xGit/ppBB/shGit.sh 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   bbCeny.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Already up to date.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   bbCeny.csv
+	modified:   shGit.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
