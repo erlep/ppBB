@@ -20,7 +20,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
----10.01.2022--11:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
+---10.01.2022--11:30--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
 
 BenzinBrno vGitv11v0.25 - Natural 95 prices in Brno - Python Version
 TankONO                 : 33.5 
@@ -33,8 +33,27 @@ Benzina Albert Modřice  : 35.9
 OMV IKEA                : 37.5 
 EuroOil Opuštěná        : 36.2 
 
----10.01.2022--11:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
+---10.01.2022--11:30--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
 
 ===============================================================================
 ===============================================================================
 OkDone.
+[main f8b43b5] AWS bash cmd line
+ 3 files changed, 3 insertions(+), 2 deletions(-)
+Merge made by the 'recursive' strategy.
+ Notes.Txt | 13 +++++++++++++
+ README.md |  6 ++++++
+ bbCFG.py  |  4 ++--
+ cmGit.bat |  3 ++-
+ shGit.sh  |  2 +-
+ 5 files changed, 24 insertions(+), 4 deletions(-)
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   shGit.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
