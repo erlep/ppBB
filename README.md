@@ -95,4 +95,6 @@ cd "$(dirname "$0")"
   git push
   git pull
   git status
+--
+https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv
 
