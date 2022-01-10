@@ -1,6 +1,13 @@
 # ppBB
 Python Project Benzin Brno
 
+
+Python & Streamlit application to monitor petrol prices in Brno city. The web scraping robot runs in the AWS Cloud.
+
+https://github.com/erlep/ppBB
+https://erlep.github.io/ppBB/
+
+
 pridano
 
 verze z pc
