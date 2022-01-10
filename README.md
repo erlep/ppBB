@@ -1,75 +1,12 @@
+# [ppBB - Petrol prices via Python & Streamlit - https://erlep.github.io/ppBB](<https://erlep.github.io/ppBB>)
 
-- ## [Petrol prices via Python & Streamlit - https://erlep.github.io/ppBB](<https://erlep.github.io/ppBB>)
-
-**Python** & **Streamlit** application to monitor petrol prices in Brno city.
+[ppBB (Python Project Benzin Brno)](<https://erlep.github.io/ppBB>) is **Python** & **Streamlit** application to monitor petrol prices in Brno city.
 The web scraping robot runs in the [AWS Cloud](https://aws.amazon.com).
-Not yet fully implemented.
 
 [Streamlit](<https://share.streamlit.io/erlep/ppbb/main/bbWeb.py>)
 [GitHub](<https://github.com/erlep/ppBB>)
 
-
-
-
-
-
-
-
-
-
-# ppBB
-Python Project Benzin Brno
-
-
-Python & Streamlit application to monitor petrol prices in Brno city. The web scraping robot runs in the AWS Cloud.
-
-https://github.com/erlep/ppBB
-
-
-https://erlep.github.io/ppBB
-
-
-
-
-- ## [Petrol prices via Python & Streamlit - https://erlep.github.io/ppBB](<https://erlep.github.io/ppBB>)
-
-[GitHub](<https://github.com/erlep/ppBB>)
-[Streamlit](<https://share.streamlit.io/erlep/ppbb/main/bbWeb.py>)
-
-**Python** & **Streamlit** application to monitor petrol prices in Brno city.
-The web scraping robot runs in the [AWS Cloud](https://aws.amazon.com).
 Not yet fully implemented.
-
-
-
-
-
-
-
-
-
-
-pridano
-
-verze z pc
-
-bbNmVR = 0.26
-bbNmVR = 0.25
-vGitv8v
-vGitv9v
-vGitv10v
-vGitv11v
----
-
-## odkazy
-
-https://share.streamlit.io/erlep/ppbb/main/bbWeb.py
-
-picture
-
-
-<iframe src="https://share.streamlit.io/erlep/ppbb/main/bbWeb.py"></iframe>
-
 
 ---
 
