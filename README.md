@@ -1,4 +1,4 @@
-# [ppBB - Petrol prices via Python & Streamlit - https://erlep.github.io/ppBB](<https://erlep.github.io/ppBB>)
+# [ppBB - https://erlep.github.io/ppBB](<https://erlep.github.io/ppBB>)
 
 [ppBB (Python Project Benzin Brno)](<https://erlep.github.io/ppBB>) is **Python** & **Streamlit** application to monitor petrol prices in Brno city.
 The web scraping robot runs in the [AWS Cloud](https://aws.amazon.com).
