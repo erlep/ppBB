@@ -9,6 +9,7 @@ bbNmVR = 0.25
 vGitv8v
 vGitv9v
 vGitv10v
+vGitv11v
 ---
 
 ## odkazy
@@ -65,6 +66,9 @@ crontab -e
 8 8 * * * /home/ec2-user/xGit/ppBB/shGit.sh > /home/ec2-user/xGit/ppBB/shGit.log
   kazdou hodinu v 11 minut
 11 * * * * /home/ec2-user/xGit/ppBB/shGit.sh > /home/ec2-user/xGit/ppBB/shGit.log
+
+*/15 * * * * /home/ec2-user/xGit/ppBB/shGit.sh > /home/ec2-user/xGit/ppBB/shGit.log
+
 --
 --
 set the current working dir to the dir of the script in Bash? - https://bit.ly/3r4yHHu

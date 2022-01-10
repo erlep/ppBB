@@ -16,7 +16,7 @@
   git pull
   git status
   # : Modifikace obsahu
-  echo su tu vGitv10v >> bbCeny.csv
+  echo su tu vGitv11v >> bbCeny.csv
   # Ceny aktualizace
   python3 bbDoChk.py
 
