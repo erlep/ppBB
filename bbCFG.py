@@ -5,7 +5,7 @@
 bbNmBB = 'BenzinBrno '
 bbNmVR = 0.25
 # bbNmVE = 'v' + str(bbNmVR).format()
-bbNmVE = 'vGitv8v' + '{:.2f}'.format(bbNmVR)
+bbNmVE = 'vGitv9v' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
 bbName = 'BenzinBrno v0.00 - Natural 95 prices in Brno - Python Version'
 bbName = bbNmBB + bbNmVE + bbNmDE
