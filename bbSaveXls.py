@@ -20,7 +20,7 @@ def SaveXls(Dump=False):
   Args:
       Dump: Vypisuj ceny
   """
-  from bbCFG import brint, bbXlsFlNm, bbXlsShNm, bbDateMsk, bbLogFlNm, bbDateDMY
+  from bbCFG import brint, bbXlsFlNm, bbXlsShNm, bbDateMsk, bbLogFlNm, bbDateDMY, bbCsvFlNm
   from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
   from bbCena import F2f, tF
   from bbTankONO import tTankO
@@ -98,6 +98,8 @@ def SaveXls(Dump=False):
   # Save Xls
   # df.style.set_precision(2).background_gradient().hide_index().to_excel('styled.xlsx', engine='openpyxl')
   df.to_excel(bbXlsFlNm, index=False, sheet_name=bbXlsShNm)
+  # Save CSV
+  df.to_csv(bbCsvFlNm, index=False)
   return None
 
 # main
