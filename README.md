@@ -51,3 +51,22 @@ bbNmVR = 0.25
 ----
 - new Python Version
 - v4 klikaci obrazek
+--
+
+--
+Cannot get cron to work on Amazon EC2? - https://bit.ly/3JPuyzH
+crontab -l
+crontab
+https://crontab-generator.org
+  vi - Esc and enter :wq).
+crontab -e
+  kazdy den 8:08
+8 8 * * * /home/ec2-user/xGit/ppBB/shGit.sh > /home/ec2-user/xGit/ppBB/shGit.log
+  kazdou hodinu v 11 minut
+11 * * * * /home/ec2-user/xGit/ppBB/shGit.sh > /home/ec2-user/xGit/ppBB/shGit.log
+--
+--
+set the current working dir to the dir of the script in Bash? - https://bit.ly/3r4yHHu
+#!/bin/bash
+cd "$(dirname "$0")"
+

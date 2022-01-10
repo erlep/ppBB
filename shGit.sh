@@ -8,6 +8,8 @@
   echo
   echo "shGit.sh v1.0 App: ${0##*/}  Path: ${0} "
 
+  # set the current working dir to the dir of the script in Bash? - https://bit.ly/3r4yHHu
+  cd "$(dirname "$0")"
 
   # : Refresh
   git status
