@@ -18,7 +18,7 @@ def Graf():
   # Matplotlib Bars - w3 https://bit.ly/3u9WR6H
   # x = np.array(["A", "B", "C", "D"])
   # y = np.array([13.6, 18.1, 10.9, 10.1])
-  plt.barh(x, y, color="DarkBlue")
+  plt.barh(x, y, color="DodgerBlue")
   # displaying the title
   LastChech = str(list(df)[-1:][0])
   tit = bbNmBB + bbNmVE + ' ' + LastChech + '                       '
