@@ -14,6 +14,7 @@ def DoChk():
   # from bbLST import *
   from bbLog import LogOpen, LogClose
   from bbSaveXls import SaveXls
+  from bbGraf import Graf
 
   # Open
   LogOpen()
@@ -21,6 +22,8 @@ def DoChk():
   print(bbName)
   # Benzinky zjisti ceny a uloz do Xls
   SaveXls(True)
+  # Save picture
+  Graf()
   # Close
   LogClose()
   # Done
