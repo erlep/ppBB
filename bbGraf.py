@@ -12,8 +12,9 @@ def Graf():
 
   # Xls file
   df = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm, converters={bbHLAVICKA[bbHlavDate]: pd.to_datetime})
-  # Název + Cena
-  x = df[bbHLAVICKA[bbHlavNazv]]
+  # Název - trim
+  x = df[bbHLAVICKA[bbHlavNazv]].str.strip()
+  # Cena - ',' -> '.'
   y = df[bbHLAVICKA[bbHlavCena]]
 
   # Matplotlib Bars - w3 https://bit.ly/3u9WR6H
@@ -22,11 +23,11 @@ def Graf():
   plt.barh(x, y, color="DarkBlue")
   # displaying the title
   LastChech = str(list(df)[-1:][0])
-  tit = bbNmBB + bbNmVE + ' ' + LastChech
+  tit = bbNmBB + bbNmVE + ' ' + LastChech + '                       '
   plt.title(tit)
-
-  plt.xlabel('Cena')
-  plt.ylabel('Kdo')
+  # print('>>', tit, '<<')
+  plt.xlabel('Price [Kč]', size=15)
+  plt.ylabel('Petrol Station Name', size=15)
   # otocit osu Y
   plt.gca().invert_yaxis()
   # otocit y label
@@ -34,22 +35,21 @@ def Graf():
   # h.set_rotation(0)
 
   # Popis hodnot https://bit.ly/342VdbG
-  # for index, value in enumerate(y):
-  #   plt.text(value - 2.5, index, str(value) + ' Kč ', color="White")
+  for index, value in enumerate(y):
+    # print(' index , val ', index, value)
+    plt.text(value - 5.0, index, str(value) + ' Kč', color="White")
 
   # Save to PNG - bbCeny.png
   # plt.savefig('foo.pdf')
   # plt.savefig('foo.png')
-  plt.savefig(os.path.join(bbPngFlNm), dpi=300, format='png')
+  plt.savefig(os.path.join(bbPngFlNm), dpi=300, format='png', bbox_inches='tight')
   # plt.show()
-
-  ############################
   ############################
   ############################
 
 # main
 def bbGraf_main():
-  print('su tu.')
+  print('bbGraf_main.')
   Graf()
   print('OkDone.')
 
