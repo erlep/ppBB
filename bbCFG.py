@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.27
+bbNmVR = 0.28
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -11,9 +11,11 @@ bbName = 'BenzinBrno v0.00 - Natural 95 prices in Brno - Python Version'
 bbName = bbNmBB + bbNmVE + bbNmDE
 bbNadpis = 'Ceny Benzínu v Brně:'
 bbTtest = r'C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\ppBB\bbCFG.py'
-bbLogFlNm = 'bbCeny.Log'   # nazev protokolu zmen
-bbXlsFlNm = 'bbCeny.xlsx'  # nazev xls souboru
-bbCsvFlNm = 'bbCeny.csv'  # nazev xls souboru
+bbCenFlNm = 'bbCeny'   # nazev protokolu zmen
+bbLogFlNm = bbCenFlNm + '.Log'    # nazev protokolu zmen
+bbXlsFlNm = bbCenFlNm + '.xlsx'   # nazev xls souboru
+bbCsvFlNm = bbCenFlNm + '.csv'    # nazev csv souboru
+bbPngFlNm = bbCenFlNm + '.png'    # nazev png souboru
 bbXlsShNm = bbNmBB.strip()  # sheet name, strip = trim
 bbNoUrl = '--url--'
 # Configurace App
