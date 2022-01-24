@@ -9,15 +9,14 @@ Changes not staged for commit:
 	modified:   shGit.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Updating aab2e78..a34586e
+Updating fefc3b9..6ed7819
 Fast-forward
- bbCFG.py    |   2 +-
- bbCeny.csv  |   4 ++--
- bbCeny.png  | Bin 70863 -> 175965 bytes
- bbCeny.xlsx | Bin 5715 -> 6876 bytes
- bbDoChk.py  |   3 +++
- bbGraf.py   |  24 ++++++++++++------------
- 6 files changed, 18 insertions(+), 15 deletions(-)
+ Notes.Txt  | 104 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md  |  78 +++++-----------------------------------------
+ bbCFG.py   |   2 +-
+ bbCeny.png | Bin 175475 -> 130920 bytes
+ bbGraf.py  |   8 ++---
+ 5 files changed, 115 insertions(+), 77 deletions(-)
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -28,9 +27,9 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
----24.01.2022--17:00--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
+---24.01.2022--17:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
 
-BenzinBrno GitV0.29 - Natural 95 prices in Brno - Python Version
+BenzinBrno GitV0.30 - Natural 95 prices in Brno - Python Version
 TankONO                 : 34.5 
 Tesco                   : 33.9 
 Globus                  : 34.9 
@@ -41,7 +40,7 @@ Benzina Albert Modřice  : 36.2
 OMV IKEA                : 37.9 
 EuroOil Opuštěná        : 36.4 
 
----24.01.2022--17:02--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
+---24.01.2022--17:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
 
 ===============================================================================
 ===============================================================================
