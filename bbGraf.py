@@ -2,12 +2,10 @@
 
 # ulozi graf do .\img\ceny.png
 def Graf():
-  from bbCFG import bbXlsFlNm, bbXlsShNm, bbPngFlNm, bbNmVE, bbDateDMY, bbNmBB
-  from bbLST import bbHLAVICKA, bbHlavNazv, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
+  from bbCFG import bbXlsFlNm, bbXlsShNm, bbPngFlNm, bbNmVE, bbNmBB
+  from bbLST import bbHLAVICKA, bbHlavNazv, bbHlavCena, bbHlavDate
   import pandas as pd
-  import time
   import matplotlib.pyplot as plt
-  import numpy as np
   import os
 
   # Xls file
