@@ -1,22 +1,8 @@
 ﻿# Benzín Brno - bbSaveXls.py - vypise ceny jednotlivych benzinek - bbSaveXls.py
 # Ulozi ceny benzinek do Xls souboru
 
-# from bbCFG import *
-# from bbLST import *
-# from bbLog import *
-# from bbTankONO import *
-# from bbMapy import *
-# from bbGlobus import *
-# from bbMakro import *
-# from bbmBenzin import *
-# from bbCena import *
-
-# import pandas as pd
-# import time
-
 def SaveXls(Dump=False):
   """ Ulozi ceny benzinu do Xls
-
   Args:
       Dump: Vypisuj ceny
   """

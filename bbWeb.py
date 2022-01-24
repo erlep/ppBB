@@ -2,9 +2,6 @@
 #
 # streamlit run bbWeb.py
 
-# from bbCFG import *
-# from bbLST import *
-
 from bbCFG import bbName, bbNmBB, bbNmVE, bbNmDE, bbXlsFlNm, bbXlsShNm
 from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavNazv, bbHlavDate, bbHlavaUrl
 

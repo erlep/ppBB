@@ -1,11 +1,5 @@
 ﻿# Benzín Brno - Mapy.cz - https://bit.ly/3izRnLE - bbMapy.py
 # Pro JavaScript pouziva: selenium <-> playwright
-# bbMapy.py
-# from bbCFG import *
-# from bbGetPage import GetPage
-# from selenium import webdriver
-# from selenium.webdriver.chrome.options import Options
-# from bs4 import BeautifulSoup
 
 # extract - stahne stranku
 def extract(url=''):

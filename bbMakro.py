@@ -1,14 +1,6 @@
 ﻿# Benzín Brno - Makro - "Natural 95" - bbMakro.py
 # https://www.makro.cz/prodejny/brno
 
-# from bbCFG import *
-# import requests
-# from bs4 import BeautifulSoup
-# import pandas as pd
-# import numpy as np
-# import matplotlib.pyplot as plt
-# from unicodedata import normalize
-
 # extract - stahne stranku
 def extract(url, Key):
   # requests - nacte stranku

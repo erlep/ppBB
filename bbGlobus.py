@@ -1,15 +1,6 @@
 ﻿# Benzín Brno - Globus - Natural - bbGlobus.py
 # https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
 
-# from bbCFG import *
-# import requests
-# from bs4 import BeautifulSoup
-# import pandas as pd
-# import numpy as np
-# import matplotlib.pyplot as plt
-# from unicodedata import normalize
-# import sys
-
 # extract - stahne stranku
 def extract(url, Key):
   from bbCFG import bbCenaMsk

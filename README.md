@@ -85,3 +85,9 @@ cd "$(dirname "$0")"
 --
 https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv
 
+--
+soubory
+README.md  - tento file
+bbCeny.Log - zmeny cen
+shGit.log  - aws log
+Notes.Txt  - poznamky, dam tam vse odtud

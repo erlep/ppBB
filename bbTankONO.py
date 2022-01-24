@@ -1,15 +1,6 @@
 ﻿# Benzín Brno - TankONO - Natural "95" - pumpa: 'ČS Brno-Hviezdoslavova' - bbTankONO.py
 # http://www.tank-ono.cz/cz/index.php?page=cenik
 
-# from bbCFG import bbprint
-# from bbCFG import bbProduct
-# import requests
-# # from bs4 import BeautifulSoup
-# import pandas as pd
-# import numpy as np
-# import matplotlib.pyplot as plt
-# from unicodedata import normalize
-
 # extract - stahne stranku
 def extract(url, Key):
   import requests
