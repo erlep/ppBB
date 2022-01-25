@@ -9,12 +9,7 @@ Changes not staged for commit:
 	modified:   shGit.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Updating c515402..43c6250
-Fast-forward
- README.md | 2 ++
- bbCFG.py  | 2 +-
- bbGraf.py | 9 +++++++--
- 3 files changed, 10 insertions(+), 3 deletions(-)
+Already up to date.
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -25,7 +20,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
----25.01.2022--12:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
+---25.01.2022--12:30--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
 
 BenzinBrno GitV0.31 - Natural 95 prices in Brno - Python Version
 TankONO                 : 34.5 
@@ -38,7 +33,7 @@ Benzina Albert Modřice  : 36.2
 OMV IKEA                : 37.9 
 EuroOil Opuštěná        : 36.4 
 
----25.01.2022--12:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
+---25.01.2022--12:30--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
 
 ===============================================================================
 ===============================================================================
