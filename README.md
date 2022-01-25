@@ -9,6 +9,8 @@ The web scraping robot runs in the [AWS Cloud](https://aws.amazon.com).
 
 [CSV file](<https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv>)
 
+[Log file](<https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log>)
+
 [Png file](<https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png>)
 
 [![Ceny](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
