@@ -21,7 +21,7 @@ def Graf():
   plt.barh(x, y, color="DodgerBlue")
   # displaying the title
   LastChech = str(list(df)[-1:][0])
-  tit = bbNmBB + bbNmVE + ' ' + LastChech + '                       '
+  tit = bbNmBB + bbNmVE + ' ' + LastChech + '              '
   plt.title(tit)
   # print('>>', tit, '<<')
   plt.xlabel('Price [Kč]', size=15)
@@ -32,10 +32,15 @@ def Graf():
   # h = plt.ylabel('y')
   # h.set_rotation(0)
 
+  # setting y-axis limit in matplotlib - https://bit.ly/3qXr9aw
+  x1, x2, y1, y2 = plt.axis()
+  x1 = 32  # 32,- Kč
+  plt.axis((x1, x2, y1, y2))
+
   # Popis hodnot https://bit.ly/342VdbG
   for index, value in enumerate(y):
     # print(' index , val ', index, value)
-    plt.text(value - 5.0, index, str(value) + ' Kč', color="White")
+    plt.text(value - 1.0, index, str(value) + ' Kč', color="White")
 
   # Save to PNG - bbCeny.png
   # plt.savefig('foo.pdf')
