@@ -5,9 +5,7 @@ def Graf():
   from bbCFG import bbXlsFlNm, bbXlsShNm, bbPngFlNm, bbNmVE, bbNmBB
   from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavNazv, bbHlavDate, bbHlavaUrl
   import pandas as pd
-  import matplotlib.pyplot as plt
   import plotly.express as px
-
   import os
 
   # Excel file Tabulka
@@ -43,7 +41,7 @@ def Graf():
 
   # How to save plotly express plot into a html or static image file? - https://bit.ly/3KKM1cX
   # pip install -U kaleido
-  fig.write_image(bbPngFlNm, scale=2.0)
+  fig.write_image(os.path.join(bbPngFlNm), scale=2.0)
 
 # main
 def bbGraf_main():
