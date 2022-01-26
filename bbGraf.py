@@ -1,4 +1,4 @@
-﻿# Benzín Brno - bbGraf.py - bar chart - graf cen ulozit do png
+﻿# Benzín Brno - bbGraf.py - bar chart - graf cen ulozit do png - pomoci matplotlib.pyplot
 
 # ulozi graf do .\img\ceny.png
 def Graf():
