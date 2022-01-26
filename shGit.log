@@ -1,7 +1,8 @@
 
 shGit.sh v1.0 App: shGit.sh  Path: /home/ec2-user/xGit/ppBB/shGit.sh 
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -9,9 +10,12 @@ Changes not staged for commit:
 	modified:   shGit.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Already up to date.
+Merge made by the 'recursive' strategy.
+ Notes.Txt | 2 ++
+ 1 file changed, 2 insertions(+)
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -20,7 +24,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
----26.01.2022--13:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
+---26.01.2022--13:30--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
 
-BenzinBrno GitV0.32 - Natural 95 prices in Brno - Python Version
+BenzinBrno GitV0.33 - Natural 95 prices in Brno - Python Version
 TankONO                 : 34.5 
