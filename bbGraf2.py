@@ -26,20 +26,24 @@ def Graf():
                #  title=Prices + bbNmBB + bbNmVE+' '+LastChech,
                title=tit,
                color=bbHLAVICKA[bbHlavCena],
-               category_orders={bbHLAVICKA[bbHlavNazv]: ((list(zip(*bbBenzinky)))[0])})
-
+               category_orders={bbHLAVICKA[bbHlavNazv]: ((list(zip(*bbBenzinky)))[0])}
+               )
+  #               range_x=[32, 40])
+  # How to obtain generated x-axis and y-axis range in plotly plot? - https://bit.ly/3AzY7kt
+  full_fig = fig.full_figure_for_development(warn=False)
+  # print('full', full_fig.layout.xaxis.range, type(full_fig.layout.xaxis.range))
+  xlim = list(full_fig.layout.xaxis.range)
+  # min hodnota
+  xlim[0] = 32
+  # print('xlim', xlim, type(xlim))
+  # https://plotly.com/python/reference/layout/xaxis/
+  # fig.update_xaxes(range=[32, 40])
+  fig.update_xaxes(range=xlim)
   fig.show()
 
   # How to save plotly express plot into a html or static image file? - https://bit.ly/3KKM1cX
   # pip install -U kaleido
   fig.write_image(bbPngFlNm, scale=2.0)
-
-  ############################
-  # Excel to png - https: // bit.ly/35rhDEr
-  # import excel2img
-  # # excel2img.export_img("example.xlsx/example.csv","image.png/image.bmp","sheet!B2:H22")
-  # excel2img.export_img(bbXlsFlNm, "image.png")  # , "BenzinBrno!A1:F10")
-  ############################
 
 # main
 def bbGraf_main():
