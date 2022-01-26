@@ -1,6 +1,9 @@
 # Soubor requirements.txt - https://pip.pypa.io/en/stable/user_guide/
 #
-# pip install -r requirements.txt
+# pip install -U  -r requirements.txt
+#
+#  nahozeni playwright
+#  playwright install
 
 # verze BB
 
