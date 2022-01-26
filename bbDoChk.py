@@ -14,7 +14,7 @@ def DoChk():
   # from bbLST import *
   from bbLog import LogOpen, LogClose
   from bbSaveXls import SaveXls
-  from bbGraf import Graf
+  from bbGraf2 import Graf
 
   # Open
   LogOpen()
