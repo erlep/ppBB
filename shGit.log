@@ -20,7 +20,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
----28.01.2022--14:45--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
+---28.01.2022--15:00--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
 
 BenzinBrno GitV0.33 - Natural 95 prices in Brno - Python Version
 TankONO                 : 34.5 
@@ -31,9 +31,11 @@ Shell Olomoucká         : 36.9
 MOL Olomoucká           : 36.9 
 Benzina Albert Modřice  : 36.2 
 OMV IKEA                : 37.9 
+Error v bbMapy.py:  <class 'AttributeError'>
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
 EuroOil Opuštěná        : 36.4 
 
----28.01.2022--14:45--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
+---28.01.2022--15:00--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
 
 ===============================================================================
 ===============================================================================
