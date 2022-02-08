@@ -63,6 +63,17 @@ bar_chart = px.bar(df,
                    title=Prices,
                    color=bbHLAVICKA[bbHlavCena],
                    category_orders={bbHLAVICKA[bbHlavNazv]: ((list(zip(*bbBenzinky)))[0])})
+#               range_x=[32, 40])
+# How to obtain generated x-axis and y-axis range in plotly plot? - https://bit.ly/3AzY7kt
+full_fig = bar_chart.full_figure_for_development(warn=False)
+# print('full', full_fig.layout.xaxis.range, type(full_fig.layout.xaxis.range))
+xlim = list(full_fig.layout.xaxis.range)
+# min hodnota
+xlim[0] = 32
+# print('xlim', xlim, type(xlim))
+# https://plotly.com/python/reference/layout/xaxis/
+# bar_chart.update_xaxes(range=[32, 40])
+bar_chart.update_xaxes(range=xlim)
 st.plotly_chart(bar_chart)
 
 

@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.33
+bbNmVR = 0.34
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
