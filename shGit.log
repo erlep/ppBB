@@ -20,20 +20,20 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
----15.02.2022--09:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
+---15.02.2022--09:30--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
 
 BenzinBrno GitV0.34 - Natural 95 prices in Brno - Python Version
 TankONO                 : 35.5 
 Tesco                   : 35.9 
 Globus                  : 36.1 
 Makro                   : 36.1 
-Shell Olomoucká         : 37.5 
+Shell Olomoucká         : 37.9  +0.4 Cena: 37.9 Old: 37.5 2022-02-15 09:33:09 - zmena ceny 
 MOL Olomoucká           : 37.5 
 Benzina Albert Modřice  : 36.5 
 OMV IKEA                : 38.5 
 EuroOil Opuštěná        : 36.9 
 
----15.02.2022--09:19--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
+---15.02.2022--09:38--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
 
 ===============================================================================
 ===============================================================================
