@@ -2,7 +2,7 @@
 
 # ulozi graf do .\img\ceny.png
 def Graf():
-  from bbCFG import bbXlsFlNm, bbXlsShNm, bbPngFlNm, bbNmVE, bbNmBB
+  from bbCFG import bbXlsFlNm, bbXlsShNm, bbPngFlNm, bbNmVE, bbNmBB, bbCenaMin
   from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavNazv, bbHlavDate, bbHlavaUrl
   import pandas as pd
   import plotly.express as px
@@ -32,7 +32,7 @@ def Graf():
   # print('full', full_fig.layout.xaxis.range, type(full_fig.layout.xaxis.range))
   xlim = list(full_fig.layout.xaxis.range)
   # min hodnota
-  xlim[0] = 32
+  xlim[0] = bbCenaMin
   # print('xlim', xlim, type(xlim))
   # https://plotly.com/python/reference/layout/xaxis/
   # fig.update_xaxes(range=[32, 40])

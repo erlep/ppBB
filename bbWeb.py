@@ -2,7 +2,7 @@
 #
 # streamlit run bbWeb.py
 
-from bbCFG import bbName, bbNmBB, bbNmVE, bbNmDE, bbXlsFlNm, bbXlsShNm
+from bbCFG import bbName, bbNmBB, bbNmVE, bbNmDE, bbXlsFlNm, bbXlsShNm, bbCenaMin
 from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavNazv, bbHlavDate, bbHlavaUrl
 
 import pandas as pd
@@ -69,7 +69,7 @@ full_fig = bar_chart.full_figure_for_development(warn=False)
 # print('full', full_fig.layout.xaxis.range, type(full_fig.layout.xaxis.range))
 xlim = list(full_fig.layout.xaxis.range)
 # min hodnota
-xlim[0] = 32
+xlim[0] = bbCenaMin
 # print('xlim', xlim, type(xlim))
 # https://plotly.com/python/reference/layout/xaxis/
 # bar_chart.update_xaxes(range=[32, 40])
