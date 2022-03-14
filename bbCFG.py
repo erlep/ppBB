@@ -31,7 +31,7 @@ bbDateLog = "%d.%m.%Y--%H:%M"  # format casu
 # Formatovani Ceny (float) - Cena = '{:.2f}'.format(item)
 bbCenaMsk = '{:.2f}'  # format na 2 desetinna mista
 # Graf
-bbCenaMin = 42  # mdolni mez ceny na ose X v grafu
+bbCenaMin = 40  # mdolni mez ceny na ose X v grafu
 
 # bbPrintDebug
 # bbPrintDebug('Loc:', 'FceName','Var', Var )
