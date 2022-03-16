@@ -1285,3 +1285,82 @@ EuroOil Opuštìná        : 44.8
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---16.03.2022--14:16--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno GitV0.35 - Natural 95 prices in Brno - Python Version
+Traceback (most recent call last):
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1040, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 980, in send
+    self.connect()
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000028E19CAA070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.tank-ono.cz', port=80): Max retries exceeded with url: /cz/index.php?page=cenik&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F85.0.4183.102+Safari%2F537.36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028E19CAA070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 38, in <module>
+    bbDoChk_main()
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 34, in bbDoChk_main
+    DoChk()
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
+    SaveXls(True)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 10, in SaveXls
+    from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbLST.py", line 26, in <module>
+    ['TankONO                ', 'tF(tTankO(s))', tF(tTankO(s)), r'http://www.tank-ono.cz/cz/index.php?page=cenik'],
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 46, in tTankO
+    return TankO(url)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 56, in TankO
+    Cena = extract(url, Key)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 12, in extract
+    r = requests.get(url, headers)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.tank-ono.cz', port=80): Max retries exceeded with url: /cz/index.php?page=cenik&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F85.0.4183.102+Safari%2F537.36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028E19CAA070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
