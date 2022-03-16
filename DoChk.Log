@@ -274,17 +274,17 @@ OkDone.
 ---29.11.2021--10:44--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.23 - Natural 95 prices in Brno - Python Version
-TankONO                 : 34.9  -0.6 Cena: 34.9 Old: 35.5 2021-11-29 10:44:31 - zmena ceny 
-Tesco - Mapy            : 36.2 
-Globus                  : 36.5 
-Makro                   : 36.2 
+TankONO                 : 34.9  -0.6 Cena: 34.9 Old: 35.5 2021-11-29 10:44:31 - zmena ceny
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: Shell Olomoucká - Mapy   Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
-Shell Olomoucká - Mapy  : 37.9 
-MOL Olomoucká - Mapy    : 37.9 
-Benzina Albert Modøice  : 36.9 
-OMV IKEA - Mapy         : 37.9 
-EuroOil Opuštìná-Mapy   : 37.6 
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.6
 
 ---29.11.2021--10:44--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -295,17 +295,17 @@ OkDone.
 ---30.11.2021--08:45--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.23 - Natural 95 prices in Brno - Python Version
-TankONO                 : 34.9 
-Tesco - Mapy            : 36.2 
-Globus                  : 36.5 
-Makro                   : 36.2 
+TankONO                 : 34.9
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: Shell Olomoucká - Mapy   Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
-Shell Olomoucká - Mapy  : 37.9 
-MOL Olomoucká - Mapy    : 37.9 
-Benzina Albert Modøice  : 36.9 
-OMV IKEA - Mapy         : 37.9 
-EuroOil Opuštìná-Mapy   : 37.6 
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.6
 
 ---30.11.2021--08:45--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -316,17 +316,17 @@ OkDone.
 ---30.11.2021--13:21--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.23 - Natural 95 prices in Brno - Python Version
-TankONO                 : 34.9 
-Tesco - Mapy            : 36.2 
-Globus                  : 36.5 
-Makro                   : 36.2 
+TankONO                 : 34.9
+Tesco - Mapy            : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: Shell Olomoucká - Mapy   Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
-Shell Olomoucká - Mapy  : 37.9 
-MOL Olomoucká - Mapy    : 37.9 
-Benzina Albert Modøice  : 36.9 
-OMV IKEA - Mapy         : 37.9 
-EuroOil Opuštìná-Mapy   : 37.6 
+Shell Olomoucká - Mapy  : 37.9
+MOL Olomoucká - Mapy    : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA - Mapy         : 37.9
+EuroOil Opuštìná-Mapy   : 37.6
 
 ---30.11.2021--13:22--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -337,15 +337,15 @@ OkDone.
 ---30.11.2021--13:49--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 34.9 
-Tesco                   : 36.2 
-Globus                  : 36.5 
-Makro                   : 36.2 
-Shell Olomoucká         : 37.9 
-MOL Olomoucká           : 37.9 
-Benzina Albert Modøice  : 36.9 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.6 
+TankONO                 : 34.9
+Tesco                   : 36.2
+Globus                  : 36.5
+Makro                   : 36.2
+Shell Olomoucká         : 37.9
+MOL Olomoucká           : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.6
 
 ---30.11.2021--13:50--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -356,15 +356,15 @@ OkDone.
 ---01.12.2021--10:49--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 34.9 
-Tesco                   : 36.2 
-Globus                  : 36.5 
-Makro                   : 35.9  -0.3 Cena: 35.9 Old: 36.2 2021-12-01 10:49:23 - zmena ceny 
-Shell Olomoucká         : 37.9 
-MOL Olomoucká           : 37.9 
-Benzina Albert Modøice  : 36.9 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.6 
+TankONO                 : 34.9
+Tesco                   : 36.2
+Globus                  : 36.5
+Makro                   : 35.9  -0.3 Cena: 35.9 Old: 36.2 2021-12-01 10:49:23 - zmena ceny
+Shell Olomoucká         : 37.9
+MOL Olomoucká           : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.6
 
 ---01.12.2021--10:49--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -375,15 +375,15 @@ OkDone.
 ---01.12.2021--10:51--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 34.9 
-Tesco                   : 36.2 
-Globus                  : 36.5 
-Makro                   : 35.9 
-Shell Olomoucká         : 37.9 
-MOL Olomoucká           : 37.9 
-Benzina Albert Modøice  : 36.9 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.6 
+TankONO                 : 34.9
+Tesco                   : 36.2
+Globus                  : 36.5
+Makro                   : 35.9
+Shell Olomoucká         : 37.9
+MOL Olomoucká           : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.6
 
 ---01.12.2021--10:51--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -394,15 +394,15 @@ OkDone.
 ---02.12.2021--10:13--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 34.9 
-Tesco                   : 36.2 
-Globus                  : 36.5 
-Makro                   : 35.9 
-Shell Olomoucká         : 37.9 
-MOL Olomoucká           : 37.9 
-Benzina Albert Modøice  : 36.9 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.6 
+TankONO                 : 34.9
+Tesco                   : 36.2
+Globus                  : 36.5
+Makro                   : 35.9
+Shell Olomoucká         : 37.9
+MOL Olomoucká           : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.6
 
 ---02.12.2021--10:14--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -413,15 +413,15 @@ OkDone.
 ---03.12.2021--10:22--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 34.9 
-Tesco                   : 36.2 
-Globus                  : 36.5 
-Makro                   : 35.9 
-Shell Olomoucká         : 37.9 
-MOL Olomoucká           : 37.9 
-Benzina Albert Modøice  : 36.9 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.6 
+TankONO                 : 34.9
+Tesco                   : 36.2
+Globus                  : 36.5
+Makro                   : 35.9
+Shell Olomoucká         : 37.9
+MOL Olomoucká           : 37.9
+Benzina Albert Modøice  : 36.9
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.6
 
 ---03.12.2021--10:23--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -432,15 +432,15 @@ OkDone.
 ---06.12.2021--09:05--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 33.5  -1.4 Cena: 33.5 Old: 34.9 2021-12-06 09:05:31 - zmena ceny 
-Tesco                   : 35.9  -0.3 Cena: 35.9 Old: 36.2 2021-12-06 09:05:40 - zmena ceny 
-Globus                  : 36.5 
-Makro                   : 35.9 
-Shell Olomoucká         : 37.9 
-MOL Olomoucká           : 37.9 
-Benzina Albert Modøice  : 36.5  -0.4 Cena: 36.5 Old: 36.9 2021-12-06 09:05:48 - zmena ceny 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.6 
+TankONO                 : 33.5  -1.4 Cena: 33.5 Old: 34.9 2021-12-06 09:05:31 - zmena ceny
+Tesco                   : 35.9  -0.3 Cena: 35.9 Old: 36.2 2021-12-06 09:05:40 - zmena ceny
+Globus                  : 36.5
+Makro                   : 35.9
+Shell Olomoucká         : 37.9
+MOL Olomoucká           : 37.9
+Benzina Albert Modøice  : 36.5  -0.4 Cena: 36.5 Old: 36.9 2021-12-06 09:05:48 - zmena ceny
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.6
 
 ---06.12.2021--09:05--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -451,15 +451,15 @@ OkDone.
 ---07.12.2021--10:32--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 33.5 
-Tesco                   : 35.9 
-Globus                  : 36.5 
-Makro                   : 35.9 
-Shell Olomoucká         : 37.9 
-MOL Olomoucká           : 37.7  -0.2 Cena: 37.7 Old: 37.9 2021-12-07 10:33:15 - zmena ceny 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.6 
+TankONO                 : 33.5
+Tesco                   : 35.9
+Globus                  : 36.5
+Makro                   : 35.9
+Shell Olomoucká         : 37.9
+MOL Olomoucká           : 37.7  -0.2 Cena: 37.7 Old: 37.9 2021-12-07 10:33:15 - zmena ceny
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.6
 
 ---07.12.2021--10:33--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -470,15 +470,15 @@ OkDone.
 ---08.12.2021--09:00--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 33.5 
-Tesco                   : 35.9 
-Globus                  : 36.5 
-Makro                   : 35.9 
-Shell Olomoucká         : 37.9 
-MOL Olomoucká           : 37.7 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.2  -0.4 Cena: 37.2 Old: 37.6 2021-12-08 09:01:08 - zmena ceny 
+TankONO                 : 33.5
+Tesco                   : 35.9
+Globus                  : 36.5
+Makro                   : 35.9
+Shell Olomoucká         : 37.9
+MOL Olomoucká           : 37.7
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.2  -0.4 Cena: 37.2 Old: 37.6 2021-12-08 09:01:08 - zmena ceny
 
 ---08.12.2021--09:01--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -489,15 +489,15 @@ OkDone.
 ---09.12.2021--08:36--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 33.5 
-Tesco                   : 35.9 
-Globus                  : 36.5 
-Makro                   : 34.5  -1.4 Cena: 34.5 Old: 35.9 2021-12-09 08:36:39 - zmena ceny 
-Shell Olomoucká         : 37.7  -0.2 Cena: 37.7 Old: 37.9 2021-12-09 08:36:43 - zmena ceny 
-MOL Olomoucká           : 37.7 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.2 
+TankONO                 : 33.5
+Tesco                   : 35.9
+Globus                  : 36.5
+Makro                   : 34.5  -1.4 Cena: 34.5 Old: 35.9 2021-12-09 08:36:39 - zmena ceny
+Shell Olomoucká         : 37.7  -0.2 Cena: 37.7 Old: 37.9 2021-12-09 08:36:43 - zmena ceny
+MOL Olomoucká           : 37.7
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.2
 
 ---09.12.2021--08:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -508,17 +508,17 @@ OkDone.
 ---09.12.2021--14:37--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 33.5 
-Tesco                   : 34.5  -1.4 Cena: 34.5 Old: 35.9 2021-12-09 14:37:26 - zmena ceny 
-Globus                  : 36.5 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.7 
-MOL Olomoucká           : 37.7 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
+TankONO                 : 33.5
+Tesco                   : 34.5  -1.4 Cena: 34.5 Old: 35.9 2021-12-09 14:37:26 - zmena ceny
+Globus                  : 36.5
+Makro                   : 34.5
+Shell Olomoucká         : 37.7
+MOL Olomoucká           : 37.7
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: EuroOil Opuštìná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
-EuroOil Opuštìná        : 37.2 
+EuroOil Opuštìná        : 37.2
 
 ---09.12.2021--14:37--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -529,15 +529,15 @@ OkDone.
 ---09.12.2021--14:38--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 33.5 
-Tesco                   : 34.5 
-Globus                  : 36.5 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.7 
-MOL Olomoucká           : 37.7 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.2 
+TankONO                 : 33.5
+Tesco                   : 34.5
+Globus                  : 36.5
+Makro                   : 34.5
+Shell Olomoucká         : 37.7
+MOL Olomoucká           : 37.7
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.2
 
 ---09.12.2021--14:39--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -548,15 +548,15 @@ OkDone.
 ---09.12.2021--14:49--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 33.5 
-Tesco                   : 34.5 
-Globus                  : 36.5 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.7 
-MOL Olomoucká           : 37.7 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.2 
+TankONO                 : 33.5
+Tesco                   : 34.5
+Globus                  : 36.5
+Makro                   : 34.5
+Shell Olomoucká         : 37.7
+MOL Olomoucká           : 37.7
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.2
 
 ---09.12.2021--14:49--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -567,15 +567,15 @@ OkDone.
 ---10.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9  -0.6 Cena: 32.9 Old: 33.5 2021-12-10 05:35:58 - zmena ceny 
-Tesco                   : 34.5 
-Globus                  : 36.5 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.7 
-MOL Olomoucká           : 37.7 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.2 
+TankONO                 : 32.9  -0.6 Cena: 32.9 Old: 33.5 2021-12-10 05:35:58 - zmena ceny
+Tesco                   : 34.5
+Globus                  : 36.5
+Makro                   : 34.5
+Shell Olomoucká         : 37.7
+MOL Olomoucká           : 37.7
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.2
 
 ---10.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -586,15 +586,15 @@ OkDone.
 ---10.12.2021--08:12--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9  -1.6 Cena: 34.9 Old: 36.5 2021-12-10 08:12:56 - zmena ceny 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.7 
-MOL Olomoucká           : 37.7 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.2 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9  -1.6 Cena: 34.9 Old: 36.5 2021-12-10 08:12:56 - zmena ceny
+Makro                   : 34.5
+Shell Olomoucká         : 37.7
+MOL Olomoucká           : 37.7
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.2
 
 ---10.12.2021--08:13--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -605,15 +605,15 @@ OkDone.
 ---11.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.71  +0.01 Cena: 37.71 Old: 37.7 2021-12-11 05:36:17 - zmena ceny 
-MOL Olomoucká           : 37.5  -0.2 Cena: 37.5 Old: 37.7 2021-12-11 05:36:20 - zmena ceny 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 37.2 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 37.71  +0.01 Cena: 37.71 Old: 37.7 2021-12-11 05:36:17 - zmena ceny
+MOL Olomoucká           : 37.5  -0.2 Cena: 37.5 Old: 37.7 2021-12-11 05:36:20 - zmena ceny
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 37.2
 
 ---11.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -624,15 +624,15 @@ OkDone.
 ---12.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.71 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9  -0.3 Cena: 36.9 Old: 37.2 2021-12-12 05:36:22 - zmena ceny 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 37.71
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9  -0.3 Cena: 36.9 Old: 37.2 2021-12-12 05:36:22 - zmena ceny
 
 ---12.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -643,15 +643,15 @@ OkDone.
 ---13.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9  +0.4 Cena: 34.9 Old: 34.5 2021-12-13 05:36:06 - zmena ceny 
-Shell Olomoucká         : 37.71 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9  +0.4 Cena: 34.9 Old: 34.5 2021-12-13 05:36:06 - zmena ceny
+Shell Olomoucká         : 37.71
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---13.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -662,15 +662,15 @@ OkDone.
 ---13.12.2021--08:38--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.71 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.5 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.71
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.5
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---13.12.2021--08:38--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -681,15 +681,15 @@ OkDone.
 ---13.12.2021--14:29--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.7  -0.01 Cena: 37.7 Old: 37.71 2021-12-13 14:29:32 - zmena ceny 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.2  -0.3 Cena: 36.2 Old: 36.5 2021-12-13 14:29:36 - zmena ceny 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.7  -0.01 Cena: 37.7 Old: 37.71 2021-12-13 14:29:32 - zmena ceny
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.2  -0.3 Cena: 36.2 Old: 36.5 2021-12-13 14:29:36 - zmena ceny
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---13.12.2021--14:29--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -700,15 +700,15 @@ OkDone.
 ---14.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.7 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.7
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---14.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -719,15 +719,15 @@ OkDone.
 ---15.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.5  -0.2 Cena: 37.5 Old: 37.7 2021-12-15 05:36:15 - zmena ceny 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.5  -0.2 Cena: 37.5 Old: 37.7 2021-12-15 05:36:15 - zmena ceny
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---15.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -738,15 +738,15 @@ OkDone.
 ---15.12.2021--09:05--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---15.12.2021--09:05--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -757,15 +757,15 @@ OkDone.
 ---15.12.2021--12:46--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---15.12.2021--12:46--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -776,15 +776,15 @@ OkDone.
 ---16.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5  -0.4 Cena: 34.5 Old: 34.9 2021-12-16 05:36:07 - zmena ceny 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.5 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5  -0.4 Cena: 34.5 Old: 34.9 2021-12-16 05:36:07 - zmena ceny
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.5
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---16.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -795,15 +795,15 @@ OkDone.
 ---17.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.29  -0.21 Cena: 37.29 Old: 37.5 2021-12-17 05:36:13 - zmena ceny 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.29  -0.21 Cena: 37.29 Old: 37.5 2021-12-17 05:36:13 - zmena ceny
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---17.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -814,15 +814,15 @@ OkDone.
 ---17.12.2021--14:53--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---17.12.2021--14:53--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -833,15 +833,15 @@ OkDone.
 ---18.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---18.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -852,15 +852,15 @@ OkDone.
 ---19.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---19.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -871,15 +871,15 @@ OkDone.
 ---20.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9  +0.4 Cena: 34.9 Old: 34.5 2021-12-20 05:36:07 - zmena ceny 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9  +0.4 Cena: 34.9 Old: 34.5 2021-12-20 05:36:07 - zmena ceny
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---20.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -890,15 +890,15 @@ OkDone.
 ---20.12.2021--09:08--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.5 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.5
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---20.12.2021--09:09--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -909,15 +909,15 @@ OkDone.
 ---21.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.29  -0.21 Cena: 37.29 Old: 37.5 2021-12-21 05:36:16 - zmena ceny 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.29  -0.21 Cena: 37.29 Old: 37.5 2021-12-21 05:36:16 - zmena ceny
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---21.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -928,15 +928,15 @@ OkDone.
 ---21.12.2021--08:02--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.29 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.29
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---21.12.2021--08:03--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -947,15 +947,15 @@ OkDone.
 ---22.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.29 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.29
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---22.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -966,15 +966,15 @@ OkDone.
 ---22.12.2021--07:43--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.9 
-Shell Olomoucká         : 37.29 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.9
+Shell Olomoucká         : 37.29
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---22.12.2021--07:43--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -985,15 +985,15 @@ OkDone.
 ---23.12.2021--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5  -0.4 Cena: 34.5 Old: 34.9 2021-12-23 05:36:07 - zmena ceny 
-Shell Olomoucká         : 37.29 
-MOL Olomoucká           : 37.29 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5  -0.4 Cena: 34.5 Old: 34.9 2021-12-23 05:36:07 - zmena ceny
+Shell Olomoucká         : 37.29
+MOL Olomoucká           : 37.29
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---23.12.2021--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1004,15 +1004,15 @@ OkDone.
 ---23.12.2021--08:54--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 34.5 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 37.29 
-MOL Olomoucká           : 36.9  -0.39 Cena: 36.9 Old: 37.29 2021-12-23 08:54:36 - zmena ceny 
-Benzina Albert Modøice  : 36.2 
-OMV IKEA                : 37.9 
-EuroOil Opuštìná        : 36.9 
+TankONO                 : 32.9
+Tesco                   : 34.5
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 37.29
+MOL Olomoucká           : 36.9  -0.39 Cena: 36.9 Old: 37.29 2021-12-23 08:54:36 - zmena ceny
+Benzina Albert Modøice  : 36.2
+OMV IKEA                : 37.9
+EuroOil Opuštìná        : 36.9
 
 ---23.12.2021--08:54--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1023,15 +1023,15 @@ OkDone.
 ---03.01.2022--13:31--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 33.9  -0.6 Cena: 33.9 Old: 34.5 2022-01-03 13:32:04 - zmena ceny 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 36.7  -0.59 Cena: 36.7 Old: 37.29 2022-01-03 13:32:08 - zmena ceny 
-MOL Olomoucká           : 36.7  -0.2 Cena: 36.7 Old: 36.9 2022-01-03 13:32:12 - zmena ceny 
-Benzina Albert Modøice  : 35.9  -0.3 Cena: 35.9 Old: 36.2 2022-01-03 13:32:13 - zmena ceny 
-OMV IKEA                : 37.5  -0.4 Cena: 37.5 Old: 37.9 2022-01-03 13:32:17 - zmena ceny 
-EuroOil Opuštìná        : 36.5  -0.4 Cena: 36.5 Old: 36.9 2022-01-03 13:32:20 - zmena ceny 
+TankONO                 : 32.9
+Tesco                   : 33.9  -0.6 Cena: 33.9 Old: 34.5 2022-01-03 13:32:04 - zmena ceny
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 36.7  -0.59 Cena: 36.7 Old: 37.29 2022-01-03 13:32:08 - zmena ceny
+MOL Olomoucká           : 36.7  -0.2 Cena: 36.7 Old: 36.9 2022-01-03 13:32:12 - zmena ceny
+Benzina Albert Modøice  : 35.9  -0.3 Cena: 35.9 Old: 36.2 2022-01-03 13:32:13 - zmena ceny
+OMV IKEA                : 37.5  -0.4 Cena: 37.5 Old: 37.9 2022-01-03 13:32:17 - zmena ceny
+EuroOil Opuštìná        : 36.5  -0.4 Cena: 36.5 Old: 36.9 2022-01-03 13:32:20 - zmena ceny
 
 ---03.01.2022--13:32--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1042,15 +1042,15 @@ OkDone.
 ---04.01.2022--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 33.9 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 36.7 
-MOL Olomoucká           : 36.7 
-Benzina Albert Modøice  : 35.9 
-OMV IKEA                : 37.5 
-EuroOil Opuštìná        : 36.5 
+TankONO                 : 32.9
+Tesco                   : 33.9
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 36.7
+MOL Olomoucká           : 36.7
+Benzina Albert Modøice  : 35.9
+OMV IKEA                : 37.5
+EuroOil Opuštìná        : 36.5
 
 ---04.01.2022--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1061,15 +1061,15 @@ OkDone.
 ---05.01.2022--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 33.9 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 36.7 
-MOL Olomoucká           : 36.7 
-Benzina Albert Modøice  : 35.9 
-OMV IKEA                : 37.5 
-EuroOil Opuštìná        : 36.5 
+TankONO                 : 32.9
+Tesco                   : 33.9
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 36.7
+MOL Olomoucká           : 36.7
+Benzina Albert Modøice  : 35.9
+OMV IKEA                : 37.5
+EuroOil Opuštìná        : 36.5
 
 ---05.01.2022--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1080,15 +1080,15 @@ OkDone.
 ---06.01.2022--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 33.9 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 36.7 
-MOL Olomoucká           : 36.7 
-Benzina Albert Modøice  : 35.9 
-OMV IKEA                : 37.5 
-EuroOil Opuštìná        : 36.5 
+TankONO                 : 32.9
+Tesco                   : 33.9
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 36.7
+MOL Olomoucká           : 36.7
+Benzina Albert Modøice  : 35.9
+OMV IKEA                : 37.5
+EuroOil Opuštìná        : 36.5
 
 ---06.01.2022--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1099,15 +1099,15 @@ OkDone.
 ---07.01.2022--05:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 33.9 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 36.7 
-MOL Olomoucká           : 36.7 
-Benzina Albert Modøice  : 35.9 
-OMV IKEA                : 37.5 
-EuroOil Opuštìná        : 36.5 
+TankONO                 : 32.9
+Tesco                   : 33.9
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 36.7
+MOL Olomoucká           : 36.7
+Benzina Albert Modøice  : 35.9
+OMV IKEA                : 37.5
+EuroOil Opuštìná        : 36.5
 
 ---07.01.2022--05:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1118,15 +1118,15 @@ OkDone.
 ---07.01.2022--10:41--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.24 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 33.9 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 36.7 
-MOL Olomoucká           : 36.7 
-Benzina Albert Modøice  : 35.9 
-OMV IKEA                : 37.5 
-EuroOil Opuštìná        : 36.5 
+TankONO                 : 32.9
+Tesco                   : 33.9
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 36.7
+MOL Olomoucká           : 36.7
+Benzina Albert Modøice  : 35.9
+OMV IKEA                : 37.5
+EuroOil Opuštìná        : 36.5
 
 ---07.01.2022--10:42--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1137,15 +1137,15 @@ OkDone.
 ---07.01.2022--14:04--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno v0.25 - Natural 95 prices in Brno - Python Version
-TankONO                 : 32.9 
-Tesco                   : 33.9 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 36.7 
-MOL Olomoucká           : 36.7 
-Benzina Albert Modøice  : 35.9 
-OMV IKEA                : 37.5 
-EuroOil Opuštìná        : 36.5 
+TankONO                 : 32.9
+Tesco                   : 33.9
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 36.7
+MOL Olomoucká           : 36.7
+Benzina Albert Modøice  : 35.9
+OMV IKEA                : 37.5
+EuroOil Opuštìná        : 36.5
 
 ---07.01.2022--14:04--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1156,15 +1156,15 @@ OkDone.
 ---10.01.2022--12:05--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.27 - Natural 95 prices in Brno - Python Version
-TankONO                 : 33.5 
-Tesco                   : 33.9 
-Globus                  : 34.9 
-Makro                   : 34.5 
-Shell Olomoucká         : 36.7 
-MOL Olomoucká           : 36.7 
-Benzina Albert Modøice  : 35.9 
-OMV IKEA                : 37.5 
-EuroOil Opuštìná        : 36.2 
+TankONO                 : 33.5
+Tesco                   : 33.9
+Globus                  : 34.9
+Makro                   : 34.5
+Shell Olomoucká         : 36.7
+MOL Olomoucká           : 36.7
+Benzina Albert Modøice  : 35.9
+OMV IKEA                : 37.5
+EuroOil Opuštìná        : 36.2
 
 ---10.01.2022--12:06--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1175,15 +1175,15 @@ OkDone.
 ---14.03.2022--08:44--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.34 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9  +8.4 Cena: 44.9 Old: 36.5 2022-03-14 08:44:42 - zmena ceny 
-Tesco                   : 45.9  +8.61 Cena: 45.9 Old: 37.29 2022-03-14 08:44:52 - zmena ceny 
-Globus                  : 45.9  +8.0 Cena: 45.9 Old: 37.9 2022-03-14 08:44:52 - zmena ceny 
-Makro                   : 45.9  +8.2 Cena: 45.9 Old: 37.7 2022-03-14 08:44:52 - zmena ceny 
-Shell Olomoucká         : 47.9  +9.61 Cena: 47.9 Old: 38.29 2022-03-14 08:44:55 - zmena ceny 
-MOL Olomoucká           : 46.9  +7.4 Cena: 46.9 Old: 39.5 2022-03-14 08:44:59 - zmena ceny 
-Benzina Albert Modøice  : 46.9  +7.4 Cena: 46.9 Old: 39.5 2022-03-14 08:44:59 - zmena ceny 
-OMV IKEA                : 47.9  +9.0 Cena: 47.9 Old: 38.9 2022-03-14 08:45:02 - zmena ceny 
-EuroOil Opuštìná        : 46.9  +9.0 Cena: 46.9 Old: 37.9 2022-03-14 08:45:04 - zmena ceny 
+TankONO                 : 44.9  +8.4 Cena: 44.9 Old: 36.5 2022-03-14 08:44:42 - zmena ceny
+Tesco                   : 45.9  +8.61 Cena: 45.9 Old: 37.29 2022-03-14 08:44:52 - zmena ceny
+Globus                  : 45.9  +8.0 Cena: 45.9 Old: 37.9 2022-03-14 08:44:52 - zmena ceny
+Makro                   : 45.9  +8.2 Cena: 45.9 Old: 37.7 2022-03-14 08:44:52 - zmena ceny
+Shell Olomoucká         : 47.9  +9.61 Cena: 47.9 Old: 38.29 2022-03-14 08:44:55 - zmena ceny
+MOL Olomoucká           : 46.9  +7.4 Cena: 46.9 Old: 39.5 2022-03-14 08:44:59 - zmena ceny
+Benzina Albert Modøice  : 46.9  +7.4 Cena: 46.9 Old: 39.5 2022-03-14 08:44:59 - zmena ceny
+OMV IKEA                : 47.9  +9.0 Cena: 47.9 Old: 38.9 2022-03-14 08:45:02 - zmena ceny
+EuroOil Opuštìná        : 46.9  +9.0 Cena: 46.9 Old: 37.9 2022-03-14 08:45:04 - zmena ceny
 
 ---14.03.2022--08:45--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1194,15 +1194,15 @@ OkDone.
 ---14.03.2022--08:57--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.34 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.9 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 47.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.9 
-OMV IKEA                : 47.9 
-EuroOil Opuštìná        : 46.9 
+TankONO                 : 44.9
+Tesco                   : 45.9
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 47.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.9
+OMV IKEA                : 47.9
+EuroOil Opuštìná        : 46.9
 
 ---14.03.2022--08:58--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1213,15 +1213,15 @@ OkDone.
 ---14.03.2022--17:02--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.34 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9  -2.0 Cena: 42.9 Old: 44.9 2022-03-14 17:02:07 - zmena ceny 
-Tesco                   : 45.9 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9  -1.0 Cena: 46.9 Old: 47.9 2022-03-14 17:02:16 - zmena ceny 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.9 
-OMV IKEA                : 46.9  -1.0 Cena: 46.9 Old: 47.9 2022-03-14 17:02:22 - zmena ceny 
-EuroOil Opuštìná        : 44.8  -2.1 Cena: 44.8 Old: 46.9 2022-03-14 17:02:25 - zmena ceny 
+TankONO                 : 42.9  -2.0 Cena: 42.9 Old: 44.9 2022-03-14 17:02:07 - zmena ceny
+Tesco                   : 45.9
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 46.9  -1.0 Cena: 46.9 Old: 47.9 2022-03-14 17:02:16 - zmena ceny
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.9
+OMV IKEA                : 46.9  -1.0 Cena: 46.9 Old: 47.9 2022-03-14 17:02:22 - zmena ceny
+EuroOil Opuštìná        : 44.8  -2.1 Cena: 44.8 Old: 46.9 2022-03-14 17:02:25 - zmena ceny
 
 ---14.03.2022--17:02--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1232,15 +1232,15 @@ OkDone.
 ---14.03.2022--17:03--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.34 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 45.9 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.9 
-OMV IKEA                : 46.9 
-EuroOil Opuštìná        : 44.8 
+TankONO                 : 42.9
+Tesco                   : 45.9
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.9
+OMV IKEA                : 46.9
+EuroOil Opuštìná        : 44.8
 
 ---14.03.2022--17:03--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1251,15 +1251,15 @@ OkDone.
 ---15.03.2022--08:10--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.34 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 45.9 
-Globus                  : 44.9  -1.0 Cena: 44.9 Old: 45.9 2022-03-15 08:10:14 - zmena ceny 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.5  -0.4 Cena: 46.5 Old: 46.9 2022-03-15 08:10:20 - zmena ceny 
-Benzina Albert Modøice  : 46.9 
-OMV IKEA                : 46.9 
-EuroOil Opuštìná        : 44.8 
+TankONO                 : 42.9
+Tesco                   : 45.9
+Globus                  : 44.9  -1.0 Cena: 44.9 Old: 45.9 2022-03-15 08:10:14 - zmena ceny
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.5  -0.4 Cena: 46.5 Old: 46.9 2022-03-15 08:10:20 - zmena ceny
+Benzina Albert Modøice  : 46.9
+OMV IKEA                : 46.9
+EuroOil Opuštìná        : 44.8
 
 ---15.03.2022--08:10--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1270,15 +1270,15 @@ OkDone.
 ---16.03.2022--08:33--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.34 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 44.9  -1.0 Cena: 44.9 Old: 45.9 2022-03-16 08:34:03 - zmena ceny 
-Globus                  : 44.9 
-Makro                   : 43.9  -2.0 Cena: 43.9 Old: 45.9 2022-03-16 08:34:04 - zmena ceny 
-Shell Olomoucká         : 45.9  -1.0 Cena: 45.9 Old: 46.9 2022-03-16 08:34:08 - zmena ceny 
-MOL Olomoucká           : 45.5  -1.0 Cena: 45.5 Old: 46.5 2022-03-16 08:34:12 - zmena ceny 
-Benzina Albert Modøice  : 46.9 
-OMV IKEA                : 46.9 
-EuroOil Opuštìná        : 44.8 
+TankONO                 : 42.9
+Tesco                   : 44.9  -1.0 Cena: 44.9 Old: 45.9 2022-03-16 08:34:03 - zmena ceny
+Globus                  : 44.9
+Makro                   : 43.9  -2.0 Cena: 43.9 Old: 45.9 2022-03-16 08:34:04 - zmena ceny
+Shell Olomoucká         : 45.9  -1.0 Cena: 45.9 Old: 46.9 2022-03-16 08:34:08 - zmena ceny
+MOL Olomoucká           : 45.5  -1.0 Cena: 45.5 Old: 46.5 2022-03-16 08:34:12 - zmena ceny
+Benzina Albert Modøice  : 46.9
+OMV IKEA                : 46.9
+EuroOil Opuštìná        : 44.8
 
 ---16.03.2022--08:34--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1286,255 +1286,18 @@ EuroOil Opuštìná        : 44.8
 ===============================================================================
 OkDone.
 
----16.03.2022--14:16--PC5406257--pegerle--bbDoChk.py---{~~
-
-BenzinBrno GitV0.35 - Natural 95 prices in Brno - Python Version
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
-    raise err
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
-    sock.connect(sa)
-ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
-    httplib_response = self._make_request(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 239, in request
-    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1285, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1331, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1280, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1040, in _send_output
-    self.send(msg)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 980, in send
-    self.connect()
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 205, in connect
-    conn = self._new_conn()
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000028E19CAA070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\adapters.py", line 440, in send
-    resp = conn.urlopen(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
-    retries = retries.increment(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.tank-ono.cz', port=80): Max retries exceeded with url: /cz/index.php?page=cenik&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F85.0.4183.102+Safari%2F537.36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028E19CAA070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 38, in <module>
-    bbDoChk_main()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 34, in bbDoChk_main
-    DoChk()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
-    SaveXls(True)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 10, in SaveXls
-    from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbLST.py", line 26, in <module>
-    ['TankONO                ', 'tF(tTankO(s))', tF(tTankO(s)), r'http://www.tank-ono.cz/cz/index.php?page=cenik'],
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 46, in tTankO
-    return TankO(url)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 56, in TankO
-    Cena = extract(url, Key)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 12, in extract
-    r = requests.get(url, headers)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\sessions.py", line 529, in request
-    resp = self.send(prep, **send_kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\sessions.py", line 645, in send
-    r = adapter.send(request, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\adapters.py", line 519, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.tank-ono.cz', port=80): Max retries exceeded with url: /cz/index.php?page=cenik&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F85.0.4183.102+Safari%2F537.36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028E19CAA070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-
----16.03.2022--14:17--PC5406257--pegerle--bbDoChk.py---{~~
-
-BenzinBrno GitV0.35 - Natural 95 prices in Brno - Python Version
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
-    raise err
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
-    sock.connect(sa)
-ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
-    httplib_response = self._make_request(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 239, in request
-    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1285, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1331, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1280, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1040, in _send_output
-    self.send(msg)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 980, in send
-    self.connect()
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 205, in connect
-    conn = self._new_conn()
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001D7013CAFA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\adapters.py", line 440, in send
-    resp = conn.urlopen(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
-    retries = retries.increment(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.tank-ono.cz', port=80): Max retries exceeded with url: /cz/index.php?page=cenik&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F85.0.4183.102+Safari%2F537.36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D7013CAFA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 38, in <module>
-    bbDoChk_main()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 34, in bbDoChk_main
-    DoChk()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
-    SaveXls(True)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 10, in SaveXls
-    from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbLST.py", line 26, in <module>
-    ['TankONO                ', 'tF(tTankO(s))', tF(tTankO(s)), r'http://www.tank-ono.cz/cz/index.php?page=cenik'],
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 46, in tTankO
-    return TankO(url)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 56, in TankO
-    Cena = extract(url, Key)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 12, in extract
-    r = requests.get(url, headers)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\sessions.py", line 529, in request
-    resp = self.send(prep, **send_kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\sessions.py", line 645, in send
-    r = adapter.send(request, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\adapters.py", line 519, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.tank-ono.cz', port=80): Max retries exceeded with url: /cz/index.php?page=cenik&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F85.0.4183.102+Safari%2F537.36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D7013CAFA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-
----16.03.2022--14:17--PC5406257--pegerle--bbDoChk.py---{~~
-
-BenzinBrno GitV0.35 - Natural 95 prices in Brno - Python Version
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
-    raise err
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
-    sock.connect(sa)
-ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
-    httplib_response = self._make_request(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 239, in request
-    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1285, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1331, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1280, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1040, in _send_output
-    self.send(msg)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 980, in send
-    self.connect()
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 205, in connect
-    conn = self._new_conn()
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001A16C92BFA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\adapters.py", line 440, in send
-    resp = conn.urlopen(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
-    retries = retries.increment(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.tank-ono.cz', port=80): Max retries exceeded with url: /cz/index.php?page=cenik&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F85.0.4183.102+Safari%2F537.36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A16C92BFA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 38, in <module>
-    bbDoChk_main()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 34, in bbDoChk_main
-    DoChk()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
-    SaveXls(True)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 10, in SaveXls
-    from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbLST.py", line 26, in <module>
-    ['TankONO                ', 'tF(tTankO(s))', tF(tTankO(s)), r'http://www.tank-ono.cz/cz/index.php?page=cenik'],
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 46, in tTankO
-    return TankO(url)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 56, in TankO
-    Cena = extract(url, Key)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 12, in extract
-    r = requests.get(url, headers)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\sessions.py", line 529, in request
-    resp = self.send(prep, **send_kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\sessions.py", line 645, in send
-    r = adapter.send(request, **kwargs)
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\requests\adapters.py", line 519, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.tank-ono.cz', port=80): Max retries exceeded with url: /cz/index.php?page=cenik&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F85.0.4183.102+Safari%2F537.36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A16C92BFA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-
 ---16.03.2022--14:19--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.35 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 44.9 
-Globus                  : 43.9  -1.0 Cena: 43.9 Old: 44.9 2022-03-16 14:19:29 - zmena ceny 
-Makro                   : 43.9 
-Shell Olomoucká         : 45.5  -0.4 Cena: 45.5 Old: 45.9 2022-03-16 14:19:32 - zmena ceny 
-MOL Olomoucká           : 45.5 
-Benzina Albert Modøice  : 46.9 
-OMV IKEA                : 46.9 
-EuroOil Opuštìná        : 44.8 
+TankONO                 : 42.9
+Tesco                   : 44.9
+Globus                  : 43.9  -1.0 Cena: 43.9 Old: 44.9 2022-03-16 14:19:29 - zmena ceny
+Makro                   : 43.9
+Shell Olomoucká         : 45.5  -0.4 Cena: 45.5 Old: 45.9 2022-03-16 14:19:32 - zmena ceny
+MOL Olomoucká           : 45.5
+Benzina Albert Modøice  : 46.9
+OMV IKEA                : 46.9
+EuroOil Opuštìná        : 44.8
 
 ---16.03.2022--14:19--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1545,15 +1308,15 @@ OkDone.
 ---16.03.2022--14:20--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.35 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 44.9 
-Globus                  : 43.9 
-Makro                   : 43.9 
-Shell Olomoucká         : 45.5 
-MOL Olomoucká           : 45.5 
-Benzina Albert Modøice  : 46.9 
-OMV IKEA                : 46.9 
-EuroOil Opuštìná        : 44.8 
+TankONO                 : 42.9
+Tesco                   : 44.9
+Globus                  : 43.9
+Makro                   : 43.9
+Shell Olomoucká         : 45.5
+MOL Olomoucká           : 45.5
+Benzina Albert Modøice  : 46.9
+OMV IKEA                : 46.9
+EuroOil Opuštìná        : 44.8
 
 ---16.03.2022--14:20--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -1564,17 +1327,17 @@ OkDone.
 ---16.03.2022--14:20--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.35 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 44.9 
-Globus                  : 43.9 
-Makro                   : 43.9 
+TankONO                 : 42.9
+Tesco                   : 44.9
+Globus                  : 43.9
+Makro                   : 43.9
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
-Shell Olomoucká         : 45.5 
-MOL Olomoucká           : 45.5 
-Benzina Albert Modøice  : 46.9 
-OMV IKEA                : 46.9 
-EuroOil Opuštìná        : 44.8 
+Shell Olomoucká         : 45.5
+MOL Olomoucká           : 45.5
+Benzina Albert Modøice  : 46.9
+OMV IKEA                : 46.9
+EuroOil Opuštìná        : 44.8
 
 ---16.03.2022--14:21--PC5406257--pegerle--bbDoChk.py---}~~
 
