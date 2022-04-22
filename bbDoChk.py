@@ -21,9 +21,10 @@ def DoChk():
   # Tiulek
   print(bbName)
   # Benzinky zjisti ceny a uloz do Xls
-  SaveXls(True)
+  zmena = SaveXls(True)
+  print('zmena', zmena)
   # Save picture
-  Graf()
+  Graf(zmena)
   # Close
   LogClose()
   # Done

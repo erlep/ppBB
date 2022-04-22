@@ -1,7 +1,7 @@
 ﻿# Benzín Brno - bbGraf.py - bar chart - graf cen ulozit do png - pomoci plotly.express
 
 # ulozi graf do .\img\ceny.png
-def Graf():
+def Graf(zmena=''):
   from bbCFG import bbXlsFlNm, bbXlsShNm, bbPngFlNm, bbNmVE, bbNmBB, bbCenaMin
   from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavNazv, bbHlavDate, bbHlavaUrl
   import pandas as pd
@@ -14,7 +14,7 @@ def Graf():
                      converters={bbHLAVICKA[bbHlavDate]: pd.to_datetime, bbHLAVICKA[bbHlavaUrl]: str})
   # Hlavi  LastChech = str(list(df)[-1:][0])
   LastChech = str(list(df)[-1:][0])
-  tit = bbNmBB + bbNmVE + ' ' + LastChech + '              '
+  tit = bbNmBB + bbNmVE + ' ' + LastChech + ' ' * 14
 
   # fig = px.bar(df, x=bbHLAVICKA[bbHlavNazv], y=bbHLAVICKA[bbHlavCena])
   fig = px.bar(df,
@@ -37,6 +37,29 @@ def Graf():
   # https://plotly.com/python/reference/layout/xaxis/
   # fig.update_xaxes(range=[32, 40])
   fig.update_xaxes(range=xlim)
+  # text s info o zmene ceny
+  # fig.add_annotation(dict(font=dict(color='darkred', size=15),
+  #                         x=-0.34,
+  #                         y=+1.14,
+  #                         showarrow=False,
+  #                         text=zmena,
+  #                         textangle=0,
+  #                         xanchor='left',
+  #                         yanchor='top',
+  #                         xref="paper",
+  #                         yref="paper"))
+
+  # pocet benzinek - 9
+  pocet = len(df.index)
+  # prida do grafu zmenu ceny
+  for i, n in enumerate(bbBenzinky):
+    OldCena = df.iloc[i, bbHlavCena]
+    # print(i, n[0], OldCena, (pocet-(i+1)), zmena[i])
+    fig.add_annotation(  # zmena ceny x=cena, y = 8 az 0
+        text=zmena[i], x=OldCena+0.1, y=(pocet-(i+1)), arrowhead=0, showarrow=False, font=dict(color='darkred'))
+  # fig.add_annotation(  # popis pro TankONO
+  #     text="below target!", x=44, y=8, arrowhead=0, showarrow=False, font=dict(color='darkred'))
+
   fig.show()
 
   # How to save plotly express plot into a html or static image file? - https://bit.ly/3KKM1cX
@@ -46,7 +69,7 @@ def Graf():
 # main
 def bbGraf_main():
   print('bbGraf_main.')
-  Graf()
+  Graf(['-1.1', '+2', '3', '4', '', '6', '', '8', '+9'])
   print('OkDone.')
 
 # name__

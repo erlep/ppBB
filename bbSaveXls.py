@@ -27,6 +27,8 @@ def SaveXls(Dump=False):
   # Benzinky
   # Now date
   NowDate = 'Last status check on: ' + str(time.strftime(bbDateDMY))
+  # Zmeny cen
+  zmena = []
   # Hlavicka tabulky - ['Název', 'Cena', 'Old Cena', 'Delta Cena', 'Old Datum', 'Url']
   Hlava = bbHLAVICKA[:]
   Hlava[bbHlavaUrl] = NowDate
@@ -44,7 +46,8 @@ def SaveXls(Dump=False):
     OldDelt = dfXls.iloc[i, bbHlavDlta]
     OldDate = dfXls.iloc[i, bbHlavDate]
     # zmena ceny string
-    zc = ''
+    zc = ''  # dlouhy
+    zz = ''  # jen +-
     # Kdyz neni Zjistena cena
     if Cena == 0:
       Cena = OldCena
@@ -67,9 +70,11 @@ def SaveXls(Dump=False):
       # Log protokol zmen - append to file - https://bit.ly/3mXdyhz
       with open(bbLogFlNm, "a", encoding='UTF-8') as LogF:
         LogF.write(txt+'\n')
+      # zmena
+      zz = OldDelt
     else:
       OldCena = dfXls.iloc[i, bbHlavOldC]
-
+    zmena.append(zz)
     # DataSet
     brint('#', i, ': Nazev:', n[0], ' Cena:', Cena, ' OldCena:', OldCena, ' OldDelt:', OldDelt, ' n[3]:', n[3])
     # url - https://bit.ly/3qJlRjq
@@ -86,7 +91,8 @@ def SaveXls(Dump=False):
   df.to_excel(bbXlsFlNm, index=False, sheet_name=bbXlsShNm)
   # Save CSV
   df.to_csv(bbCsvFlNm, index=False)
-  return None
+  # print('zmena', zmena)
+  return zmena
 
 # main
 def bbSaveXls_main():
