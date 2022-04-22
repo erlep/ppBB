@@ -1,19 +1,16 @@
-# [ppBB - https://erlep.github.io/ppBB](<https://erlep.github.io/ppBB>)
+# [ppBB - https://erlep.github.io/ppBB](https://erlep.github.io/ppBB)
 
-[ppBB (Python Project Benzin Brno)](<https://erlep.github.io/ppBB>) is **Python** & **Streamlit** application to monitor petrol prices in Brno city.
+[ppBB (Python Project Benzin Brno)](https://erlep.github.io/ppBB) is **Python** & **Streamlit** application to monitor petrol prices in Brno city.
 The web scraping robot runs in the [AWS Cloud](https://aws.amazon.com).
 
-[Streamlit](<https://share.streamlit.io/erlep/ppbb/main/bbWeb.py>)
-
-[GitHub](<https://github.com/erlep/ppBB>)
-
-[CSV file](<https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv>)
-
-[Log file](<https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log>)
-
-[Png file](<https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png>)
-
 [![Ceny](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
+
+Links:
+[Streamlit](https://share.streamlit.io/erlep/ppbb/main/bbWeb.py)
+[GitHub](https://github.com/erlep/ppBB)
+[CSV file](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv)
+[Log file](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log)
+[Png file](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
 
 ---
 
