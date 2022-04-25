@@ -2535,3 +2535,34 @@ Traceback (most recent call last):
   File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\pandas\core\internals\base.py", line 57, in _validate_set_axis
     raise ValueError(
 ValueError: Length mismatch: Expected axis has 2 elements, new values have 3 elements
+
+---25.04.2022--12:55--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
+Traceback (most recent call last):
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
+    bbDoChk_main()
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
+    DoChk()
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
+    zmena = SaveXls(True)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 10, in SaveXls
+    from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbLST.py", line 28, in <module>
+    ['Globus                 ', 'tF(tGlobu(s))', tF(tGlobu(s)), r'https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html'],
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGlobus.py", line 51, in tGlobu
+    return Globu(url)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGlobus.py", line 60, in Globu
+    Cena = extract(url, Key)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGlobus.py", line 23, in extract
+    df.columns = ['Name', 'smazat', 'Cena']
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\pandas\core\generic.py", line 5500, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 70, in pandas._libs.properties.AxisProperty.__set__
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\pandas\core\generic.py", line 766, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\pandas\core\internals\managers.py", line 216, in set_axis
+    self._validate_set_axis(axis, new_labels)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\pandas\core\internals\base.py", line 57, in _validate_set_axis
+    raise ValueError(
+ValueError: Length mismatch: Expected axis has 2 elements, new values have 3 elements
