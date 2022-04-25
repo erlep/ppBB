@@ -22,7 +22,7 @@ def DoChk():
   print(bbName)
   # Benzinky zjisti ceny a uloz do Xls
   zmena = SaveXls(True)
-  print('zmena', zmena)
+  # print('zmena', zmena)
   # Save picture
   Graf(zmena)
   # Close

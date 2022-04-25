@@ -20,7 +20,12 @@ def extract(url, Key):
   # tabulek je 6, zajima me c. 2.
   df = table[1]  # pandas.core.frame.DataFrame
   # adding column name to the respective columns - https://bit.ly/3oxfuhN
-  df.columns = ['Name', 'smazat', 'Cena']
+  try:
+    df.columns = ['Name', 'smazat', 'Cena']
+  except:  # catch *all* exceptions # pylint: disable=bare-except
+    e = sys.exc_info()[0]
+    print("Error: ", e)
+    Cena = 0
   # smazani sloupce - https://bit.ly/3oBNYjk
   del df['smazat']
   # Cena zmena typu na float - https://bit.ly/3Bi79SL
