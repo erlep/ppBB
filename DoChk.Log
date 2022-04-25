@@ -2473,3 +2473,25 @@ zmena ['', '', '', '', '', '', '', '', '']
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---25.04.2022--15:31--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
+Error:  <class 'ValueError'>
+TankONO                 : 40.9 
+Tesco                   : 41.5 
+Error:  <class 'ValueError'>
+Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
+Globus                  : 42.5 
+Makro                   : 41.5 
+Shell Olomoucká         : 42.9  -2.6 Cena: 42.9 Old: 45.5 2022-04-25 15:31:22 - zmena ceny 
+MOL Olomoucká           : 42.9 
+Benzina Albert Modøice  : 42.9 
+OMV IKEA                : 43.9 
+EuroOil Opuštìná        : 42.6 
+
+---25.04.2022--15:31--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
