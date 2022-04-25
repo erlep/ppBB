@@ -56,7 +56,7 @@ def Graf(zmena=''):
     OldCena = df.iloc[i, bbHlavCena]
     # print(i, n[0], OldCena, (pocet-(i+1)), zmena[i])
     fig.add_annotation(  # zmena ceny x=cena, y = 8 az 0
-        text=zmena[i], x=OldCena+0.1, y=(pocet-(i+1)), arrowhead=0, showarrow=False, font=dict(color='darkred'))
+        text=zmena[i], x=OldCena*1.01, y=(pocet-(i+1)), arrowhead=0, showarrow=False, font=dict(color='darkred'))
   # fig.add_annotation(  # popis pro TankONO
   #     text="below target!", x=44, y=8, arrowhead=0, showarrow=False, font=dict(color='darkred'))
 
@@ -69,7 +69,7 @@ def Graf(zmena=''):
 # main
 def bbGraf_main():
   print('bbGraf_main.')
-  Graf(['-1.1', '+2', '3', '4', '', '6', '', '8', '+9'])
+  Graf(['-1.1', '+2.2', '3.1', '4.12', '', '6.20', '', '8.88', '+9.0'])
   print('OkDone.')
 
 # name__
