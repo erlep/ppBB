@@ -2474,3 +2474,41 @@ zmena ['', '', '', '', '', '', '', '', '']
 ===============================================================================
 OkDone.
 
+
+---25.04.2022--15:29--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
+Error:  <class 'ValueError'>
+Traceback (most recent call last):
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smazat'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
+    bbDoChk_main()
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
+    DoChk()
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
+    zmena = SaveXls(True)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 10, in SaveXls
+    from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbLST.py", line 28, in <module>
+    ['Globus                 ', 'tF(tGlobu(s))', tF(tGlobu(s)), r'https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html'],
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGlobus.py", line 56, in tGlobu
+    return Globu(url)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGlobus.py", line 65, in Globu
+    Cena = extract(url, Key)
+  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGlobus.py", line 30, in extract
+    del df['smazat']
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\pandas\core\generic.py", line 3963, in __delitem__
+    loc = self.axes[-1].get_loc(key)
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smazat'
