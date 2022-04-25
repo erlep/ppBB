@@ -26,6 +26,7 @@ def extract(url, Key):
     e = sys.exc_info()[0]
     print("Error: ", e)
     Cena = 0
+    return Cena
   # smazani sloupce - https://bit.ly/3oBNYjk
   del df['smazat']
   # Cena zmena typu na float - https://bit.ly/3Bi79SL
