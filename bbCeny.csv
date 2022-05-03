@@ -1,10 +1,10 @@
-Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 03.05.2022 07:52
-TankONO                ,40.9,39.9,1.0,2022-04-22 08:46:11,http://www.tank-ono.cz/cz/index.php?page=cenik
+Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 03.05.2022 17:01
+TankONO                ,41.9,40.9,+1.0,2022-05-03 17:01:02,http://www.tank-ono.cz/cz/index.php?page=cenik
 Tesco                  ,41.5,41.49,0.01,2022-04-21 10:54:52,https://bit.ly/3izRnLE
 Globus                 ,42.5,41.9,0.6,2022-04-22 14:31:25,https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
-Makro                  ,42.5,41.5,+1.0,2022-05-03 07:52:30,https://www.makro.cz/prodejny/brno
+Makro                  ,42.5,41.5,1.0,2022-05-03 07:52:30,https://www.makro.cz/prodejny/brno
 Shell Olomoucká        ,43.9,42.9,1.0,2022-05-02 11:30:44,https://mapy.cz/s/megolelafe
-MOL Olomoucká          ,43.5,42.9,+0.6,2022-05-03 07:52:38,https://mapy.cz/s/kepegubeve
+MOL Olomoucká          ,43.9,43.5,+0.4,2022-05-03 17:01:16,https://mapy.cz/s/kepegubeve
 Benzina Albert Modřice ,42.9,43.9,-1.0,2022-04-19 13:11:53,https://bit.ly/3ltfpd1
 OMV IKEA               ,43.9,44.5,-0.6,2022-04-22 08:46:31,https://mapy.cz/s/jatejehoda
 EuroOil Opuštěná       ,42.7,42.9,-0.2,2022-04-29 08:02:13,https://mapy.cz/s/cutobofugo
