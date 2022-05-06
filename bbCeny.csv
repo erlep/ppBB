@@ -1,10 +1,10 @@
-Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 05.05.2022 15:47
-TankONO                ,42.9,41.9,+1.0,2022-05-05 15:47:59,http://www.tank-ono.cz/cz/index.php?page=cenik
-Tesco                  ,42.5,41.5,+1.0,2022-05-05 15:48:06,https://bit.ly/3izRnLE
+Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 06.05.2022 07:51
+TankONO                ,42.9,41.9,1.0,2022-05-05 15:47:59,http://www.tank-ono.cz/cz/index.php?page=cenik
+Tesco                  ,42.5,41.5,1.0,2022-05-05 15:48:06,https://bit.ly/3izRnLE
 Globus                 ,42.5,41.9,0.6,2022-04-22 14:31:25,https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
-Makro                  ,42.9,42.5,0.4,2022-05-04 07:56:41,https://www.makro.cz/prodejny/brno
-Shell Olomoucká        ,43.9,42.9,1.0,2022-05-02 11:30:44,https://mapy.cz/s/megolelafe
-MOL Olomoucká          ,44.2,43.9,+0.3,2022-05-05 15:48:12,https://mapy.cz/s/kepegubeve
-Benzina Albert Modřice ,43.7,42.9,+0.8,2022-05-05 15:48:12,https://bit.ly/3ltfpd1
+Makro                  ,43.5,42.9,+0.6,2022-05-06 07:51:58,https://www.makro.cz/prodejny/brno
+Shell Olomoucká        ,44.2,43.9,+0.3,2022-05-06 07:52:01,https://mapy.cz/s/megolelafe
+MOL Olomoucká          ,44.2,43.9,0.3,2022-05-05 15:48:12,https://mapy.cz/s/kepegubeve
+Benzina Albert Modřice ,43.7,42.9,0.8,2022-05-05 15:48:12,https://bit.ly/3ltfpd1
 OMV IKEA               ,43.9,44.5,-0.6,2022-04-22 08:46:31,https://mapy.cz/s/jatejehoda
-EuroOil Opuštěná       ,42.9,42.7,+0.2,2022-05-05 15:48:17,https://mapy.cz/s/cutobofugo
+EuroOil Opuštěná       ,42.9,42.7,0.2,2022-05-05 15:48:17,https://mapy.cz/s/cutobofugo
