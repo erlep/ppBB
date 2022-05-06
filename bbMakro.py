@@ -36,9 +36,9 @@ def extract(url, Key):
 
 # test function
 def tMakro(url=''):
-  from bbCFG import brint, bbProduct
+  from bbCFG import brint, bbProduct, bbNoUrl
   brint('tMakro:', 'url', url)
-  if bbProduct:
+  if bbProduct and (url != bbNoUrl):
     return Makro(url)
   else:
     return 29.9

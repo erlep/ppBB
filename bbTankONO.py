@@ -40,9 +40,9 @@ def extract(url, Key):
 
 # test function
 def tTankO(url=''):
-  from bbCFG import brint, bbProduct
+  from bbCFG import brint, bbProduct, bbNoUrl
   brint('tTankO:', 'url', url)
-  if bbProduct:
+  if bbProduct and (url != bbNoUrl):
     return TankO(url)
   else:
     # s = '19.9' + '   url: ' + url
