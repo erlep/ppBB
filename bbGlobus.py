@@ -24,7 +24,7 @@ def extract(url, Key):
     df.columns = ['Name', 'smazat', 'Cena']
   except:  # catch *all* exceptions # pylint: disable=bare-except
     e = sys.exc_info()[0]
-    print("Error: ", e)
+    print("Error in bbGlobus.py: ", e)
     Cena = 0
     return Cena
   # smazani sloupce - https://bit.ly/3oBNYjk
@@ -43,7 +43,7 @@ def extract(url, Key):
     Cena = Radek['Cena'].values[0]
   except:  # catch *all* exceptions  - pylint: disable=bare-except
     e = sys.exc_info()[0]
-    print("Error: ", e)
+    print("Error in bbGlobus.py: ", e)
     Cena = 0
   # => float
   Cena = float(Cena)
