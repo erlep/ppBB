@@ -9,11 +9,11 @@ Links:
 
 [Benzin_Brno na Mapy.Cz](https://frame.mapy.cz/s/lohezoreba)
 
-[._ Streamlit _.](https://share.streamlit.io/erlep/ppbb/main/bbWeb.py)
-[._ GitHub _.](https://github.com/erlep/ppBB)
-[._ CSV file _.](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv)
-[._ Log file _.](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log)
-[._ Png file _.](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
+[. Streamlit .](https://share.streamlit.io/erlep/ppbb/main/bbWeb.py)
+[. GitHub .](https://github.com/erlep/ppBB)
+[. CSV file .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv)
+[. Log file .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log)
+[. Png file .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
 
 ---
 
@@ -39,7 +39,7 @@ Benzin_Brno na Mapy.Cz: <https://frame.mapy.cz/s/lohezoreba>
 
 ---
 
-Version: <mark>v2</mark> - Modified on <mark>11.05.2022 14:24</mark>
+Version: <mark>v3</mark> - Modified on <mark>11.05.2022 14:26</mark>
 
 ---
 
