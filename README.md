@@ -36,3 +36,11 @@ Vývoj cen: <https://cutt.ly/Benzin-Vyvoj>
 Google Sheet: <https://cutt.ly/benzin>
 
 Benzin_Brno na Mapy.Cz: <https://frame.mapy.cz/s/lohezoreba>
+
+---
+
+Version: <mark>v2</mark> - Modified on <mark>11.05.2022 14:24</mark>
+
+---
+
+---
