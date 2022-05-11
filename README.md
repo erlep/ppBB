@@ -6,11 +6,14 @@ The web scraping robot runs in the [AWS Cloud](https://aws.amazon.com).
 [![Ceny](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
 
 Links:
-[Streamlit](https://share.streamlit.io/erlep/ppbb/main/bbWeb.py)
-[GitHub](https://github.com/erlep/ppBB)
-[CSV file](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv)
-[Log file](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log)
-[Png file](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
+
+[Benzin_Brno na Mapy.Cz](https://frame.mapy.cz/s/lohezoreba)
+
+[.**_ Streamlit _**.](https://share.streamlit.io/erlep/ppbb/main/bbWeb.py)
+[.**_ GitHub _**.](https://github.com/erlep/ppBB)
+[.**_ CSV file _**.](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv)
+[.**_ Log file _**.](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log)
+[.**_ Png file _**.](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
 
 ---
 
@@ -24,12 +27,12 @@ Google Sheet script to monitor petrol prices in Brno city.
 
 [![Benzin-Vyvoj](https://docs.google.com/spreadsheets/d/e/2PACX-1vStPblBtmg4O4ddc6pOF9edeu-IzfsjxmynNpqzs3me9czw5K1aIIBw4HW9Cni9vM7Kse8QQTh0GG8a/pubchart?oid=451896964&format=image)](https://docs.google.com/spreadsheets/d/e/2PACX-1vStPblBtmg4O4ddc6pOF9edeu-IzfsjxmynNpqzs3me9czw5K1aIIBw4HW9Cni9vM7Kse8QQTh0GG8a/pubchart?oid=451896964&format=interactive)
 
-## Benzin - Google Sheet https://cutt.ly/benzin
+## Benzin - Google Sheet <https://cutt.ly/benzin>
 
-Aktuální graf cen: https://cutt.ly/Benzin-Akt
+Aktuální graf cen: <https://cutt.ly/Benzin-Akt>
 
-Vývoj cen: https://cutt.ly/Benzin-Vyvoj
+Vývoj cen: <https://cutt.ly/Benzin-Vyvoj>
 
-Google Sheet: https://cutt.ly/benzin
+Google Sheet: <https://cutt.ly/benzin>
 
-Benzin_Brno na Mapy.Cz: https://frame.mapy.cz/s/lohezoreba
+Benzin_Brno na Mapy.Cz: <https://frame.mapy.cz/s/lohezoreba>
