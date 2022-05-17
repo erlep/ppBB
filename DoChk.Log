@@ -3017,3 +3017,24 @@ EuroOil Opuštìná        : 44.2  -0.2 Cena: 44.2 Old: 44.4 2022-05-17 16:31:09 - 
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---17.05.2022--16:31--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
+TankONO                 : 44.5 
+Tesco                   : 43.5 
+Error in bbGlobus.py:  <class 'ValueError'>
+Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
+Globus                  : 42.5 
+Makro                   : 44.9 
+Shell Olomoucká         : 45.9 
+MOL Olomoucká           : 45.9 
+Benzina Albert Modøice  : 45.5 
+OMV IKEA                : 46.2 
+EuroOil Opuštìná        : 44.2 
+
+---17.05.2022--16:31--PC5406257--pegerle--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
