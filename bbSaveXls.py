@@ -44,8 +44,6 @@ async def aSaveXls(Dump=False):
   # Benzinky
   # Now date
   NowDate = 'Last status check on: ' + str(time.strftime(bbDateDMY))
-  # Zmeny cen
-  zmena = []
   # Hlavicka tabulky - ['Název', 'Cena', 'Old Cena', 'Delta Cena', 'Old Datum', 'Url']
   Hlava = bbHLAVICKA[:]
   Hlava[bbHlavaUrl] = NowDate
@@ -109,17 +107,25 @@ async def aSaveXls(Dump=False):
   df.to_excel(bbXlsFlNm, index=False, sheet_name=bbXlsShNm)
   # Save CSV
   df.to_csv(bbCsvFlNm, index=False)
-  # print('zmena', zmena)
-  return zmena
+  print('zmena', zmena)
+  # return zmena
+
+# Zmeny cen
+zmena = []
 
 def SaveXls(Dump=False):
   """ Ulozi ceny benzinu do Xls
   Args:
       Dump: Vypisuj ceny
   """
+  # Zmeny cen
+  zmena = []
   loop = asyncio.get_event_loop()
   future = asyncio.ensure_future(aSaveXls(Dump))
   loop.run_until_complete(future)
+  df.to_csv(bbCsvFlNm, index=False)
+  print('zmena', zmena)
+  return zmena
 
 # main
 def bbSaveXls_main():

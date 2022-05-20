@@ -3082,34 +3082,3 @@ EuroOil Opuštìná        : 44.2
 ===============================================================================
 ===============================================================================
 OkDone.
-
----20.05.2022--11:15--PC5406257--pegerle--bbDoChk.py---{~~
-
-BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9  +0.4 Cena: 44.9 Old: 44.5 2022-05-20 11:15:22 - zmena ceny 
-Tesco                   : 45.5  +2.0 Cena: 45.5 Old: 43.5 2022-05-20 11:15:27 - zmena ceny 
-Error in bbGlobus.py:  <class 'ValueError'>
-Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 45.0 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9  +1.0 Cena: 46.9 Old: 45.9 2022-05-20 11:15:30 - zmena ceny 
-MOL Olomoucká           : 46.9  +1.0 Cena: 46.9 Old: 45.9 2022-05-20 11:15:32 - zmena ceny 
-Benzina Albert Modøice  : 46.7  +1.2 Cena: 46.7 Old: 45.5 2022-05-20 11:15:33 - zmena ceny 
-OMV IKEA                : 47.5  +1.0 Cena: 47.5 Old: 46.5 2022-05-20 11:15:35 - zmena ceny 
-EuroOil Opuštìná        : 44.9  +0.7 Cena: 44.9 Old: 44.2 2022-05-20 11:15:37 - zmena ceny 
-Traceback (most recent call last):
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
-    bbDoChk_main()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
-    DoChk()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 27, in DoChk
-    Graf(zmena)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGraf2.py", line 59, in Graf
-    text=zmena[i], x=OldCena*1.01, y=(pocet-(i+1)), arrowhead=0, showarrow=False, font=dict(color='darkred'))
-TypeError: 'NoneType' object is not subscriptable
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
