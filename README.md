@@ -1,7 +1,9 @@
 # [ppBB - https://erlep.github.io/ppBB](https://erlep.github.io/ppBB)
 
-[ppBB (Python Project Benzin Brno)](https://github.com/erlep/ppBB) is **Python** & **Streamlit** application to monitor petrol prices in Brno city.
+[ppBB (Python Project Benzin Brno)](https://github.com/erlep/ppBB) is **Python** application to monitor petrol prices in Brno city.
 The web scraping robot runs in the [AWS Cloud](https://aws.amazon.com).
+
+Tech-stack: Python, Pandas, Matplotlib, Asyncio, Beautiful Soup, Playwright, Streamlit
 
 [![Ceny](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
 
@@ -39,7 +41,11 @@ Benzin_Brno na Mapy.Cz: <https://frame.mapy.cz/s/lohezoreba>
 
 ---
 
-Version: <mark>v3</mark> - Modified on <mark>11.05.2022 14:26</mark>
+It's not possible to use Trio with Playwright - https://bit.ly/3sJzFua
+
+---
+
+Version: <mark>v4</mark> - Modified on <mark>20.05.2022 11:44</mark> - Daiki birtday!
 
 ---
 

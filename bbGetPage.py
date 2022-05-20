@@ -23,7 +23,10 @@
 # from playwright.async_api import async_playwright
 # from requests.sessions import session
 # from requests_html import AsyncHTMLSession
-
+################################################################################
+# 18.05.2022 - zmena na asyncio, trio nelze s playwright
+import asyncio
+################################################################################
 # selenium
 def page_content_selenium(url):
   from selenium import webdriver
@@ -35,25 +38,25 @@ def page_content_selenium(url):
   page_content = driver.page_source
   driver.close()
   return page_content
-
+################################################################################
 # playwright
-def page_content_playwright(url):
+async def page_content_playwright(url):
   # Use async version of Playwright
   from playwright.async_api import async_playwright
-  import asyncio
+  # page_get
 
   async def page_get():
-    async with async_playwright() as p:
-      browser = await p.chromium.launch()
+    async with async_playwright() as pw:
+      browser = await pw.chromium.launch()
       page = await browser.new_page()
       await page.goto(url, timeout=0)
       page_content = await page.content()
       await browser.close()
       return page_content
   # page_content
-  page_content = asyncio.run(page_get())
+  page_content = await page_get()
   return page_content
-
+################################################################################
 # requests_html
 def page_content_requests_html(url):
   from requests_html import AsyncHTMLSession
@@ -68,9 +71,9 @@ def page_content_requests_html(url):
   # musi se prevest na string
   page_content = str(asession.run(get_page))
   return page_content
-
+################################################################################
 # GetPage
-def GetPage(url):
+async def GetPage(url):
   from bbCFG import brint, bbRender
   brint('GetPage:', 'url', url)
   # selenium | playwright | requests_html
@@ -83,14 +86,16 @@ def GetPage(url):
   else:
     page_content = page_content_requests_html
   # get page_content()
-  return page_content(url)
+  return await page_content(url)
 
 # main
-def main():
+async def main():
   url = r'https://bit.ly/3izRnLE'
-  print('def GetPage(): ', GetPage(url))
+  tst = await GetPage(url)
+  print('def GetPage(): ', tst)
   print('OkDone.')
 
 # __name__
 if __name__ == '__main__':
-  main()
+  # main()
+  asyncio.run(main())

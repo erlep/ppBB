@@ -1,12 +1,14 @@
 ﻿# Benzín Brno - Mapy.cz - https://bit.ly/3izRnLE - bbMapy.py
 # Pro JavaScript pouziva: selenium <-> playwright
+# 18.05.2022 - zmena na asyncio, trio nelze s playwright
+import asyncio
 
 # extract - stahne stranku
-def extract(url=''):
+async def extract(url=''):
   from bbGetPage import GetPage
   from bs4 import BeautifulSoup
   import sys
-  page_source = GetPage(url)
+  page_source = await GetPage(url)
   # Parse processed webpage with BeautifulSoup
   soup = BeautifulSoup(page_source, features="lxml")
   # Zkusim ziskat cenu
@@ -30,29 +32,32 @@ def extract(url=''):
   return Cena
 
 # test function
-def tMappy(url=''):
+async def tMappy(url=''):
   from bbCFG import brint, bbProduct, bbNoUrl
-  brint('tMappy:', 'url', url)
+  brint('jsem v tMappy   url', url)
   if bbProduct and (url != bbNoUrl):
-    return Mappy(url)
+    return await Mappy(url)
   else:
     return 39.9
   # s = '39.9' + '   url: ' + url
   # return s
 
 # globus - vrati cenu za natual - https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
-def Mappy(url):
+async def Mappy(url):
   # Key = 'Benzín'
-  Cena = extract(url)
+  Cena = await extract(url)
   # print('Cena paliva -', Key, '- je:', Cena)
   return Cena
 
 # main
-def bbMapy_main():
+async def bbMapy_main():
   url = r'https://bit.ly/3izRnLE'
-  print("def Mapy(r'https://bit.ly/3izRnLE'): ", Mappy(url))
+  # print("def Mapy(r'https://bit.ly/3izRnLE'): ", Mappy(url))
+  tst = await Mappy(url)
+  print("def Mapy(r'https://bit.ly/3izRnLE'): ", tst)
   print('OkDone.')
 
-# name__
+# __name__
 if __name__ == '__main__':
-  bbMapy_main()
+  # bbMapy_main()
+  asyncio.run(bbMapy_main())

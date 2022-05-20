@@ -1,20 +1,23 @@
 ﻿# Benzín Brno - bbLog.py - logovani data a casu
 
 # from bbCFG import *
+import time
+
 
 # Log object
 class oLog:
   ''' class oLog '''
   def __init__(self, znak='x'):
     ''' konstruktor '''
-    from bbCFG import bbDateLog
-
-    import time
+    import getpass
     import inspect
     import socket
-    import getpass
     import sys
+    import time
 
+    from bbCFG import bbDateLog
+
+    self.start_time = time.time()
     self.zz = '-' * 2  # '--'
     self.z3 = '-' * 3  # '---'
     self.tilda = '~' * 2  # '~~'
@@ -38,9 +41,14 @@ class oLog:
     print(self.msg)
     print()
 
+# globalni promenna
+log_start_time = time.time()
+
 # ---08.11.2021--14:22--PC5406257--pegerle--LogOpen/main: ---{~~
 # ---06.11.2021--06:16--PC5406257--proj_sw_backup--T_TmChk-2.bat---{~~
 def LogOpen():
+  # start time
+  log_start_time = time.time()
   print()
   log = oLog('{')
   log.print()
@@ -50,6 +58,8 @@ def LogClose():
   print()
   log = oLog('}')
   log.print()
+  # Execution time
+  print("Total time:", time.time() - log_start_time)
   zz = '=' * 79
   print(zz)
   print(zz)

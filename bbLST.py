@@ -1,13 +1,14 @@
 ﻿# Benzín Brno - bbLST.py - LIST tj. seznam benzinek
-# v2 - pokus
+# 18.05.2022 - zmena na asyncio, trio nelze s playwright
+import asyncio
 
-from bbCFG import bbNoUrl
 from bbCena import tF
-from bbTankONO import tTankO
-from bbMapy import tMappy
+from bbCFG import bbNoUrl
 from bbGlobus import tGlobu
 from bbMakro import tMakro
+from bbMapy import tMappy
 from bbmBenzin import tmBenz
+from bbTankONO import tTankO
 
 # s - budouci promenna url
 s = bbNoUrl  # '--url--'
@@ -28,7 +29,6 @@ bbBenzinky = [
     ['Globus                 ', 'tF(tGlobu(s))', tF(tGlobu(s)), r'https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html'],
     ['Makro                  ', 'tF(tMakro(s))', tF(tMakro(s)), r'https://www.makro.cz/prodejny/brno'],
     ['Shell Olomoucká        ', 'tF(tMappy(s))', tF(tMappy(s)), r'https://mapy.cz/s/megolelafe'],
-    # ['Shell Olomoucká        ', 'tF(tmBenz(s))', tF(tmBenz(s)), r'https://bit.ly/32Q9KHr'],
     ['MOL Olomoucká          ', 'tF(tMappy(s))', tF(tMappy(s)), r'https://mapy.cz/s/kepegubeve'],
     ['Benzina Albert Modřice ', 'tF(tmBenz(s))', tF(tmBenz(s)), r'https://bit.ly/3ltfpd1'],
     ['OMV IKEA               ', 'tF(tMappy(s))', tF(tMappy(s)), r'https://mapy.cz/s/jatejehoda'],
@@ -36,17 +36,21 @@ bbBenzinky = [
 ]
 
 # main
-def bbLST_main():
-  from bbCFG import bbTtest, bbRender
+async def bbLST_main():
+  from bbCFG import bbRender, bbTtest
+  print('\n\n\n')
   print("bbTtest:    ", bbTtest)
   print("bbRender:   ", bbRender)
-  bbFce = tF(tTankO(s))
+  # bbFce = await tF(tTankO(s))
+  # bbFce = await tF(tMappy(s))
+  bbFce = await tF(tmBenz(s))
   print("bbFce:    ", bbFce)
   print('Nazvy benzinek')
-  print((list(zip(*bbBenzinky)))[0])
+  # print((list(zip(*bbBenzinky)))[0])
   print()
   print('OkDone.')
 
-# name__
+# __name__
 if __name__ == '__main__':
-  bbLST_main()
+  # bbLST_main()
+  asyncio.run(bbLST_main())

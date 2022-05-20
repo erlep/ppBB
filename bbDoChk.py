@@ -11,10 +11,10 @@
 
 def DoChk():
   from bbCFG import bbName
-  # from bbLST import *
-  from bbLog import LogOpen, LogClose
-  from bbSaveXls import SaveXls
   from bbGraf2 import Graf
+  # from bbLST import *
+  from bbLog import LogClose, LogOpen
+  from bbSaveXls import SaveXls
 
   # Open
   LogOpen()

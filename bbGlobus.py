@@ -50,7 +50,7 @@ def extract(url, Key):
   return Cena
 
 # test function
-def tGlobu(url=''):
+async def tGlobu(url=''):
   from bbCFG import brint, bbProduct, bbNoUrl
   brint('tGlobu:', 'url', url)
   if bbProduct and (url != bbNoUrl):
@@ -59,7 +59,7 @@ def tGlobu(url=''):
     return 29.9
 
 # globus - vrati cenu za natual - https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
-def Globu(url=''):
+async def Globu(url=''):
   url = r'https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html'
   Key = 'Drive 95'
   Key = 'Natural 95'  # zmena media - 26.10.2021 13:15
@@ -72,6 +72,6 @@ def main():
   print('def Globu(): ', Globu())
   print('OkDone.')
 
-# name__
+# __name__
 if __name__ == '__main__':
   main()

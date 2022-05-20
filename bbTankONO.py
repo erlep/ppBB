@@ -1,8 +1,11 @@
 ﻿# Benzín Brno - TankONO - Natural "95" - pumpa: 'ČS Brno-Hviezdoslavova' - bbTankONO.py
 # http://www.tank-ono.cz/cz/index.php?page=cenik
+# 18.05.2022 - zmena na asyncio, trio nelze s playwright
+import asyncio
+from bbCena import tF
 
 # extract - stahne stranku
-def extract(url, Key):
+async def extract(url, Key):
   import requests
   import pandas as pd
 
@@ -39,29 +42,34 @@ def extract(url, Key):
   return Cena
 
 # test function
-def tTankO(url=''):
+async def tTankO(url=''):
   from bbCFG import brint, bbProduct, bbNoUrl
-  brint('tTankO:', 'url', url)
+  brint('jsem v tTankO  url', url)
   if bbProduct and (url != bbNoUrl):
-    return TankO(url)
+    return await TankO(url)
   else:
     # s = '19.9' + '   url: ' + url
     # return s
     return 19.9
 
 # TankONO - vrati cenu za Natural "95" - pumpa: 'ČS Brno-Hviezdoslavova' - http://www.tank-ono.cz/cz/index.php?page=cenik
-def TankO(url=''):
+async def TankO(url=''):
   url = r'http://www.tank-ono.cz/cz/index.php?page=cenik'
   Key = 'ČS Brno-Hviezdoslavova'
   Cena = extract(url, Key)
   # print('Cena paliva -', Key, '- je:', Cena)
-  return Cena
+  return await Cena
 
 # main
-def bbTankONO_main():
-  print('def TankO(): ', tTankO('zz'))
+# tF(tTankO(s))
+async def bbTankONO_main():
+  # print('def TankO(): ', tTankO('zz'))
+  # tst = await (tTankO())
+  tst = await tF(tTankO())
+  print('tTankO(): ', tst)
   print('OkDone.')
 
-# name__
+# __name__
 if __name__ == '__main__':
-  bbTankONO_main()
+  # bbTankONO_main()
+  asyncio.run(bbTankONO_main())

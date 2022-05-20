@@ -33,7 +33,7 @@ def extract(url, Key):
   return Cena
 
 # test function
-def tmBenz(url=''):
+async def tmBenz(url=''):
   from bbCFG import brint, bbProduct, bbNoUrl, bbNmVR
   brint('tmBenz:', 'url', url)
   if bbProduct and (url != bbNoUrl):
@@ -42,7 +42,7 @@ def tmBenz(url=''):
     return bbNmVR
 
 # globus - vrati cenu za natual - https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
-def mBenz(url):
+async def mBenz(url):
   from bbCFG import brint
   Key = 'ContentPlaceHolder1_lN95Cost'
   Cena = extract(url, Key)
@@ -55,6 +55,6 @@ def bbmBenzin_main():
   print("mBenzin Benzina Albert Modřice - https://bit.ly/3ltfpd1:", mBenz(url))
   print('OkDone.')
 
-# name__
+# __name__
 if __name__ == '__main__':
   bbmBenzin_main()

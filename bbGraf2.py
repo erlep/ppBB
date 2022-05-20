@@ -72,6 +72,6 @@ def bbGraf_main():
   Graf(['-1.1', '+2.2', '3.1', '4.12', '', '6.20', '', '8.88', '+9.0'])
   print('OkDone.')
 
-# name__
+# __name__
 if __name__ == '__main__':
   bbGraf_main()

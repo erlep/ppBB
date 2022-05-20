@@ -1,5 +1,6 @@
-# Is asyncio too hard to use? Try Trio! - https://bit.ly/37yRrZN
+﻿# Benzín Brno - testovaci soubor
 
+# Is asyncio too hard to use? Try Trio! - https://bit.ly/37yRrZN
 import asks  # misto requests pro async
 import time
 import trio

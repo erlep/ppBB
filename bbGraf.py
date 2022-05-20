@@ -56,6 +56,6 @@ def bbGraf_main():
   Graf()
   print('OkDone.')
 
-# name__
+# __name__
 if __name__ == '__main__':
   bbGraf_main()

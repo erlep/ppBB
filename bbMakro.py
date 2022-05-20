@@ -35,7 +35,7 @@ def extract(url, Key):
   return Cena
 
 # test function
-def tMakro(url=''):
+async def tMakro(url=''):
   from bbCFG import brint, bbProduct, bbNoUrl
   brint('tMakro:', 'url', url)
   if bbProduct and (url != bbNoUrl):
@@ -44,7 +44,7 @@ def tMakro(url=''):
     return 29.9
 
 # TankONO - vrati cenu za Natural "95" - pumpa: 'ČS Brno-Hviezdoslavova' - http://www.tank-ono.cz/cz/index.php?page=cenik
-def Makro(url=''):
+async def Makro(url=''):
   url = r'https://www.makro.cz/prodejny/brno'
   Key = 'Natural 95'
   Cena = extract(url, Key)
@@ -56,6 +56,6 @@ def bbMakro_main():
   print('def Makro(): ', Makro())
   print('OkDone.')
 
-# name__
+# __name__
 if __name__ == '__main__':
   bbMakro_main()

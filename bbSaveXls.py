@@ -1,22 +1,39 @@
 ﻿# Benzín Brno - bbSaveXls.py - vypise ceny jednotlivych benzinek - bbSaveXls.py
 # Ulozi ceny benzinek do Xls souboru
+# 18.05.2022 - zmena na asyncio, trio nelze s playwright
+import asyncio
+import time
+import pandas as pd
+from bbCena import F2f, tF
+from bbCFG import bbCsvFlNm, bbDateDMY, bbDateMsk, bbLogFlNm, bbXlsFlNm, bbXlsShNm, brint
+from bbGlobus import tGlobu
+from bbLST import bbBenzinky, bbHlavaUrl, bbHlavCena, bbHlavDate, bbHlavDlta, bbHLAVICKA, bbHlavOldC, bbNoUrl, s
+from bbMakro import tMakro
+from bbMapy import tMappy
+from bbmBenzin import tmBenz
+from bbTankONO import tTankO
 
-def SaveXls(Dump=False):
+def SaveXls1(Dump=False):
   """ Ulozi ceny benzinu do Xls
   Args:
       Dump: Vypisuj ceny
   """
-  from bbCFG import brint, bbXlsFlNm, bbXlsShNm, bbDateMsk, bbLogFlNm, bbDateDMY, bbCsvFlNm
-  from bbLST import bbHLAVICKA, bbBenzinky, bbHlavCena, bbHlavOldC, bbHlavDlta, bbHlavDate, bbHlavaUrl, bbNoUrl, s
-  from bbCena import F2f, tF
-  from bbTankONO import tTankO
-  from bbMapy import tMappy
-  from bbGlobus import tGlobu
-  from bbMakro import tMakro
-  from bbmBenzin import tmBenz
 
-  import pandas as pd
-  import time
+  # Xls file
+  # dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm)
+  # df1 = pd.read_excel(file, converters= {'COLUMN': pd.to_datetime}) - https://bit.ly/3nsSsrL
+  dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm, converters={bbHLAVICKA[bbHlavDate]: pd.to_datetime})
+
+async def aEval(sStr, sFce):
+  # asnyc verze Eval
+  s = sStr  # 3. sloupec - Url je jako parametr s funkce
+  brint("aEval: sFce", sFce, '  s', s)
+  Cena = await eval(sFce)  # nazev promenne v promenne
+  brint("aEval: sFce", sFce, '  s', s, '  Cena', Cena, '  type(Cena)', type(Cena))
+  return Cena
+
+async def aSaveXls(Dump=False):
+  # asnyc verze aSaveXls
 
   # Xls file
   # dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm)
@@ -36,15 +53,16 @@ def SaveXls(Dump=False):
   # pole benzinek: Nazev, Fce, Url
   for i, n in enumerate(bbBenzinky):
     # Zjisti cenu - pomoci eval, s - je url
-    s = n[3]  # Url
-    Cena = eval(n[1])  # nazev promenne v promenne
-    brint('  su tu n[1]:', n[1], 'Cena', Cena)
+    s = n[3]  # 3. sloupec - Url je jako parametr s funkce
+    Cena = await aEval(s, n[1])  # 1. sloupec string s nazvem funkce
+    brint('  su tu n[1]:', n[1], 'Cena', Cena, '  type(Cena)', type(Cena))
     # Nazev: cena
     brint('#', i, ': Nazev:', n[0], ' Fce:', n[1], ' Cena:', Cena, ' 2:', n[2], ' Url:', n[3])
     # Udaje Old, Cena - 2. sloupec
     OldCena = dfXls.iloc[i, bbHlavCena]
     OldDelt = dfXls.iloc[i, bbHlavDlta]
     OldDate = dfXls.iloc[i, bbHlavDate]
+    brint('Cena1', Cena, '  type(Cena)', type(Cena), '  OldDelt:', OldDelt, '  type(OldDelt)', type(OldDelt))
     # zmena ceny string
     zc = ''  # dlouhy
     zz = ''  # jen +-
@@ -55,7 +73,7 @@ def SaveXls(Dump=False):
     # Je Zmena Ceny
     if Cena != OldCena:
       # Zmena ceny
-      OldDelt = F2f(Cena - OldCena)
+      OldDelt = await F2f(Cena - float(OldCena))
       # pridani +-
       if OldDelt > 0:
         OldDelt = '+' + str(OldDelt)
@@ -93,6 +111,15 @@ def SaveXls(Dump=False):
   df.to_csv(bbCsvFlNm, index=False)
   # print('zmena', zmena)
   return zmena
+
+def SaveXls(Dump=False):
+  """ Ulozi ceny benzinu do Xls
+  Args:
+      Dump: Vypisuj ceny
+  """
+  loop = asyncio.get_event_loop()
+  future = asyncio.ensure_future(aSaveXls(Dump))
+  loop.run_until_complete(future)
 
 # main
 def bbSaveXls_main():
