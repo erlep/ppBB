@@ -35,20 +35,15 @@ async def fetch(url):
   print("Finished: ", url, len(response))
   return len(response)
 
-async def fetch_all(urls):
+def main(urls):
+  start_time = time.time()
+  loop = asyncio.get_event_loop()
   tasks = []
   for url in urls:
     task = asyncio.ensure_future(fetch(url))
     tasks.append(task)
-  await asyncio.gather(*tasks)
-  return url
-
-def main(urls):
-  start_time = time.time()
-  loop = asyncio.get_event_loop()
-  future = asyncio.ensure_future(fetch_all(urls))
-  loop.run_until_complete(future)
-  print('future', future, 'zz', future.result())
+  res = loop.run_until_complete(asyncio.gather(*tasks))
+  print('res', res)
   print("Total time:", time.time() - start_time)
 
 if __name__ == '__main__':

@@ -13,28 +13,18 @@ from bbMapy import tMappy
 from bbmBenzin import tmBenz
 from bbTankONO import tTankO
 
-def SaveXls1(Dump=False):
-  """ Ulozi ceny benzinu do Xls
-  Args:
-      Dump: Vypisuj ceny
-  """
-
-  # Xls file
-  # dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm)
-  # df1 = pd.read_excel(file, converters= {'COLUMN': pd.to_datetime}) - https://bit.ly/3nsSsrL
-  dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm, converters={bbHLAVICKA[bbHlavDate]: pd.to_datetime})
-
+# asnyc verze Eval
 async def aEval(sStr, sFce):
-  # asnyc verze Eval
   s = sStr  # 3. sloupec - Url je jako parametr s funkce
   brint("aEval: sFce", sFce, '  s', s)
   Cena = await eval(sFce)  # nazev promenne v promenne
   brint("aEval: sFce", sFce, '  s', s, '  Cena', Cena, '  type(Cena)', type(Cena))
   return Cena
 
+# asnyc verze aSaveXls
 async def aSaveXls(Dump=False):
-  # asnyc verze aSaveXls
-
+  # Zmeny cen
+  zmena = []
   # Xls file
   # dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm)
   # df1 = pd.read_excel(file, converters= {'COLUMN': pd.to_datetime}) - https://bit.ly/3nsSsrL
@@ -107,30 +97,29 @@ async def aSaveXls(Dump=False):
   df.to_excel(bbXlsFlNm, index=False, sheet_name=bbXlsShNm)
   # Save CSV
   df.to_csv(bbCsvFlNm, index=False)
-  print('zmena', zmena)
-  # return zmena
+  # print('zmena', zmena)
+  return zmena
 
-# Zmeny cen
-zmena = []
+# await wSaveXls
+async def wSaveXls(Dump=False):
+  zmena = await aSaveXls(Dump)
+  # print('zmena', zmena)
+  return zmena
 
 def SaveXls(Dump=False):
   """ Ulozi ceny benzinu do Xls
   Args:
       Dump: Vypisuj ceny
   """
-  # Zmeny cen
-  zmena = []
-  loop = asyncio.get_event_loop()
-  future = asyncio.ensure_future(aSaveXls(Dump))
-  loop.run_until_complete(future)
-  df.to_csv(bbCsvFlNm, index=False)
-  print('zmena', zmena)
+  zmena = asyncio.run(wSaveXls(Dump))
+  brint('zmena', zmena)
   return zmena
 
 # main
 def bbSaveXls_main():
   print()
-  print("SaveXls():    ", SaveXls())
+  zmena = SaveXls(True)
+  print("SaveXls():   zmena", zmena)
   print('OkDone.')
 
 # __name__
