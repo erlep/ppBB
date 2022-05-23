@@ -33,15 +33,12 @@ bbCenaMsk = '{:.2f}'  # format na 2 desetinna mista
 # Graf
 bbCenaMin = 42  # mdolni mez ceny na ose X v grafu
 
-# bbPrintDebug
-# bbPrintDebug('Loc:', 'FceName','Var', Var )
-def brint(s1='', s2='', s3='', s4='', s5='', s6='', s7='', s8='', s9='', s10='', s11='', s12='', s13='', s14='',):
+# brint - my print, pomoci *ssAll
+def brint(*ssAll):
   if not(bbNoBBprn):
-    # Dict vstupnich hodnot
-    ssAll = locals()
-    # Spojeni hodnot dict do retezce
-    ss = ' '.join(str(v) for v in ssAll.values())
     import inspect
+    # Spojeni hodnot dict do retezce
+    ss = ' '.join(str(v) for v in ssAll).strip()
     # akt fce
     # print(inspect.stack()[0][0].f_code.co_name)
     # predchozi funkce - stack[1]
@@ -50,12 +47,12 @@ def brint(s1='', s2='', s3='', s4='', s5='', s6='', s7='', s8='', s9='', s10='',
 
 # main
 def bbCFG_main():
-  print("bbTtest:    ", bbTtest)
-  print("bbRender:   ", bbRender)
-  print("bbName:     ", bbName)
-  print("bbNmNM:     ", bbXlsShNm)
-  brint(' bbPrintDebug Test', 'je OK')
-  print("bbNmVE:     ", bbNmVE)
+  # print("bbTtest:    ", bbTtest)
+  # print("bbRender:   ", bbRender)
+  # print("bbName:     ", bbName)
+  # print("bbNmNM:     ", bbXlsShNm)
+  brint(' bbPrintDebug Test je OK')
+  brint("bbNmVE:     ", bbNmVE)
   print('OkDone.')
 
 # __name__
