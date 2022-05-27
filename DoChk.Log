@@ -3384,3 +3384,29 @@ sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
 sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
 sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
 sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
+
+---27.05.2022--11:52--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
+TankONO                 : 44.9 
+Tesco                   : 45.5 
+Globus                  : 45.9 
+Makro                   : 45.9 
+Shell Olomoucká         : 46.9 
+MOL Olomoucká           : 46.9 
+Benzina Albert Modøice  : 46.7 
+OMV IKEA                : 47.5 
+EuroOil Opuštìná        : 46.5 
+
+---27.05.2022--11:52--PC5406257--pegerle--bbDoChk.py---}~~
+
+Total time: 19.9450626373291
+===============================================================================
+===============================================================================
+OkDone.
+sys:1: RuntimeWarning: coroutine 'tF' was never awaited
+sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
+sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
+sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
+sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
+sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
