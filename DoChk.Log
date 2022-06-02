@@ -3618,3 +3618,35 @@ sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
 sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
 sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
 sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
+
+---02.06.2022--08:19--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
+TankONO                 : 44.9 
+Error v bbMapy.py:  <class 'AttributeError'>
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://bit.ly/3izRnLE !
+Tesco                   : 45.5 
+Globus                  : 45.9 
+Makro                   : 45.6 
+Error v bbMapy.py:  <class 'AttributeError'>
+Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká         : 45.9 
+MOL Olomoucká           : 45.9 
+Benzina Albert Modøice  : 47.4 
+OMV IKEA                : 47.0 
+Error v bbMapy.py:  <class 'AttributeError'>
+Cena nezjistena -   Nazev: EuroOil Opuštìná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštìná        : 45.4 
+
+---02.06.2022--08:20--PC5406257--pegerle--bbDoChk.py---}~~
+
+Total time: 34.20889377593994
+===============================================================================
+===============================================================================
+OkDone.
+sys:1: RuntimeWarning: coroutine 'tF' was never awaited
+sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
+sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
+sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
+sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
+sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
