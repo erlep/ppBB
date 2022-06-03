@@ -14,15 +14,35 @@ from bbmBenzin import tmBenz
 from bbTankONO import tTankO
 
 # asnyc verze Eval
-async def aEval(sStr, sFce):
+async def aEval(sStr, sFce, n):
   s = sStr  # 3. sloupec - Url je jako parametr s funkce
-  brint("aEval: sFce", sFce, '  s', s)
+  brint("aEval: ", n[0])
   Cena = await eval(sFce)  # nazev promenne v promenne
-  brint("aEval: sFce", sFce, '  s', s, '  Cena', Cena, '  type(Cena)', type(Cena))
-  return Cena
+  brint("aEval: ", n[0], '  Cena', Cena, '  type(Cena)', type(Cena))
+  n.append(Cena)
+  return n
 
-# asnyc verze aSaveXls
-async def aSaveXls(Dump=False):
+# zjisti ceny a vrati je v Listu
+def DejNoveCeny():
+  # start_time = time.time()
+  loop = asyncio.get_event_loop()
+  tasks = []
+  # pres Benzinky
+  for i, n in enumerate(bbBenzinky):
+    # Zjisti cenu - pomoci eval, s - je url
+    s = n[3]  # 3. sloupec - Url je jako parametr s funkce
+    # Task
+    # Cena = await aEval(s, n[1])  # 1. sloupec string s nazvem funkce
+    task = asyncio.ensure_future(aEval(s, n[1], n))
+    tasks.append(task)
+  # Vysledek
+  Ceny = loop.run_until_complete(asyncio.gather(*tasks))
+  # print('Ceny', Ceny)
+  # print("Total time:", time.time() - start_time)
+  return Ceny
+
+# SaveXls
+def SaveXls(Dump=False):
   # Zmeny cen
   zmena = []
   # Xls file
@@ -37,12 +57,16 @@ async def aSaveXls(Dump=False):
   # Hlavicka tabulky - ['Název', 'Cena', 'Old Cena', 'Delta Cena', 'Old Datum', 'Url']
   Hlava = bbHLAVICKA[:]
   Hlava[bbHlavaUrl] = NowDate
+  # pandas Excel
   df = pd.DataFrame(columns=Hlava)
   # pole benzinek: Nazev, Fce, Url
-  for i, n in enumerate(bbBenzinky):
+  for i, n in enumerate(DejNoveCeny()):
+    # for i, n in enumerate(bbBenzinky):
     # Zjisti cenu - pomoci eval, s - je url
-    s = n[3]  # 3. sloupec - Url je jako parametr s funkce
-    Cena = await aEval(s, n[1])  # 1. sloupec string s nazvem funkce
+    # s = n[3]  # 3. sloupec - Url je jako parametr s funkce
+    # Task
+    # Cena = await aEval(s, n[1])  # 1. sloupec string s nazvem funkce
+    Cena = n[4]  # cena je pridana jako dalsi sloupec
     brint('  su tu n[1]:', n[1], 'Cena', Cena, '  type(Cena)', type(Cena))
     # Nazev: cena
     brint('#', i, ': Nazev:', n[0], ' Fce:', n[1], ' Cena:', Cena, ' 2:', n[2], ' Url:', n[3])
@@ -61,7 +85,7 @@ async def aSaveXls(Dump=False):
     # Je Zmena Ceny
     if Cena != OldCena:
       # Zmena ceny
-      OldDelt = await F2f(Cena - float(OldCena))
+      OldDelt = F2f(Cena - float(OldCena))
       # pridani +-
       if OldDelt > 0:
         OldDelt = '+' + str(OldDelt)
@@ -100,26 +124,15 @@ async def aSaveXls(Dump=False):
   # print('zmena', zmena)
   return zmena
 
-# await wSaveXls
-async def wSaveXls(Dump=False):
-  zmena = await aSaveXls(Dump)
-  # print('zmena', zmena)
-  return zmena
-
-def SaveXls(Dump=False):
-  """ Ulozi ceny benzinu do Xls
-  Args:
-      Dump: Vypisuj ceny
-  """
-  zmena = asyncio.run(wSaveXls(Dump))
-  brint('zmena', zmena)
-  return zmena
-
 # main
 def bbSaveXls_main():
   print()
+  start_time = time.time()
+  # ceny = DejNoveCeny()
+  # print('ceny', ceny)
   zmena = SaveXls(True)
   print("SaveXls():   zmena", zmena)
+  print("Total time:", time.time() - start_time)
   print('OkDone.')
 
 # __name__

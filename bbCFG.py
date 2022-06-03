@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.37
+bbNmVR = 0.38
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -61,13 +61,10 @@ if __name__ == '__main__':
   ProgramInfo = '''
 -----------------------------------------------------
 History:
-  18.05.2022
-0.37 - zmena na Trio async
-  29.11.2021
-0.22 - celkem funckni
-  29.11.2021 1
-0.23 - oprava kdyz na mapy.cz neni cena
-  30.11.2021
-0.24 - Shell Olomoucká: Mapy -> mBenz
+  03.06.2022 0.38 - zmena na skutecne async
+  18.05.2022 0.37 - zmena na Trio async
+  30.11.2021 0.24 - Shell Olomoucká: Mapy -> mBenz
+  29.11.2021 0.23 - oprava kdyz na mapy.cz neni cena
+  29.11.2021 0.22 - celkem funckni
 -----------------------------------------------------
   '''
