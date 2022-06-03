@@ -39,7 +39,7 @@ async def tMakro(url=''):
   from bbCFG import brint, bbProduct, bbNoUrl
   brint('tMakro:', 'url', url)
   if bbProduct and (url != bbNoUrl):
-    return Makro(url)
+    return await Makro(url)
   else:
     return 29.9
 

@@ -4,7 +4,7 @@
 import asyncio
 from bbCFG import bbCenaMsk, bbCenaNoF, bbProduct, brint
 
-async def F(val):
+def F(val):
   """ Formatovani Ceny z real na string: # 34.4  => 34,40 Kč
   Args:
       val : Cena type real
@@ -12,7 +12,7 @@ async def F(val):
       Naformatovana cena
   """
   brint("val:", val, '|| type:', type(val))
-  Cena = await F2f(val)
+  Cena = F2f(val)
   # Formatovat?
   if (bbCenaNoF):
     return Cena
@@ -24,9 +24,9 @@ async def F(val):
   return Cena
 
 # Formatuje real na 2 def mista, vraci real
-async def F2f(val):
+def F2f(val):
   if type(val) != float:
-    aval = await val
+    aval = val
     txt = 'NENI float ' + str(aval)
   else:
     aval = val
@@ -49,13 +49,13 @@ async def tF(val):
   else:
     aval = val
     txt = 'je float'
-  brint('jsem v tF ', val, txt)
+  brint('jsem v tF ', val, txt, ' aval typ', aval, type(aval))
   # hodnota aval
   val = aval
   # val = await val
-  brint('tF:', 'val', val)
+  brint('tF:', 'val', val, type(val))
   if bbProduct:
-    return await F(val)
+    return val
   else:
     return await val
 
@@ -67,8 +67,11 @@ async def bbCena_main():
   # print("F(29.9):    ", F(29.9))
   # print("F(29):      ", F(29))
   # print("F2f(0.3999):", await F2f(0.3999))
+  # tst = await tF(18.9551)
+  # print('tF(18.9551)', tst)
   tst = await tF(18.9551)
   print('tF(18.9551)', tst)
+
   print('OkDone.')
 
 # __name__

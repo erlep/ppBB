@@ -37,7 +37,7 @@ async def tmBenz(url=''):
   from bbCFG import brint, bbProduct, bbNoUrl, bbNmVR
   brint('tmBenz:', 'url', url)
   if bbProduct and (url != bbNoUrl):
-    return mBenz(url)
+    return await mBenz(url)
   else:
     return bbNmVR
 

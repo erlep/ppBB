@@ -54,7 +54,7 @@ async def tGlobu(url=''):
   from bbCFG import brint, bbProduct, bbNoUrl
   brint('tGlobu:', 'url', url)
   if bbProduct and (url != bbNoUrl):
-    return Globu(url)
+    return await Globu(url)
   else:
     return 29.9
 
