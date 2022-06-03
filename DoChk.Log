@@ -3659,18 +3659,3 @@ Total time: 10.404304265975952
 ===============================================================================
 ===============================================================================
 OkDone.
-
----03.06.2022--15:38--PC5406257--pegerle--bbDoChk.py---{~~
-
-BenzinBrno GitV0.38 - Natural 95 prices in Brno - Python Version
-Traceback (most recent call last):
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
-    bbDoChk_main()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
-    DoChk()
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
-    zmena = SaveXls(True)
-  File "C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 90, in SaveXls
-    if OldDelt > 0:
-TypeError: '>' not supported between instances of 'coroutine' and 'int'
-sys:1: RuntimeWarning: coroutine 'F2f' was never awaited
