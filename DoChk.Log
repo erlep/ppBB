@@ -55,11 +55,6 @@ EuroOil Opuštìná-Mapy   : 37.4
 ===============================================================================
 ===============================================================================
 OkDone.
-C:\peg\z1drv\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\ppBB\bbSaveXls.py:36:
-FutureWarning: Inferring datetime64[ns] from data containing strings is deprecated
-and will be removed in a future version. To retain the old behavior explicitly
-pass Series(data, dtype={value.dtype})
-  dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm)
 
 ---16.11.2021--15:10--PC5406257--pegerle--bbDoChk.py---{~~
 
@@ -2478,17 +2473,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 42.9  -2.6 Cena: 42.9 Old: 45.5 2022-04-25 15:31:22 - zmena ceny 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.6 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 42.9  -2.6 Cena: 42.9 Old: 45.5 2022-04-25 15:31:22 - zmena ceny
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.6
 
 ---25.04.2022--15:31--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2500,17 +2495,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 42.9 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.6 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 42.9
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.6
 
 ---25.04.2022--16:26--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2522,17 +2517,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 42.9 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.6 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 42.9
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.6
 
 ---26.04.2022--13:06--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2544,17 +2539,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 42.9 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.6 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 42.9
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.6
 
 ---27.04.2022--08:00--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2566,17 +2561,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 42.9 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.6 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 42.9
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.6
 
 ---27.04.2022--11:35--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2588,17 +2583,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 42.9 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.9  +0.3 Cena: 42.9 Old: 42.6 2022-04-28 08:14:46 - zmena ceny 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 42.9
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.9  +0.3 Cena: 42.9 Old: 42.6 2022-04-28 08:14:46 - zmena ceny
 
 ---28.04.2022--08:14--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2610,17 +2605,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 42.9 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.9 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 42.9
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.9
 
 ---28.04.2022--14:13--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2632,17 +2627,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 42.9 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.7  -0.2 Cena: 42.7 Old: 42.9 2022-04-29 08:02:13 - zmena ceny 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 42.9
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.7  -0.2 Cena: 42.7 Old: 42.9 2022-04-29 08:02:13 - zmena ceny
 
 ---29.04.2022--08:02--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2654,17 +2649,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
-Shell Olomoucká         : 43.9  +1.0 Cena: 43.9 Old: 42.9 2022-05-02 11:30:44 - zmena ceny 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.7 
+Globus                  : 42.5
+Makro                   : 41.5
+Shell Olomoucká         : 43.9  +1.0 Cena: 43.9 Old: 42.9 2022-05-02 11:30:44 - zmena ceny
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.7
 
 ---02.05.2022--11:31--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2676,19 +2671,19 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 41.5 
+Globus                  : 42.5
+Makro                   : 41.5
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
-Shell Olomoucká         : 43.9 
-MOL Olomoucká           : 42.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.7 
+Shell Olomoucká         : 43.9
+MOL Olomoucká           : 42.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.7
 
 ---02.05.2022--12:27--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2700,17 +2695,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 40.9 
-Tesco                   : 41.5 
+TankONO                 : 40.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 42.5  +1.0 Cena: 42.5 Old: 41.5 2022-05-03 07:52:30 - zmena ceny 
-Shell Olomoucká         : 43.9 
-MOL Olomoucká           : 43.5  +0.6 Cena: 43.5 Old: 42.9 2022-05-03 07:52:38 - zmena ceny 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.7 
+Globus                  : 42.5
+Makro                   : 42.5  +1.0 Cena: 42.5 Old: 41.5 2022-05-03 07:52:30 - zmena ceny
+Shell Olomoucká         : 43.9
+MOL Olomoucká           : 43.5  +0.6 Cena: 43.5 Old: 42.9 2022-05-03 07:52:38 - zmena ceny
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.7
 
 ---03.05.2022--07:52--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2722,17 +2717,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 41.9  +1.0 Cena: 41.9 Old: 40.9 2022-05-03 17:01:02 - zmena ceny 
-Tesco                   : 41.5 
+TankONO                 : 41.9  +1.0 Cena: 41.9 Old: 40.9 2022-05-03 17:01:02 - zmena ceny
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 42.5 
-Shell Olomoucká         : 43.9 
-MOL Olomoucká           : 43.9  +0.4 Cena: 43.9 Old: 43.5 2022-05-03 17:01:16 - zmena ceny 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.7 
+Globus                  : 42.5
+Makro                   : 42.5
+Shell Olomoucká         : 43.9
+MOL Olomoucká           : 43.9  +0.4 Cena: 43.9 Old: 43.5 2022-05-03 17:01:16 - zmena ceny
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.7
 
 ---03.05.2022--17:01--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2744,17 +2739,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 41.9 
-Tesco                   : 41.5 
+TankONO                 : 41.9
+Tesco                   : 41.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 42.9  +0.4 Cena: 42.9 Old: 42.5 2022-05-04 07:56:41 - zmena ceny 
-Shell Olomoucká         : 43.9 
-MOL Olomoucká           : 43.9 
-Benzina Albert Modøice  : 42.9 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.7 
+Globus                  : 42.5
+Makro                   : 42.9  +0.4 Cena: 42.9 Old: 42.5 2022-05-04 07:56:41 - zmena ceny
+Shell Olomoucká         : 43.9
+MOL Olomoucká           : 43.9
+Benzina Albert Modøice  : 42.9
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.7
 
 ---04.05.2022--07:56--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2766,17 +2761,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 42.9  +1.0 Cena: 42.9 Old: 41.9 2022-05-05 15:47:59 - zmena ceny 
-Tesco                   : 42.5  +1.0 Cena: 42.5 Old: 41.5 2022-05-05 15:48:06 - zmena ceny 
+TankONO                 : 42.9  +1.0 Cena: 42.9 Old: 41.9 2022-05-05 15:47:59 - zmena ceny
+Tesco                   : 42.5  +1.0 Cena: 42.5 Old: 41.5 2022-05-05 15:48:06 - zmena ceny
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 42.9 
-Shell Olomoucká         : 43.9 
-MOL Olomoucká           : 44.2  +0.3 Cena: 44.2 Old: 43.9 2022-05-05 15:48:12 - zmena ceny 
-Benzina Albert Modøice  : 43.7  +0.8 Cena: 43.7 Old: 42.9 2022-05-05 15:48:12 - zmena ceny 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.9  +0.2 Cena: 42.9 Old: 42.7 2022-05-05 15:48:17 - zmena ceny 
+Globus                  : 42.5
+Makro                   : 42.9
+Shell Olomoucká         : 43.9
+MOL Olomoucká           : 44.2  +0.3 Cena: 44.2 Old: 43.9 2022-05-05 15:48:12 - zmena ceny
+Benzina Albert Modøice  : 43.7  +0.8 Cena: 43.7 Old: 42.9 2022-05-05 15:48:12 - zmena ceny
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.9  +0.2 Cena: 42.9 Old: 42.7 2022-05-05 15:48:17 - zmena ceny
 
 ---05.05.2022--15:48--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2788,17 +2783,17 @@ OkDone.
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
 Error:  <class 'ValueError'>
-TankONO                 : 42.9 
-Tesco                   : 42.5 
+TankONO                 : 42.9
+Tesco                   : 42.5
 Error:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 43.5  +0.6 Cena: 43.5 Old: 42.9 2022-05-06 07:51:58 - zmena ceny 
-Shell Olomoucká         : 44.2  +0.3 Cena: 44.2 Old: 43.9 2022-05-06 07:52:01 - zmena ceny 
-MOL Olomoucká           : 44.2 
-Benzina Albert Modøice  : 43.7 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.9 
+Globus                  : 42.5
+Makro                   : 43.5  +0.6 Cena: 43.5 Old: 42.9 2022-05-06 07:51:58 - zmena ceny
+Shell Olomoucká         : 44.2  +0.3 Cena: 44.2 Old: 43.9 2022-05-06 07:52:01 - zmena ceny
+MOL Olomoucká           : 44.2
+Benzina Albert Modøice  : 43.7
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.9
 
 ---06.05.2022--07:52--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2809,17 +2804,17 @@ OkDone.
 ---06.05.2022--09:49--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 42.5 
+TankONO                 : 42.9
+Tesco                   : 42.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 43.5 
-Shell Olomoucká         : 44.2 
-MOL Olomoucká           : 44.2 
-Benzina Albert Modøice  : 43.9  +0.2 Cena: 43.9 Old: 43.7 2022-05-06 09:50:02 - zmena ceny 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 42.9 
+Globus                  : 42.5
+Makro                   : 43.5
+Shell Olomoucká         : 44.2
+MOL Olomoucká           : 44.2
+Benzina Albert Modøice  : 43.9  +0.2 Cena: 43.9 Old: 43.7 2022-05-06 09:50:02 - zmena ceny
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 42.9
 
 ---06.05.2022--09:50--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2830,17 +2825,17 @@ OkDone.
 ---09.05.2022--08:08--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 43.5  +1.0 Cena: 43.5 Old: 42.5 2022-05-09 08:08:48 - zmena ceny 
+TankONO                 : 42.9
+Tesco                   : 43.5  +1.0 Cena: 43.5 Old: 42.5 2022-05-09 08:08:48 - zmena ceny
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 43.5 
-Shell Olomoucká         : 44.6  +0.4 Cena: 44.6 Old: 44.2 2022-05-09 08:08:56 - zmena ceny 
-MOL Olomoucká           : 44.6  +0.4 Cena: 44.6 Old: 44.2 2022-05-09 08:09:01 - zmena ceny 
-Benzina Albert Modøice  : 43.9 
-OMV IKEA                : 44.5  +0.6 Cena: 44.5 Old: 43.9 2022-05-09 08:09:04 - zmena ceny 
-EuroOil Opuštìná        : 42.9 
+Globus                  : 42.5
+Makro                   : 43.5
+Shell Olomoucká         : 44.6  +0.4 Cena: 44.6 Old: 44.2 2022-05-09 08:08:56 - zmena ceny
+MOL Olomoucká           : 44.6  +0.4 Cena: 44.6 Old: 44.2 2022-05-09 08:09:01 - zmena ceny
+Benzina Albert Modøice  : 43.9
+OMV IKEA                : 44.5  +0.6 Cena: 44.5 Old: 43.9 2022-05-09 08:09:04 - zmena ceny
+EuroOil Opuštìná        : 42.9
 
 ---09.05.2022--08:09--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2851,17 +2846,17 @@ OkDone.
 ---10.05.2022--09:08--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 43.5 
+TankONO                 : 42.9
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 43.5 
-Shell Olomoucká         : 44.9  +0.3 Cena: 44.9 Old: 44.6 2022-05-10 09:09:05 - zmena ceny 
-MOL Olomoucká           : 44.9  +0.3 Cena: 44.9 Old: 44.6 2022-05-10 09:09:08 - zmena ceny 
-Benzina Albert Modøice  : 44.5  +0.6 Cena: 44.5 Old: 43.9 2022-05-10 09:09:11 - zmena ceny 
-OMV IKEA                : 45.5  +1.0 Cena: 45.5 Old: 44.5 2022-05-10 09:09:13 - zmena ceny 
-EuroOil Opuštìná        : 42.9 
+Globus                  : 42.5
+Makro                   : 43.5
+Shell Olomoucká         : 44.9  +0.3 Cena: 44.9 Old: 44.6 2022-05-10 09:09:05 - zmena ceny
+MOL Olomoucká           : 44.9  +0.3 Cena: 44.9 Old: 44.6 2022-05-10 09:09:08 - zmena ceny
+Benzina Albert Modøice  : 44.5  +0.6 Cena: 44.5 Old: 43.9 2022-05-10 09:09:11 - zmena ceny
+OMV IKEA                : 45.5  +1.0 Cena: 45.5 Old: 44.5 2022-05-10 09:09:13 - zmena ceny
+EuroOil Opuštìná        : 42.9
 
 ---10.05.2022--09:09--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2872,17 +2867,17 @@ OkDone.
 ---11.05.2022--08:53--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 43.5 
+TankONO                 : 42.9
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 43.9  +0.4 Cena: 43.9 Old: 43.5 2022-05-11 08:53:52 - zmena ceny 
-Shell Olomoucká         : 44.9 
-MOL Olomoucká           : 44.9 
-Benzina Albert Modøice  : 44.5 
-OMV IKEA                : 45.5 
-EuroOil Opuštìná        : 42.9 
+Globus                  : 42.5
+Makro                   : 43.9  +0.4 Cena: 43.9 Old: 43.5 2022-05-11 08:53:52 - zmena ceny
+Shell Olomoucká         : 44.9
+MOL Olomoucká           : 44.9
+Benzina Albert Modøice  : 44.5
+OMV IKEA                : 45.5
+EuroOil Opuštìná        : 42.9
 
 ---11.05.2022--08:54--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2893,17 +2888,17 @@ OkDone.
 ---11.05.2022--14:13--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 43.5 
+TankONO                 : 42.9
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 43.9 
-Shell Olomoucká         : 44.9 
-MOL Olomoucká           : 44.9 
-Benzina Albert Modøice  : 44.5 
-OMV IKEA                : 45.5 
-EuroOil Opuštìná        : 42.9 
+Globus                  : 42.5
+Makro                   : 43.9
+Shell Olomoucká         : 44.9
+MOL Olomoucká           : 44.9
+Benzina Albert Modøice  : 44.5
+OMV IKEA                : 45.5
+EuroOil Opuštìná        : 42.9
 
 ---11.05.2022--14:13--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2914,17 +2909,17 @@ OkDone.
 ---13.05.2022--08:16--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 43.5 
+TankONO                 : 42.9
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 43.9 
-Shell Olomoucká         : 44.9 
-MOL Olomoucká           : 44.9 
-Benzina Albert Modøice  : 44.5 
-OMV IKEA                : 45.5 
-EuroOil Opuštìná        : 44.4  +1.5 Cena: 44.4 Old: 42.9 2022-05-13 08:17:08 - zmena ceny 
+Globus                  : 42.5
+Makro                   : 43.9
+Shell Olomoucká         : 44.9
+MOL Olomoucká           : 44.9
+Benzina Albert Modøice  : 44.5
+OMV IKEA                : 45.5
+EuroOil Opuštìná        : 44.4  +1.5 Cena: 44.4 Old: 42.9 2022-05-13 08:17:08 - zmena ceny
 
 ---13.05.2022--08:17--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2935,19 +2930,19 @@ OkDone.
 ---16.05.2022--08:02--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 43.5 
+TankONO                 : 42.9
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 43.9 
+Globus                  : 42.5
+Makro                   : 43.9
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
-Shell Olomoucká         : 44.9 
-MOL Olomoucká           : 45.1  +0.2 Cena: 45.1 Old: 44.9 2022-05-16 08:03:18 - zmena ceny 
-Benzina Albert Modøice  : 44.7  +0.2 Cena: 44.7 Old: 44.5 2022-05-16 08:03:21 - zmena ceny 
-OMV IKEA                : 45.5 
-EuroOil Opuštìná        : 44.4 
+Shell Olomoucká         : 44.9
+MOL Olomoucká           : 45.1  +0.2 Cena: 45.1 Old: 44.9 2022-05-16 08:03:18 - zmena ceny
+Benzina Albert Modøice  : 44.7  +0.2 Cena: 44.7 Old: 44.5 2022-05-16 08:03:21 - zmena ceny
+OMV IKEA                : 45.5
+EuroOil Opuštìná        : 44.4
 
 ---16.05.2022--08:03--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2958,17 +2953,17 @@ OkDone.
 ---16.05.2022--14:56--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 43.5 
+TankONO                 : 42.9
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 44.9  +1.0 Cena: 44.9 Old: 43.9 2022-05-16 14:56:37 - zmena ceny 
-Shell Olomoucká         : 45.5  +0.6 Cena: 45.5 Old: 44.9 2022-05-16 14:56:55 - zmena ceny 
-MOL Olomoucká           : 45.9  +0.8 Cena: 45.9 Old: 45.1 2022-05-16 14:57:17 - zmena ceny 
-Benzina Albert Modøice  : 45.5  +0.8 Cena: 45.5 Old: 44.7 2022-05-16 14:57:19 - zmena ceny 
-OMV IKEA                : 45.5 
-EuroOil Opuštìná        : 44.4 
+Globus                  : 42.5
+Makro                   : 44.9  +1.0 Cena: 44.9 Old: 43.9 2022-05-16 14:56:37 - zmena ceny
+Shell Olomoucká         : 45.5  +0.6 Cena: 45.5 Old: 44.9 2022-05-16 14:56:55 - zmena ceny
+MOL Olomoucká           : 45.9  +0.8 Cena: 45.9 Old: 45.1 2022-05-16 14:57:17 - zmena ceny
+Benzina Albert Modøice  : 45.5  +0.8 Cena: 45.5 Old: 44.7 2022-05-16 14:57:19 - zmena ceny
+OMV IKEA                : 45.5
+EuroOil Opuštìná        : 44.4
 
 ---16.05.2022--14:57--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -2979,17 +2974,17 @@ OkDone.
 ---17.05.2022--07:57--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 42.9 
-Tesco                   : 43.5 
+TankONO                 : 42.9
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 44.9 
-Shell Olomoucká         : 45.9  +0.4 Cena: 45.9 Old: 45.5 2022-05-17 07:58:10 - zmena ceny 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 45.5 
-OMV IKEA                : 46.2  +0.7 Cena: 46.2 Old: 45.5 2022-05-17 07:58:17 - zmena ceny 
-EuroOil Opuštìná        : 44.4 
+Globus                  : 42.5
+Makro                   : 44.9
+Shell Olomoucká         : 45.9  +0.4 Cena: 45.9 Old: 45.5 2022-05-17 07:58:10 - zmena ceny
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 45.5
+OMV IKEA                : 46.2  +0.7 Cena: 46.2 Old: 45.5 2022-05-17 07:58:17 - zmena ceny
+EuroOil Opuštìná        : 44.4
 
 ---17.05.2022--07:58--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3000,17 +2995,17 @@ OkDone.
 ---17.05.2022--16:30--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.5  +1.6 Cena: 44.5 Old: 42.9 2022-05-17 16:30:46 - zmena ceny 
-Tesco                   : 43.5 
+TankONO                 : 44.5  +1.6 Cena: 44.5 Old: 42.9 2022-05-17 16:30:46 - zmena ceny
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 44.9 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 45.5 
-OMV IKEA                : 46.2 
-EuroOil Opuštìná        : 44.2  -0.2 Cena: 44.2 Old: 44.4 2022-05-17 16:31:09 - zmena ceny 
+Globus                  : 42.5
+Makro                   : 44.9
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 45.5
+OMV IKEA                : 46.2
+EuroOil Opuštìná        : 44.2  -0.2 Cena: 44.2 Old: 44.4 2022-05-17 16:31:09 - zmena ceny
 
 ---17.05.2022--16:31--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3021,17 +3016,17 @@ OkDone.
 ---17.05.2022--16:31--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.5 
-Tesco                   : 43.5 
+TankONO                 : 44.5
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 44.9 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 45.5 
-OMV IKEA                : 46.2 
-EuroOil Opuštìná        : 44.2 
+Globus                  : 42.5
+Makro                   : 44.9
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 45.5
+OMV IKEA                : 46.2
+EuroOil Opuštìná        : 44.2
 
 ---17.05.2022--16:31--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3042,19 +3037,19 @@ OkDone.
 ---17.05.2022--18:18--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.5 
-Tesco                   : 43.5 
+TankONO                 : 44.5
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 44.9 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 45.5 
-OMV IKEA                : 46.5  +0.3 Cena: 46.5 Old: 46.2 2022-05-17 18:18:25 - zmena ceny 
+Globus                  : 42.5
+Makro                   : 44.9
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 45.5
+OMV IKEA                : 46.5  +0.3 Cena: 46.5 Old: 46.2 2022-05-17 18:18:25 - zmena ceny
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: EuroOil Opuštìná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
-EuroOil Opuštìná        : 44.2 
+EuroOil Opuštìná        : 44.2
 
 ---17.05.2022--18:18--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3065,17 +3060,17 @@ OkDone.
 ---18.05.2022--07:59--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.36 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.5 
-Tesco                   : 43.5 
+TankONO                 : 44.5
+Tesco                   : 43.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 42.5 
-Makro                   : 45.9  +1.0 Cena: 45.9 Old: 44.9 2022-05-18 07:59:33 - zmena ceny 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 45.5 
-OMV IKEA                : 46.5 
-EuroOil Opuštìná        : 44.2 
+Globus                  : 42.5
+Makro                   : 45.9  +1.0 Cena: 45.9 Old: 44.9 2022-05-18 07:59:33 - zmena ceny
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 45.5
+OMV IKEA                : 46.5
+EuroOil Opuštìná        : 44.2
 
 ---18.05.2022--07:59--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3086,17 +3081,17 @@ OkDone.
 ---20.05.2022--13:43--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9  +0.4 Cena: 44.9 Old: 44.5 2022-05-20 13:43:56 - zmena ceny 
-Tesco                   : 45.5  +2.0 Cena: 45.5 Old: 43.5 2022-05-20 13:43:59 - zmena ceny 
+TankONO                 : 44.9  +0.4 Cena: 44.9 Old: 44.5 2022-05-20 13:43:56 - zmena ceny
+Tesco                   : 45.5  +2.0 Cena: 45.5 Old: 43.5 2022-05-20 13:43:59 - zmena ceny
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 45.0 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9  +1.0 Cena: 46.9 Old: 45.9 2022-05-20 13:44:02 - zmena ceny 
-MOL Olomoucká           : 46.9  +1.0 Cena: 46.9 Old: 45.9 2022-05-20 13:44:05 - zmena ceny 
-Benzina Albert Modøice  : 46.7  +1.2 Cena: 46.7 Old: 45.5 2022-05-20 13:44:05 - zmena ceny 
-OMV IKEA                : 47.5  +1.0 Cena: 47.5 Old: 46.5 2022-05-20 13:44:08 - zmena ceny 
-EuroOil Opuštìná        : 44.9  +0.7 Cena: 44.9 Old: 44.2 2022-05-20 13:44:10 - zmena ceny 
+Globus                  : 45.0
+Makro                   : 45.9
+Shell Olomoucká         : 46.9  +1.0 Cena: 46.9 Old: 45.9 2022-05-20 13:44:02 - zmena ceny
+MOL Olomoucká           : 46.9  +1.0 Cena: 46.9 Old: 45.9 2022-05-20 13:44:05 - zmena ceny
+Benzina Albert Modøice  : 46.7  +1.2 Cena: 46.7 Old: 45.5 2022-05-20 13:44:05 - zmena ceny
+OMV IKEA                : 47.5  +1.0 Cena: 47.5 Old: 46.5 2022-05-20 13:44:08 - zmena ceny
+EuroOil Opuštìná        : 44.9  +0.7 Cena: 44.9 Old: 44.2 2022-05-20 13:44:10 - zmena ceny
 
 ---20.05.2022--13:44--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3104,27 +3099,21 @@ Total time: 19.170312881469727
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---20.05.2022--14:36--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 45.0 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 44.9 
+Globus                  : 45.0
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 44.9
 
 ---20.05.2022--14:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3132,27 +3121,21 @@ Total time: 20.810234308242798
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---23.05.2022--08:04--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 45.0 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 44.9 
+Globus                  : 45.0
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 44.9
 
 ---23.05.2022--08:05--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3160,27 +3143,21 @@ Total time: 42.950655937194824
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---23.05.2022--14:02--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 45.0 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 44.9 
+Globus                  : 45.0
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 44.9
 
 ---23.05.2022--14:03--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3188,27 +3165,21 @@ Total time: 27.01489758491516
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---24.05.2022--07:58--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 45.0 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 44.9 
+Globus                  : 45.0
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 44.9
 
 ---24.05.2022--07:58--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3216,27 +3187,21 @@ Total time: 29.383515119552612
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---24.05.2022--12:55--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 45.0 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.2  +1.3 Cena: 46.2 Old: 44.9 2022-05-24 12:56:15 - zmena ceny 
+Globus                  : 45.0
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.2  +1.3 Cena: 46.2 Old: 44.9 2022-05-24 12:56:15 - zmena ceny
 
 ---24.05.2022--12:56--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3244,27 +3209,21 @@ Total time: 37.88780212402344
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---25.05.2022--17:36--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
 Error in bbGlobus.py:  <class 'ValueError'>
 Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html !
-Globus                  : 45.0 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.5  +0.3 Cena: 46.5 Old: 46.2 2022-05-25 17:36:42 - zmena ceny 
+Globus                  : 45.0
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.5  +0.3 Cena: 46.5 Old: 46.2 2022-05-25 17:36:42 - zmena ceny
 
 ---25.05.2022--17:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3272,25 +3231,19 @@ Total time: 35.578415870666504
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---26.05.2022--11:02--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9  +0.9 Cena: 45.9 Old: 45.0 2022-05-26 11:02:14 - zmena ceny 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9  +0.9 Cena: 45.9 Old: 45.0 2022-05-26 11:02:14 - zmena ceny
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.5
 
 ---26.05.2022--11:02--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3298,27 +3251,21 @@ Total time: 32.20927333831787
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---26.05.2022--13:16--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: EuroOil Opuštìná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
-EuroOil Opuštìná        : 46.5 
+EuroOil Opuštìná        : 46.5
 
 ---26.05.2022--13:16--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3326,25 +3273,19 @@ Total time: 30.085275888442993
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---26.05.2022--13:19--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.5
 
 ---26.05.2022--13:19--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3352,25 +3293,19 @@ Total time: 17.61697816848755
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---27.05.2022--08:36--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.5
 
 ---27.05.2022--08:37--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3378,25 +3313,19 @@ Total time: 38.25407791137695
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---27.05.2022--11:52--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 46.9 
-MOL Olomoucká           : 46.9 
-Benzina Albert Modøice  : 46.7 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 46.9
+MOL Olomoucká           : 46.9
+Benzina Albert Modøice  : 46.7
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.5
 
 ---27.05.2022--11:52--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3404,25 +3333,19 @@ Total time: 19.9450626373291
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---30.05.2022--09:23--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 47.2  +0.3 Cena: 47.2 Old: 46.9 2022-05-30 09:23:50 - zmena ceny 
-MOL Olomoucká           : 47.2  +0.3 Cena: 47.2 Old: 46.9 2022-05-30 09:23:53 - zmena ceny 
-Benzina Albert Modøice  : 47.4  +0.7 Cena: 47.4 Old: 46.7 2022-05-30 09:23:56 - zmena ceny 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.5 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 47.2  +0.3 Cena: 47.2 Old: 46.9 2022-05-30 09:23:50 - zmena ceny
+MOL Olomoucká           : 47.2  +0.3 Cena: 47.2 Old: 46.9 2022-05-30 09:23:53 - zmena ceny
+Benzina Albert Modøice  : 47.4  +0.7 Cena: 47.4 Old: 46.7 2022-05-30 09:23:56 - zmena ceny
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.5
 
 ---30.05.2022--09:24--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3430,25 +3353,19 @@ Total time: 42.00494170188904
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---31.05.2022--11:35--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.9 
-Shell Olomoucká         : 47.7  +0.5 Cena: 47.7 Old: 47.2 2022-05-31 11:36:05 - zmena ceny 
-MOL Olomoucká           : 47.7  +0.5 Cena: 47.7 Old: 47.2 2022-05-31 11:36:08 - zmena ceny 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.7  +0.2 Cena: 46.7 Old: 46.5 2022-05-31 11:36:16 - zmena ceny 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.9
+Shell Olomoucká         : 47.7  +0.5 Cena: 47.7 Old: 47.2 2022-05-31 11:36:05 - zmena ceny
+MOL Olomoucká           : 47.7  +0.5 Cena: 47.7 Old: 47.2 2022-05-31 11:36:08 - zmena ceny
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.7  +0.2 Cena: 46.7 Old: 46.5 2022-05-31 11:36:16 - zmena ceny
 
 ---31.05.2022--11:36--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3456,25 +3373,19 @@ Total time: 42.66929078102112
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---01.06.2022--08:56--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6  -0.3 Cena: 45.6 Old: 45.9 2022-06-01 08:57:09 - zmena ceny 
-Shell Olomoucká         : 45.9  -1.8 Cena: 45.9 Old: 47.7 2022-06-01 08:57:12 - zmena ceny 
-MOL Olomoucká           : 47.7 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.5 
-EuroOil Opuštìná        : 46.7 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6  -0.3 Cena: 45.6 Old: 45.9 2022-06-01 08:57:09 - zmena ceny
+Shell Olomoucká         : 45.9  -1.8 Cena: 45.9 Old: 47.7 2022-06-01 08:57:12 - zmena ceny
+MOL Olomoucká           : 47.7
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.5
+EuroOil Opuštìná        : 46.7
 
 ---01.06.2022--08:57--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3482,25 +3393,19 @@ Total time: 29.38609528541565
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---01.06.2022--10:23--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9  -1.8 Cena: 45.9 Old: 47.7 2022-06-01 10:23:37 - zmena ceny 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0  -0.5 Cena: 47.0 Old: 47.5 2022-06-01 10:23:41 - zmena ceny 
-EuroOil Opuštìná        : 46.7 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9  -1.8 Cena: 45.9 Old: 47.7 2022-06-01 10:23:37 - zmena ceny
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0  -0.5 Cena: 47.0 Old: 47.5 2022-06-01 10:23:41 - zmena ceny
+EuroOil Opuštìná        : 46.7
 
 ---01.06.2022--10:23--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3508,25 +3413,19 @@ Total time: 27.325469493865967
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---01.06.2022--13:12--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4  -1.3 Cena: 45.4 Old: 46.7 2022-06-01 13:13:29 - zmena ceny 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4  -1.3 Cena: 45.4 Old: 46.7 2022-06-01 13:13:29 - zmena ceny
 
 ---01.06.2022--13:13--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3534,25 +3433,19 @@ Total time: 36.41136026382446
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---01.06.2022--14:10--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---01.06.2022--14:11--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3560,25 +3453,19 @@ Total time: 27.878033876419067
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---01.06.2022--14:12--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---01.06.2022--14:12--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3586,25 +3473,19 @@ Total time: 21.666878700256348
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---01.06.2022--14:15--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---01.06.2022--14:16--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3612,31 +3493,25 @@ Total time: 21.017531871795654
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---02.06.2022--08:19--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
+TankONO                 : 44.9
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://bit.ly/3izRnLE !
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
 Error v bbMapy.py:  <class 'AttributeError'>
 Cena nezjistena -   Nazev: EuroOil Opuštìná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
-EuroOil Opuštìná        : 45.4 
+EuroOil Opuštìná        : 45.4
 
 ---02.06.2022--08:20--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3644,25 +3519,19 @@ Total time: 34.20889377593994
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---02.06.2022--09:08--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---02.06.2022--09:09--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3670,25 +3539,19 @@ Total time: 25.066919803619385
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---02.06.2022--13:22--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---02.06.2022--13:22--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3696,25 +3559,19 @@ Total time: 31.737746477127075
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---02.06.2022--15:56--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---02.06.2022--15:57--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3722,25 +3579,19 @@ Total time: 23.61620330810547
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---03.06.2022--07:56--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---03.06.2022--07:56--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3748,25 +3599,19 @@ Total time: 28.908183813095093
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---03.06.2022--10:41--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.37 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---03.06.2022--10:41--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3774,25 +3619,19 @@ Total time: 19.84503173828125
 ===============================================================================
 ===============================================================================
 OkDone.
-sys:1: RuntimeWarning: coroutine 'tF' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMappy' was never awaited
-sys:1: RuntimeWarning: coroutine 'tmBenz' was never awaited
-sys:1: RuntimeWarning: coroutine 'tMakro' was never awaited
-sys:1: RuntimeWarning: coroutine 'tGlobu' was never awaited
-sys:1: RuntimeWarning: coroutine 'tTankO' was never awaited
 
 ---03.06.2022--15:29--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.38 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---03.06.2022--15:29--PC5406257--pegerle--bbDoChk.py---}~~
 
@@ -3804,15 +3643,15 @@ OkDone.
 ---03.06.2022--15:30--PC5406257--pegerle--bbDoChk.py---{~~
 
 BenzinBrno GitV0.38 - Natural 95 prices in Brno - Python Version
-TankONO                 : 44.9 
-Tesco                   : 45.5 
-Globus                  : 45.9 
-Makro                   : 45.6 
-Shell Olomoucká         : 45.9 
-MOL Olomoucká           : 45.9 
-Benzina Albert Modøice  : 47.4 
-OMV IKEA                : 47.0 
-EuroOil Opuštìná        : 45.4 
+TankONO                 : 44.9
+Tesco                   : 45.5
+Globus                  : 45.9
+Makro                   : 45.6
+Shell Olomoucká         : 45.9
+MOL Olomoucká           : 45.9
+Benzina Albert Modøice  : 47.4
+OMV IKEA                : 47.0
+EuroOil Opuštìná        : 45.4
 
 ---03.06.2022--15:30--PC5406257--pegerle--bbDoChk.py---}~~
 
