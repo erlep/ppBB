@@ -4059,3 +4059,25 @@ Total time: 13.17127776145935
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---09.06.2022--09:01--PC5406257--pegerle--bbDoChk.py---{~~
+
+BenzinBrno GitV0.38 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py:  <class 'AttributeError'>
+TankONO                 : 46.5 
+Tesco                   : 46.1 
+Globus                  : 46.9 
+Makro                   : 47.2 
+Shell Olomoucká         : 46.5 
+MOL Olomoucká           : 46.5 
+Benzina Albert Modøice  : 45.6 
+OMV IKEA                : 47.5 
+Cena nezjistena -   Nazev: EuroOil Opuštìná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštìná        : 45.9 
+
+---09.06.2022--09:01--PC5406257--pegerle--bbDoChk.py---}~~
+
+Total time: 18.05396318435669
+===============================================================================
+===============================================================================
+OkDone.
