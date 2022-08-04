@@ -45,6 +45,12 @@ It's not possible to use Trio with Playwright - https://bit.ly/3sJzFua
 
 ---
 
+## made by peg - <https://GitHub.com/ErleP>
+
+## peg’s Demo Projects Portfolio - <https://erlep.github.io/Portfolio/>
+
+---
+
 Version: <mark>v4</mark> - Modified on <mark>20.05.2022 11:44</mark> - Daiki birtday!
 
 ---
