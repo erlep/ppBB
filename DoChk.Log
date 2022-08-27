@@ -4703,3 +4703,101 @@ Total time: 16.681169033050537
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---27.08.2022--14:45--peg-hp01--egp--bbDoChk.py---{~~
+
+BenzinBrno GitV0.39 - Natural 95 prices in Brno - Python Version
+Traceback (most recent call last):
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
+    bbDoChk_main()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
+    DoChk()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
+    zmena = SaveXls(True)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 63, in SaveXls
+    for i, n in enumerate(DejNoveCeny()):
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 39, in DejNoveCeny
+    Ceny = loop.run_until_complete(asyncio.gather(*tasks))
+  File "C:\Users\egp\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 20, in aEval
+    Cena = await eval(sFce)  # nazev promenne v promenne
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbCena.py", line 47, in tF
+    aval = await val
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 39, in tMappy
+    return await Mappy(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 48, in Mappy
+    Cena = await extract(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 11, in extract
+    page_source = await GetPage(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 97, in GetPage
+    return await page_content(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 65, in page_content_playwright
+    page_content = await page_get()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 51, in page_get
+    browser = await pw.chromium.launch(headless=True)  # Show the browser True / False  , slow_mo=50
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\async_api\_generated.py", line 11424, in launch
+    await self._impl_obj.launch(
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_browser_type.py", line 93, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 369, in wrap_api_call
+    return await cb()
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.Error: Executable doesn't exist at C:\Users\egp\AppData\Local\ms-playwright\chromium-1015\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+node:events:505
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at PipeTransport.send (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\protocol\transport.js:54:21)
+    at DispatcherConnection.dispatcherConnection.onmessage (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\cli\driver.js:63:57)
+    at DispatcherConnection._sendMessageToClient (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\server\dispatchers\dispatcher.js:229:10)
+    at DispatcherConnection.sendCreate (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\server\dispatchers\dispatcher.js:197:10)
+    at new Dispatcher (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at new BrowserTypeDispatcher (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\server\dispatchers\browserTypeDispatcher.js:51:5)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -4047,
+  syscall: 'write',
+  code: 'EPIPE'
+}
+node:events:505
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at PipeTransport.send (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\protocol\transport.js:54:21)
+    at DispatcherConnection.dispatcherConnection.onmessage (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\cli\driver.js:63:57)
+    at DispatcherConnection._sendMessageToClient (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\server\dispatchers\dispatcher.js:229:10)
+    at DispatcherConnection.sendCreate (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\server\dispatchers\dispatcher.js:197:10)
+    at new Dispatcher (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at new BrowserTypeDispatcher (c:\aaC\vEnv\vEnvPy\vEnv\Lib\site-packages\playwright\driver\package\lib\server\dispatchers\browserTypeDispatcher.js:51:5)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -4047,
+  syscall: 'write',
+  code: 'EPIPE'
+}
