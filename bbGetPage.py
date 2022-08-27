@@ -43,13 +43,21 @@ def page_content_selenium(url):
 async def page_content_playwright(url):
   # Use async version of Playwright
   from playwright.async_api import async_playwright
+  import json
   # page_get
 
   async def page_get():
     async with async_playwright() as pw:
-      browser = await pw.chromium.launch()
-      page = await browser.new_page()
-      await page.goto(url, timeout=0)
+      browser = await pw.chromium.launch(headless=True)  # Show the browser True / False  , slow_mo=50
+      # context https://bit.ly/3PBmrZ7
+      context = await browser.new_context(user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36')
+      page = await context.new_page()
+      # cookie file
+      cookie_file = open('bbMakro.cookies.json')
+      cookies = json.load(cookie_file)
+      await context.add_cookies(cookies)
+      # get page
+      await page.goto(url, timeout=30000)  # Wait for 10 second
       page_content = await page.content()
       await browser.close()
       return page_content

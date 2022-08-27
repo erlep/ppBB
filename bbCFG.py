@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.38
+bbNmVR = 0.39
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -31,7 +31,7 @@ bbDateLog = "%d.%m.%Y--%H:%M"  # format casu
 # Formatovani Ceny (float) - Cena = '{:.2f}'.format(item)
 bbCenaMsk = '{:.2f}'  # format na 2 desetinna mista
 # Graf
-bbCenaMin = 39  # mdolni mez ceny na ose X v grafu
+bbCenaMin = 36  # mdolni mez ceny na ose X v grafu
 
 # brint - my print, pomoci *ssAll
 def brint(*ssAll):

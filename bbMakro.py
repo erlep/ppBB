@@ -1,37 +1,36 @@
 ﻿# Benzín Brno - Makro - "Natural 95" - bbMakro.py
 # https://www.makro.cz/prodejny/brno
+import asyncio
 
 # extract - stahne stranku
-def extract(url, Key):
-  # requests - nacte stranku
-  # url = r'http://www.tank-ono.cz/cz/index.php?page=cenik'
-  import requests
-  import pandas as pd
-  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'}
-  r = requests.get(url, headers)
-
-  # pd najde tabulky
-  table = pd.read_html(r.content, attrs={"class": "table gas-table"})
-  # print(f'Total tables: {len(table)}')
-
-  # tabulek je 2, zajima me c. 1
-  df = table[0]
-  # df.info()
-  # df.head()
-
-  # How to get a value from a Pandas DataFrame and not the index and object type - https://bit.ly/3BhmuDc
-  item = df[Key].values[0]
-  # '34,50 KÄ\x8d/l'  => 34.50
-  item = item.split(' ')[0]  # jen to pred mezerou
-  item = item.replace(",", ".")
-  # item
+async def extract(url=''):
+  from bbGetPage import GetPage
+  from bs4 import BeautifulSoup
+  import sys
+  import lxml.html
+  import re
+  page_source = await GetPage(url)
+  # print('page_source', page_source, type(page_source))
+  # Parse processed webpage with BeautifulSoup
+  soup = BeautifulSoup(page_source, features="lxml")
+  # Zkusim ziskat cenu - https://bit.ly/3K89bdu
+  # item = soup.find("div", {"class": "price slide element-position"})
+  # item = soup.find_all("div", {"class": "price slide element-position"})
+  try:
+    item = soup.select('#content > div > div:nth-child(4) > div > div > div.component.generic-component.component-position.fuel-prices.carousel-light.interactive.activated > div > div.prices.slides > div:nth-child(2) > div.field-price')
+  except:  # catch *all* exceptions # pylint: disable=bare-except
+    e = sys.exc_info()[0]
+    print("Error v bbMakro.py: ", e)
+    item = '0'
+  #  [<div class="field-price">38,90</div>] <   => 38.90
+  # prevedu na string
+  # print('item', item, type(item))
+  item = str(item)
+  item = re.search(r"\>\d.+\<", item).group()
+  item = item.replace(">", "").replace("<", "").replace(",", ".")
   item = float(item)
-  # print("item:", item, '|| type:', type(item))
-  # Cena
-  # Cena = bbCenaMsk.format(item)
+  # print('item', item, type(item))
   Cena = item
-  # print("Cena:", Cena, '|| type:', type(Cena))
-  # print('Cena paliva -', Key, '- je:', Cena )
   return Cena
 
 # test function
@@ -47,15 +46,17 @@ async def tMakro(url=''):
 async def Makro(url=''):
   url = r'https://www.makro.cz/prodejny/brno'
   Key = 'Natural 95'
-  Cena = extract(url, Key)
+  # Cena = await extract(url, Key)
+  Cena = await extract(url)
   # print('Cena paliva -', Key, '- je:', Cena)
   return Cena
 
 # main
-def bbMakro_main():
-  print('def Makro(): ', Makro())
+async def bbMakro_main():
+  print('def Makro(): ', await Makro())
   print('OkDone.')
 
 # __name__
 if __name__ == '__main__':
-  bbMakro_main()
+  # bbMakro_main()
+  asyncio.run(bbMakro_main())

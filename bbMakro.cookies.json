@@ -1,0 +1,20 @@
+[
+  {
+    "name": "_sid",
+    "value": "xuqfbe15fgsn1gumhwxknbwc",
+    "domain": "www.makro.cz",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "allowedCookieCategories",
+    "value": "necessary",
+    "domain": ".makro.cz",
+    "path": "/",
+    "expires": 1692639165,
+    "httpOnly": false,
+    "secure": true
+  }
+]
