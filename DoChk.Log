@@ -4707,15 +4707,15 @@ OkDone.
 ---27.08.2022--15:00--peg-hp01--egp--bbDoChk.py---{~~
 
 BenzinBrno GitV0.39 - Natural 95 prices in Brno - Python Version
-TankONO                 : 37.9  -8.0 Cena: 37.9 Old: 45.9 2022-08-27 15:00:55 - zmena ceny 
-Tesco                   : 38.9  -8.0 Cena: 38.9 Old: 46.9 2022-08-27 15:00:55 - zmena ceny 
-Globus                  : 39.9  -7.3 Cena: 39.9 Old: 47.2 2022-08-27 15:00:55 - zmena ceny 
-Makro                   : 38.9  -9.0 Cena: 38.9 Old: 47.9 2022-08-27 15:00:55 - zmena ceny 
-Shell Olomoucká         : 41.9  -6.6 Cena: 41.9 Old: 48.5 2022-08-27 15:00:55 - zmena ceny 
-MOL Olomoucká           : 41.9  -6.6 Cena: 41.9 Old: 48.5 2022-08-27 15:00:55 - zmena ceny 
-Benzina Albert Modøice  : 41.4  -6.5 Cena: 41.4 Old: 47.9 2022-08-27 15:00:55 - zmena ceny 
-OMV IKEA                : 43.9  -4.6 Cena: 43.9 Old: 48.5 2022-08-27 15:00:55 - zmena ceny 
-EuroOil Opuštìná        : 40.9  -7.0 Cena: 40.9 Old: 47.9 2022-08-27 15:00:55 - zmena ceny 
+TankONO                 : 37.9  -8.0 Cena: 37.9 Old: 45.9 2022-08-27 15:00:55 - zmena ceny
+Tesco                   : 38.9  -8.0 Cena: 38.9 Old: 46.9 2022-08-27 15:00:55 - zmena ceny
+Globus                  : 39.9  -7.3 Cena: 39.9 Old: 47.2 2022-08-27 15:00:55 - zmena ceny
+Makro                   : 38.9  -9.0 Cena: 38.9 Old: 47.9 2022-08-27 15:00:55 - zmena ceny
+Shell Olomoucká         : 41.9  -6.6 Cena: 41.9 Old: 48.5 2022-08-27 15:00:55 - zmena ceny
+MOL Olomoucká           : 41.9  -6.6 Cena: 41.9 Old: 48.5 2022-08-27 15:00:55 - zmena ceny
+Benzina Albert Modøice  : 41.4  -6.5 Cena: 41.4 Old: 47.9 2022-08-27 15:00:55 - zmena ceny
+OMV IKEA                : 43.9  -4.6 Cena: 43.9 Old: 48.5 2022-08-27 15:00:55 - zmena ceny
+EuroOil Opuštìná        : 40.9  -7.0 Cena: 40.9 Old: 47.9 2022-08-27 15:00:55 - zmena ceny
 
 ---27.08.2022--15:01--peg-hp01--egp--bbDoChk.py---}~~
 
@@ -4727,15 +4727,15 @@ OkDone.
 ---01.09.2022--18:16--peg-hp01--egp--bbDoChk.py---{~~
 
 BenzinBrno GitV0.39 - Natural 95 prices in Brno - Python Version
-TankONO                 : 37.9 
-Tesco                   : 39.9  +1.0 Cena: 39.9 Old: 38.9 2022-09-01 18:17:05 - zmena ceny 
-Globus                  : 39.9 
-Makro                   : 39.9  +1.0 Cena: 39.9 Old: 38.9 2022-09-01 18:17:05 - zmena ceny 
-Shell Olomoucká         : 41.9 
-MOL Olomoucká           : 41.9 
-Benzina Albert Modøice  : 41.4 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 40.9 
+TankONO                 : 37.9
+Tesco                   : 39.9  +1.0 Cena: 39.9 Old: 38.9 2022-09-01 18:17:05 - zmena ceny
+Globus                  : 39.9
+Makro                   : 39.9  +1.0 Cena: 39.9 Old: 38.9 2022-09-01 18:17:05 - zmena ceny
+Shell Olomoucká         : 41.9
+MOL Olomoucká           : 41.9
+Benzina Albert Modøice  : 41.4
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 40.9
 
 ---01.09.2022--18:17--peg-hp01--egp--bbDoChk.py---}~~
 
@@ -4747,15 +4747,15 @@ OkDone.
 ---02.09.2022--17:59--peg-hp01--egp--bbDoChk.py---{~~
 
 BenzinBrno GitV0.39 - Natural 95 prices in Brno - Python Version
-TankONO                 : 37.9 
-Tesco                   : 39.9 
-Globus                  : 39.9 
-Makro                   : 39.9 
-Shell Olomoucká         : 41.9 
-MOL Olomoucká           : 41.9 
-Benzina Albert Modøice  : 41.4 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 40.9 
+TankONO                 : 37.9
+Tesco                   : 39.9
+Globus                  : 39.9
+Makro                   : 39.9
+Shell Olomoucká         : 41.9
+MOL Olomoucká           : 41.9
+Benzina Albert Modøice  : 41.4
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 40.9
 
 ---02.09.2022--18:00--peg-hp01--egp--bbDoChk.py---}~~
 
@@ -4764,67 +4764,18 @@ Total time: 74.52367782592773
 ===============================================================================
 OkDone.
 
----04.09.2022--09:37--peg-hp01--egp--bbDoChk.py---{~~
-
-BenzinBrno GitV0.39 - Natural 95 prices in Brno - Python Version
-Traceback (most recent call last):
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
-    bbDoChk_main()
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
-    DoChk()
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
-    zmena = SaveXls(True)
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 63, in SaveXls
-    for i, n in enumerate(DejNoveCeny()):
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 39, in DejNoveCeny
-    Ceny = loop.run_until_complete(asyncio.gather(*tasks))
-  File "C:\Users\egp\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 642, in run_until_complete
-    return future.result()
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 20, in aEval
-    Cena = await eval(sFce)  # nazev promenne v promenne
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbCena.py", line 47, in tF
-    aval = await val
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 39, in tMappy
-    return await Mappy(url)
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 48, in Mappy
-    Cena = await extract(url)
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 11, in extract
-    page_source = await GetPage(url)
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 97, in GetPage
-    return await page_content(url)
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 65, in page_content_playwright
-    page_content = await page_get()
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 60, in page_get
-    await page.goto(url, timeout=30000)  # Wait for 10 second
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\async_api\_generated.py", line 7413, in goto
-    await self._impl_obj.goto(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_page.py", line 496, in goto
-    return await self._main_frame.goto(**locals_to_params(locals()))
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_frame.py", line 136, in goto
-    await self._channel.send("goto", locals_to_params(locals()))
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 43, in send
-    return await self._connection.wrap_api_call(
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 387, in wrap_api_call
-    return await cb()
-  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 78, in inner_send
-    result = next(iter(done)).result()
-playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
-=========================== logs ===========================
-navigating to "https://mapy.cz/s/jatejehoda", waiting until "load"
-============================================================
-
 ---04.09.2022--10:12--peg-hp01--egp--bbDoChk.py---{~~
 
 BenzinBrno GitV0.39 - Natural 95 prices in Brno - Python Version
-TankONO                 : 37.9 
-Tesco                   : 39.9 
-Globus                  : 39.9 
-Makro                   : 39.9 
-Shell Olomoucká         : 41.9 
-MOL Olomoucká           : 41.9 
-Benzina Albert Modøice  : 41.4 
-OMV IKEA                : 43.9 
-EuroOil Opuštìná        : 40.9 
+TankONO                 : 37.9
+Tesco                   : 39.9
+Globus                  : 39.9
+Makro                   : 39.9
+Shell Olomoucká         : 41.9
+MOL Olomoucká           : 41.9
+Benzina Albert Modøice  : 41.4
+OMV IKEA                : 43.9
+EuroOil Opuštìná        : 40.9
 
 ---04.09.2022--10:13--peg-hp01--egp--bbDoChk.py---}~~
 

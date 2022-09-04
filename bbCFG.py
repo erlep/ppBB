@@ -24,6 +24,7 @@ bbNoBBprn = True  # True / False  - ladeni tj. vypisovani dodatecnych informaci 
 bbCenaNoF = True  # True / False  - NEformatovat cenu real na string: # 34.4  => 34,40 Kč
 # Renderer
 bbRender = 'playwright'  # selenium | playwright | requests_html
+bbTimeGet = 30000  # timeout [miliseconds]
 # import time - strftime - https://bit.ly/3Edt2np
 bbDateMsk = "%Y-%m-%d %H:%M:%S"  # format casu - time.strftime("%Y/%m/%e %H:%M:%S") "%Y/%m/%d %H:%M"
 bbDateDMY = "%d.%m.%Y %H:%M"  # format casu

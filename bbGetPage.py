@@ -44,6 +44,8 @@ async def page_content_playwright(url):
   # Use async version of Playwright
   from playwright.async_api import async_playwright
   import json
+  from bbCFG import bbTimeGet
+
   # page_get
 
   async def page_get():
@@ -57,7 +59,7 @@ async def page_content_playwright(url):
       cookies = json.load(cookie_file)
       await context.add_cookies(cookies)
       # get page
-      await page.goto(url, timeout=30000)  # Wait for 10 second
+      await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
       page_content = await page.content()
       await browser.close()
       return page_content
