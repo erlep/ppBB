@@ -4812,3 +4812,23 @@ playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
 navigating to "https://mapy.cz/s/jatejehoda", waiting until "load"
 ============================================================
+
+---04.09.2022--10:12--peg-hp01--egp--bbDoChk.py---{~~
+
+BenzinBrno GitV0.39 - Natural 95 prices in Brno - Python Version
+TankONO                 : 37.9 
+Tesco                   : 39.9 
+Globus                  : 39.9 
+Makro                   : 39.9 
+Shell Olomoucká         : 41.9 
+MOL Olomoucká           : 41.9 
+Benzina Albert Modøice  : 41.4 
+OMV IKEA                : 43.9 
+EuroOil Opuštìná        : 40.9 
+
+---04.09.2022--10:13--peg-hp01--egp--bbDoChk.py---}~~
+
+Total time: 63.92052507400513
+===============================================================================
+===============================================================================
+OkDone.
