@@ -5011,3 +5011,35 @@ Traceback (most recent call last):
   File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMakro.py", line 29, in extract
     item = re.search(r"\>\d.+\<", item).group()
 AttributeError: 'NoneType' object has no attribute 'group'
+
+---24.09.2022--11:59--peg-hp01--egp--bbDoChk.py---{~~
+
+BenzinBrno GitV0.39 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py:  <class 'AttributeError'>
+Error v bbMapy.py:  <class 'AttributeError'>
+Error v bbMapy.py:  <class 'AttributeError'>
+Error v bbMapy.py:  <class 'AttributeError'>
+Traceback (most recent call last):
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
+    bbDoChk_main()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
+    DoChk()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
+    zmena = SaveXls(True)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 63, in SaveXls
+    for i, n in enumerate(DejNoveCeny()):
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 39, in DejNoveCeny
+    Ceny = loop.run_until_complete(asyncio.gather(*tasks))
+  File "C:\Users\egp\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 20, in aEval
+    Cena = await eval(sFce)  # nazev promenne v promenne
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbCena.py", line 47, in tF
+    aval = await val
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMakro.py", line 41, in tMakro
+    return await Makro(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMakro.py", line 50, in Makro
+    Cena = await extract(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMakro.py", line 29, in extract
+    item = re.search(r"\>\d.+\<", item).group()
+AttributeError: 'NoneType' object has no attribute 'group'
