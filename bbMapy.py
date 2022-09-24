@@ -9,10 +9,13 @@ async def extract(url=''):
   from bs4 import BeautifulSoup
   import sys
   page_source = await GetPage(url)
+  print('page_source', page_source, type(page_source))
+
   # Parse processed webpage with BeautifulSoup
   soup = BeautifulSoup(page_source, features="lxml")
   # Zkusim ziskat cenu
   try:
+    # <span itemprop="price" content="36.50">36,50 Kč</span>
     item = soup.find(itemprop="price").get_text()
   except:  # catch *all* exceptions # pylint: disable=bare-except
     e = sys.exc_info()[0]
@@ -51,10 +54,10 @@ async def Mappy(url):
 
 # main
 async def bbMapy_main():
-  url = r'https://bit.ly/3izRnLE'
-  # print("def Mapy(r'https://bit.ly/3izRnLE'): ", Mappy(url))
+  url = r'https://mapy.cz/s/megolelafe'
+  # print("def Mapy(r'https://mapy.cz/s/megolelafe'): ", Mappy(url))
   tst = await Mappy(url)
-  print("def Mapy(r'https://bit.ly/3izRnLE'): ", tst)
+  print("def Mapy(r'https://mapy.cz/s/megolelafe'): ", tst)
   print('OkDone.')
 
 # __name__

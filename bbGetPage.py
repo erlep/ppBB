@@ -46,18 +46,23 @@ async def page_content_playwright(url):
   import json
   from bbCFG import bbTimeGet
 
-  # page_get
+  # print('url', url)
 
+  # page_get
   async def page_get():
     async with async_playwright() as pw:
       browser = await pw.chromium.launch(headless=True)  # Show the browser True / False  , slow_mo=50
       # context https://bit.ly/3PBmrZ7
-      context = await browser.new_context(user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36')
+      # context = await browser.new_context(user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36')
+      context = await browser.new_context(user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36')
       page = await context.new_page()
-      # cookie file
-      cookie_file = open('bbMakro.cookies.json')
-      cookies = json.load(cookie_file)
-      await context.add_cookies(cookies)
+      # cookie file only for Makro - uz zase neni potreba
+      # if 'makro' in url:
+      #   # cookie file
+      #   cookie_file = open('bbMakro.cookies.json')
+      #   cookies = json.load(cookie_file)
+      #   await context.add_cookies(cookies)
+
       # get page
       await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
       page_content = await page.content()

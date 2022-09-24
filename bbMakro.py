@@ -12,24 +12,30 @@ async def extract(url=''):
   page_source = await GetPage(url)
   # print('page_source', page_source, type(page_source))
   # Parse processed webpage with BeautifulSoup
-  soup = BeautifulSoup(page_source, features="lxml")
+  # soup = BeautifulSoup(page_source, features="lxml")
   # Zkusim ziskat cenu - https://bit.ly/3K89bdu
   # item = soup.find("div", {"class": "price slide element-position"})
-  # item = soup.find_all("div", {"class": "price slide element-position"})
-  try:
-    item = soup.select('#content > div > div:nth-child(4) > div > div > div.component.generic-component.component-position.fuel-prices.carousel-light.interactive.activated > div > div.prices.slides > div:nth-child(2) > div.field-price')
-  except:  # catch *all* exceptions # pylint: disable=bare-except
-    e = sys.exc_info()[0]
-    print("Error v bbMakro.py: ", e)
-    item = '0'
+  # try:
+  #   item = soup.select('#content > div > div:nth-child(4) > div > div > div.component.generic-component.component-position.fuel-prices.carousel-light.interactive.activated > div > div.prices.slides > div:nth-child(2) > div.field-price')
+  # except:  # catch *all* exceptions # pylint: disable=bare-except
+  #   e = sys.exc_info()[0]
+  #   print("Error v bbMakro.py: ", e)
+  #   item = '0'
   #  [<div class="field-price">38,90</div>] <   => 38.90
-  # prevedu na string
+
+  # if (item is None) or (not item):
+  #   print("Cena nenalezena v bbMakro.py. Treba novy soubor cookies.")
+  #   return 0
+
+  # Parsuj cenu pomoci RegEx
+  item = str(page_source)
+  item = re.search(r"Natural\s95.+?element-position", item).group()
   # print('item', item, type(item))
+  # prevedu na string
   item = str(item)
-  item = re.search(r"\>\d.+\<", item).group()
+  item = re.search(r"\>\d.+?\<", item).group()
   item = item.replace(">", "").replace("<", "").replace(",", ".")
   item = float(item)
-  # print('item', item, type(item))
   Cena = item
   return Cena
 
