@@ -9,7 +9,7 @@ async def extract(url=''):
   from bs4 import BeautifulSoup
   import sys
   page_source = await GetPage(url)
-  print('page_source', page_source, type(page_source))
+  # print('page_source', page_source, type(page_source))
 
   # Parse processed webpage with BeautifulSoup
   soup = BeautifulSoup(page_source, features="lxml")
