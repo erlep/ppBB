@@ -1,0 +1,165 @@
+{
+  "cookies": [
+    {
+      "name": "User-Id",
+      "value": "167ac5d8d5f881e1",
+      "domain": ".mapy.cz",
+      "path": "/",
+      "expires": 1696268307.00808,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lps",
+      "value": "eyJfZnJlc2giOmZhbHNlLCJfcGVybWFuZW50Ijp0cnVlfQ.YznMlw.58FtCPMWxMbkrqgcr44G4VBsKBk",
+      "domain": ".mapy.cz",
+      "path": "/",
+      "expires": 1667410710.130114,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "euconsent-v2",
+      "value": "CPgOE0APgOE0AD3ACBCSCjCsAP_AAEPAAATIIDoBhCokBSFCAGpYIIMAAAAHxxAAYCACABAAgAABABIAIAQAAAAQAAQgBAAAABQAIAIAAAAACEAAAAAAAAAAAQAAAAAAAAAAIQAAAAAAAiBAAAAAAABAAAAAAABAQAAAgAAAAAIAQAAAAAEAgAAAAAAAAAAAAAAAAQgAAAAAAAAAAAganAlAAWABUAC4AGQAQAAyABoADmAIgAigBMACeAFUAMQAfgBCQCIAIkARwAnABSgCxAGWAM0AdwA_QCEAEWALQAXUAwIBrAD5AJtAWoAvMBkgDSgGpgAA.YAAAAAAAAAAA",
+      "domain": ".mapy.cz",
+      "path": "/",
+      "expires": 1698946714,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "szncmpone",
+      "value": "1",
+      "domain": ".mapy.cz",
+      "path": "/",
+      "expires": 1696268314,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "szncmpone",
+      "value": "1",
+      "domain": "h.seznam.cz",
+      "path": "/",
+      "expires": 1696268314,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gfp_64b",
+      "value": "8NzHkzGeYznfRjVAh8b6KH.mGNeQvexBDKqE1MeR3hH.C7|1664732315",
+      "domain": ".mapy.cz",
+      "path": "/",
+      "expires": 1698860314,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Gdyn",
+      "value": "Klxk-MXGQMQGMmpM3qVMrXEissGMXP8c25nSGDTmFM4WFRxSG7RrGS6Gk9sBFlMXYH8Po1WrGQaPE1lcHFSG",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1698860314.650608,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gfps_64b",
+      "value": "i88c3OtqtowngaSuT5bXAbIku7ugTL_uymBpjDbsufD.77|1664732315",
+      "domain": ".labuznik.cz",
+      "path": "/",
+      "expires": 1698860314,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gsyncs",
+      "value": "1:YTM6MDowOjA_",
+      "domain": ".labuznik.cz",
+      "path": "/",
+      "expires": 1665337114,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gsync_gdpr",
+      "value": "1:YTU6bjpuOjE2NjQ3MzIzMTQ1MjQ6bjpu",
+      "domain": ".mapy.cz",
+      "path": "/",
+      "expires": 1699292314.831223,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__gsync",
+      "value": "1:YTU6MToxNjY0NzMyMzE0ODUyOjE6MTY2NDczMjMxNDg1MjphMTphMjoxMTc6MA__",
+      "domain": ".mapy.cz",
+      "path": "/",
+      "expires": 1665337114,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sid",
+      "value": "id=18365292147996908704|t=1664732308.236|te=1664732349.367|c=D8A8DD5F1F2C8C18482B91945A7CAC95",
+      "domain": ".seznam.cz",
+      "path": "/",
+      "expires": 1667327948.42029,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://mapy.cz",
+      "localStorage": [
+        {
+          "name": "dot_lastSession",
+          "value": "1664732310347"
+        },
+        {
+          "name": "szn:idnts:cch",
+          "value": "ewAiAHMAaQBkACIAOgB7ACIAdgBhAGwAdQBlACIAOgAiAGkAZAA9ADEAOAAzADYANQAyADkAMgAxADQANwA5ADkANgA5ADAAOAA3ADAANAB8AHQAPQAxADYANgA0ADcAMwAyADMAMAA4AC4AMgAzADYAfAB0AGUAPQAxADYANgA0ADcAMwAyADMAMAA4AC4AMgAzADYAfABjAD0ARAA2ADIAQwAwAEYANQA4ADIARABCADAAQgBCADUAMQA2ADYAMQAyAEUANgA4ADMAQwBDADMAOAA1ADMANgBEACIALAAiAGMAcgBlAGEAdABlAGQAIgA6ADEANgA2ADQANwAzADIAMwAwADcANAA1ADUALAAiAHUAcABkAGEAdABlAGQAIgA6ADEANgA2ADQANwAzADIAMwAwADcANAA1ADUALAAiAHMAdABhAHQAZQAiADoAIgBmAHIAZQBzAGgAIgAsACIAcwBlAHQAdABsAGUAZAAiADoAdAByAHUAZQB9ACwAIgBsAG8AZwBpAG4AIgA6AHsAIgB2AGEAbAB1AGUAIgA6AHsAIgBzAHQAYQB0AGUAIgA6ACIAZgBvAHIAZwBlAHQAIgAsACIAbwB0AGgAZQByAHMAIgA6AFsAXQAsACIAdQBpAGQAIgA6ACIAIgB9ACwAIgBjAHIAZQBhAHQAZQBkACIAOgAxADYANgA0ADcAMwAyADMAMAA3ADQANwA3ACwAIgB1AHAAZABhAHQAZQBkACIAOgAxADYANgA0ADcAMwAyADMAMAA5ADMANgA4ACwAIgBzAHQAYQB0AGUAIgA6ACIAZgByAGUAcwBoACIALAAiAHMAZQB0AHQAbABlAGQAIgA6AHQAcgB1AGUAfQAsACIAYwBvAG4AcwBlAG4AdAAiADoAewAiAHYAYQBsAHUAZQAiADoAewAiAHYAZQByAHMAaQBvAG4AIgA6ACIAdgAyACIALAAiAGMAbwBuAHMAZQBuAHQAUwB0AHIAaQBuAGcAIgA6ACIAQwBQAGcATwBFADAAQQBQAGcATwBFADAAQQBEADMAQQBDAEIAQwBTAEMAagBDAHMAQQBQAF8AQQBBAEUAUABBAEEAQQBUAEkASQBEAG8AQgBoAEMAbwBrAEIAUwBGAEMAQQBHAHAAWQBJAEkATQBBAEEAQQBBAEgAeAB4AEEAQQBZAEMAQQBDAEEAQgBBAEEAZwBBAEEAQgBBAEIASQBBAEkAQQBRAEEAQQBBAEEAUQBBAEEAUQBnAEIAQQBBAEEAQQBCAFEAQQBJAEEASQBBAEEAQQBBAEEAQwBFAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBRAEEAQQBBAEEAQQBBAEEAQQBBAEEASQBRAEEAQQBBAEEAQQBBAEEAaQBCAEEAQQBBAEEAQQBBAEEAQgBBAEEAQQBBAEEAQQBBAEIAQQBRAEEAQQBBAGcAQQBBAEEAQQBBAEkAQQBRAEEAQQBBAEEAQQBFAEEAZwBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAFEAZwBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAZwBhAG4AQQBsAEEAQQBXAEEAQgBVAEEAQwA0AEEARwBRAEEAUQBBAEEAeQBBAEIAbwBBAEQAbQBBAEkAZwBBAGkAZwBCAE0AQQBDAGUAQQBGAFUAQQBNAFEAQQBmAGcAQgBDAFEAQwBJAEEASQBrAEEAUgB3AEEAbgBBAEIAUwBnAEMAeABBAEcAVwBBAE0AMABBAGQAdwBBAF8AUQBDAEUAQQBFAFcAQQBMAFEAQQBYAFUAQQB3AEkAQgByAEEARAA1AEEASgB0AEEAVwBvAEEAdgBNAEIAawBnAEQAUwBnAEcAcABnAEEAQQAuAFkAQQBBAEEAQQBBAEEAQQBBAEEAQQBBACIALAAiAG4AYQBtAGUAIgA6ACIAZQB1AGMAbwBuAHMAZQBuAHQALQB2ADIAIgAsACIAcAB1AHIAcABvAHMAZQBPAG4AZQAiADoAdAByAHUAZQB9ACwAIgBjAHIAZQBhAHQAZQBkACIAOgAxADYANgA0ADcAMwAyADMAMQA0ADAAOQA5ACwAIgB1AHAAZABhAHQAZQBkACIAOgAxADYANgA0ADcAMwAyADMAMQA0ADQANQA5ACwAIgBzAHQAYQB0AGUAIgA6ACIAZgByAGUAcwBoACIALAAiAHMAZQB0AHQAbABlAGQAIgA6AHQAcgB1AGUAfQB9AA=="
+        },
+        {
+          "name": "test",
+          "value": "value"
+        }
+      ]
+    },
+    {
+      "origin": "https://h.seznam.cz",
+      "localStorage": [
+        {
+          "name": "szncmpone",
+          "value": "1"
+        },
+        {
+          "name": "allCMPCookie-v2",
+          "value": "CPgOE0APgOE0AD3ACBCSCjCsAP_AAEPAAATIIDoBhCokBSFCAGpYIIMAAAAHxxAAYCACABAAgAABABIAIAQAAAAQAAQgBAAAABQAIAIAAAAACEAAAAAAAAAAAQAAAAAAAAAAIQAAAAAAAiBAAAAAAABAAAAAAABAQAAAgAAAAAIAQAAAAAEAgAAAAAAAAAAAAAAAAQgAAAAAAAAAAAganAlAAWABUAC4AGQAQAAyABoADmAIgAigBMACeAFUAMQAfgBCQCIAIkARwAnABSgCxAGWAM0AdwA_QCEAEWALQAXUAwIBrAD5AJtAWoAvMBkgDSgGpgAA.YAAAAAAAAAAA"
+        }
+      ]
+    },
+    {
+      "origin": "https://ls.hit.gemius.pl",
+      "localStorage": [
+        {
+          "name": "gstorage",
+          "value": "IXNszDjSgEn0L3eV6Sw8DKJKOsO1d4HOpxJpkVgWmjP.N7/1664732314470/"
+        }
+      ]
+    }
+  ]
+}

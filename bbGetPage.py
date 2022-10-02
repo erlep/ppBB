@@ -77,13 +77,18 @@ async def page_content_playwright(url):
 
       if 'mapy' in url:
         browser = await pw.chromium.launch(headless=True)  # Don't Show the browser True / False  , slow_mo=50
-        context = await browser.new_context()
+        # context = await browser.new_context()
+        context = await browser.new_context(
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+            storage_state='bbMapy.cookies.json'
+        )
         # Open new page
         page = await context.new_page()
         # await context.storage_state(path='bbMapy.cookies.json')
         await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
         # await page.locator("text=Benzín").click()
         # Click td:has-text("Benzín")
+
         try:
           await page.locator("td:has-text(\"Benzín\")").click()
         except:  # catch *all* exceptions # pylint: disable=bare-except
