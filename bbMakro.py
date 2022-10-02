@@ -29,12 +29,18 @@ async def extract(url=''):
 
   # Parsuj cenu pomoci RegEx
   item = str(page_source)
-  item = re.search(r"Natural\s95.+?element-position", item).group()
+  try:
+    item = re.search(r"Natural\s95.+?element-position", item).group()
+    # prevedu na string
+    item = str(item)
+    item = re.search(r"\>\d.+?\<", item).group()
+    item = item.replace(">", "").replace("<", "").replace(",", ".")
+  except:  # catch *all* exceptions # pylint: disable=bare-except
+    e = sys.exc_info()[0]
+    print("Error v bbMakro.py: ", e)
+    item = '0'
+  # Cena
   # print('item', item, type(item))
-  # prevedu na string
-  item = str(item)
-  item = re.search(r"\>\d.+?\<", item).group()
-  item = item.replace(">", "").replace("<", "").replace(",", ".")
   item = float(item)
   Cena = item
   return Cena
@@ -66,3 +72,6 @@ async def bbMakro_main():
 if __name__ == '__main__':
   # bbMakro_main()
   asyncio.run(bbMakro_main())
+
+# playwright open  https://mapy.cz/s/megolelafe
+# playwright codegen   --save-storage c:\aac\f1.txt  https://www.makro.cz/prodejny/brno

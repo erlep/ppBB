@@ -1,18 +1,19 @@
-from playwright.async_api import async_playwright
 import asyncio
-
-async def main():
-  async with async_playwright() as pw:
-    browser = await pw.chromium.launch(
-        headless=False  # Show the browser
-    )
-    page = await browser.new_page()
-    await page.goto('https://www.makro.cz/prodejny/brno')
-    # Data Extraction Code Here
-    await page.wait_for_timeout(10000)  # Wait for 1 second
-    page_content = await page.content()
-    print(page_content)
-    await browser.close()
-
-if __name__ == '__main__':
-  asyncio.run(main())
+from playwright.async_api import Playwright, async_playwright, expect
+async def run(playwright: Playwright) -> None:
+  browser = await playwright.chromium.launch(headless=False)
+  context = await browser.new_context()
+  # Open new page
+  page = await context.new_page()
+  # Go to https://mapy.cz/zakladni?id=454777&source=firm&x=16.6152384&y=49.1856277&z=17
+  await page.goto("https://mapy.cz/zakladni?id=454777&source=firm&x=16.6152384&y=49.1856277&z=17")
+  # Click td:has-text("Benzín")
+  await page.locator("td:has-text(\"Benzín\")").click()
+  # ---------------------
+  await context.storage_state(path="c:\\aac\\f1.txt")
+  await context.close()
+  await browser.close()
+async def main() -> None:
+  async with async_playwright() as playwright:
+    await run(playwright)
+asyncio.run(main())

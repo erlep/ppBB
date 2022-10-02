@@ -25,7 +25,7 @@ bbHlavaUrl = 5  # pozice 'Url' v bbHlavicka
 # Konfigurace benzinek - Nazev, Fce, Url
 bbBenzinky = [
     ['TankONO                ', 'tF(tTankO(s))', 'tF(tTankO(s))', r'http://www.tank-ono.cz/cz/index.php?page=cenik'],
-    ['Tesco                  ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://bit.ly/3izRnLE'],
+    ['Tesco                  ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/mavadopata'],
     ['Globus                 ', 'tF(tGlobu(s))', 'tF(tGlobu(s))', r'https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html'],
     ['Makro                  ', 'tF(tMakro(s))', 'tF(tMakro(s))', r'https://www.makro.cz/prodejny/brno'],
     ['Shell Olomoucká        ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/megolelafe'],

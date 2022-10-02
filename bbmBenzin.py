@@ -2,8 +2,10 @@
 # https://www.mbenzin.cz/Nejlevnejsi-benzin/brno
 # Benzina Albert Modřice - https://bit.ly/3ltfpd1
 
+import asyncio
+
 # extract - stahne stranku
-def extract(url, Key):
+async def extract(url, Key):
   # requests - nacte stranku
   # url = r'https://bit.ly/3ltfpd1'
   import requests
@@ -45,16 +47,17 @@ async def tmBenz(url=''):
 async def mBenz(url):
   from bbCFG import brint
   Key = 'ContentPlaceHolder1_lN95Cost'
-  Cena = extract(url, Key)
+  Cena = await extract(url, Key)
   brint('Cena paliva -', Key, '- je:', Cena, 'type', type(Cena))
   return Cena
 
 # main
-def bbmBenzin_main():
+async def bbmBenzin_main():
   url = r'https://bit.ly/3ltfpd1'
-  print("mBenzin Benzina Albert Modřice - https://bit.ly/3ltfpd1:", mBenz(url))
+  print("mBenzin Benzina Albert Modřice - https://bit.ly/3ltfpd1:", await mBenz(url))
   print('OkDone.')
 
 # __name__
 if __name__ == '__main__':
-  bbmBenzin_main()
+  # bbmBenzin_main()
+  asyncio.run(bbmBenzin_main())

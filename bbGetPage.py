@@ -4,9 +4,11 @@
 # BeautifulSoup, Selenium, Pyppeteer, Playwright, and Web Scraping API + requests_html
 # Hybrid verze muze pouzivat selenium | playwright | requests_html
 
-# pip install selenium
 # pip install playwright
 # playwright install
+# playwright open   --save-storage c:\aac\f1.txt  https://mapy.cz/s/megolelafe
+
+# pip install selenium
 # pip install requests-html
 # cmd:> python bbGetPage.py
 
@@ -26,6 +28,7 @@
 ################################################################################
 # 18.05.2022 - zmena na asyncio, trio nelze s playwright
 import asyncio
+import sys
 ################################################################################
 # selenium
 def page_content_selenium(url):
@@ -51,11 +54,16 @@ async def page_content_playwright(url):
   # page_get
   async def page_get():
     async with async_playwright() as pw:
-      browser = await pw.chromium.launch(headless=True)  # Show the browser True / False  , slow_mo=50
+      # browser = await pw.chromium.launch(headless=True)  # Don't Show the browser True / False  , slow_mo=50
       # context https://bit.ly/3PBmrZ7
       # context = await browser.new_context(user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36')
-      context = await browser.new_context(user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36')
-      page = await context.new_page()
+      # context = await browser.new_context(
+      #     user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+      #     storage_state='bbMakro.cookies.json'
+      # )
+      # context = await browser.new_context()
+      # Open new page
+      # page = await context.new_page()
       # cookie file only for Makro - uz zase neni potreba
       # if 'makro' in url:
       #   # cookie file
@@ -63,8 +71,42 @@ async def page_content_playwright(url):
       #   cookies = json.load(cookie_file)
       #   await context.add_cookies(cookies)
 
+      # Reuse signed in state - https://bit.ly/3C4IjIO
+      # Create a new context with the saved storage state.
+      # context = await browser.new_context(storage_state='bbMakro.cookies.json')
+
+      if 'mapy' in url:
+        browser = await pw.chromium.launch(headless=True)  # Don't Show the browser True / False  , slow_mo=50
+        context = await browser.new_context()
+        # Open new page
+        page = await context.new_page()
+        # await context.storage_state(path='bbMapy.cookies.json')
+        await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
+        # await page.locator("text=Benzín").click()
+        # Click td:has-text("Benzín")
+        try:
+          await page.locator("td:has-text(\"Benzín\")").click()
+        except:  # catch *all* exceptions # pylint: disable=bare-except
+          e = sys.exc_info()[0]
+          print("Error v bbGetPage.py: url", url, '\t\t', e)
+      elif 'makro' in url:
+        browser = await pw.chromium.launch(headless=True)  # Don't Show the browser True / False  , slow_mo=50
+        context = await browser.new_context(
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+            storage_state='bbMakro.cookies.json'
+        )
+        # Open new page
+        page = await context.new_page()
+        # await context.storage_state(path='bbMakro.cookies.json')
+        await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
+        # await page.locator("text=Natural").click()
+      else:
+        browser = await pw.chromium.launch(headless=True)  # Don't Show the browser True / False  , slow_mo=50
+        context = await browser.new_context()
+        # Open new page
+        page = await context.new_page()
+        await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
       # get page
-      await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
       page_content = await page.content()
       await browser.close()
       return page_content

@@ -1,8 +1,10 @@
 ﻿# Benzín Brno - Globus - Natural - bbGlobus.py
 # https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
 
+import asyncio
+
 # extract - stahne stranku
-def extract(url, Key):
+async def extract(url, Key):
   from bbCFG import bbCenaMsk
   import requests
   import pandas as pd
@@ -10,7 +12,7 @@ def extract(url, Key):
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'}
   r = requests.get(url, headers)
   # r.content
-# BeautifulSoup - ted nepotrebuji neni JavaScript
+  # BeautifulSoup - ted nepotrebuji neni JavaScript
   # soup = BeautifulSoup(r.content, 'html.parser')
 
   # pd najde tabulky
@@ -63,15 +65,16 @@ async def Globu(url=''):
   url = r'https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html'
   Key = 'Drive 95'
   Key = 'Natural 95'  # zmena media - 26.10.2021 13:15
-  Cena = extract(url, Key)
+  Cena = await extract(url, Key)
   # print('Cena paliva -', Key, '- je:', Cena, '  type', type(Cena))
   return Cena
 
 # main
-def main():
-  print('def Globu(): ', Globu())
+async def bbGlobus_main():
+  print('def Globu(): ', await Globu())
   print('OkDone.')
 
 # __name__
 if __name__ == '__main__':
-  main()
+  # bbGlobus_main()
+  asyncio.run(bbGlobus_main())

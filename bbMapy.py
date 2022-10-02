@@ -8,8 +8,20 @@ async def extract(url=''):
   from bbGetPage import GetPage
   from bs4 import BeautifulSoup
   import sys
+  # import re
+
   page_source = await GetPage(url)
   # print('page_source', page_source, type(page_source))
+  # Regex test
+  # regex = r"Benzín"
+  # matches = re.search(regex, page_source, re.MULTILINE)
+  # if matches:
+  #   print("Match was found at {start}-{end}: {match}".format(start=matches.start(), end=matches.end(), match=matches.group()))
+  #   for groupNum in range(0, len(matches.groups())):
+  #     groupNum = groupNum + 1
+  #     print("Group {groupNum} found at {start}-{end}: {group}".format(groupNum=groupNum, start=matches.start(groupNum), end=matches.end(groupNum), group=matches.group(groupNum)))
+  # else:
+  #   print ('\n\nVyraz nenalezen\n\n')
 
   # Parse processed webpage with BeautifulSoup
   soup = BeautifulSoup(page_source, features="lxml")
@@ -19,7 +31,7 @@ async def extract(url=''):
     item = soup.find(itemprop="price").get_text()
   except:  # catch *all* exceptions # pylint: disable=bare-except
     e = sys.exc_info()[0]
-    print("Error v bbMapy.py: ", e)
+    print("Error v bbMapy.py: url", url, '\t\t', e)
     item = '0'
   # 34,40 Kč => 34.40
   item = item.replace(" Kč", "")
@@ -54,13 +66,16 @@ async def Mappy(url):
 
 # main
 async def bbMapy_main():
-  url = r'https://mapy.cz/s/megolelafe'
+  url = r'https://mapy.cz/s/cutobofugo'
   # print("def Mapy(r'https://mapy.cz/s/megolelafe'): ", Mappy(url))
   tst = await Mappy(url)
-  print("def Mapy(r'https://mapy.cz/s/megolelafe'): ", tst)
+  print("def Mapy(", url, ": ", tst)
   print('OkDone.')
 
 # __name__
 if __name__ == '__main__':
   # bbMapy_main()
   asyncio.run(bbMapy_main())
+
+# playwright open  https://mapy.cz/s/megolelafe
+# playwright codegen   --save-storage c:\aac\f1.txt  https://mapy.cz/s/cutobofugo
