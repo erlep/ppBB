@@ -19,18 +19,22 @@ async def extract(url, Key):
   table = pd.read_html(r.content, attrs={"class": "cenik"})
   # print(f'Total tables: {len(table)}')
 
-  # tabulek je 2, zajima me c. 1
+  # tabulky jsou 4, zajima me c. 0
   df = table[0]
+  # print('\n\ninfo \n\n')
   # df.info()
+  # print('head \n\n')
   # df.head()
 
   # adding column name to the respective columns - https://bit.ly/3oxfuhN
   df.columns = ['Name', 'Cena91', 'Cena95', 'Cena95+', 'Cena98', 'CenaD', 'CenaD+', 'CenaAdB', 'CenaLPG', 'CenaM1', 'CenaM2']
-
   # Key = 'ČS Brno-Hviezdoslavova'
   Radek = df.loc[df['Name'] == Key]
+  # print('Radek', Radek)
   # How to get a value from a Pandas DataFrame and not the index and object type - https://bit.ly/3BhmuDc
-  item = Radek['Cena95'].values[0]
+  # item = Radek['Cena95'].values[0]
+  item = Radek.iloc[:, 1].values[0]
+  # print('item', item)
 
   # 3350 => 33.50
   item = float(item) / 100
