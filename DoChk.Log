@@ -4989,20 +4989,20 @@ Error v bbMapy.py:  <class 'AttributeError'>
 Error v bbMapy.py:  <class 'AttributeError'>
 Error v bbMapy.py:  <class 'AttributeError'>
 Error v bbMapy.py:  <class 'AttributeError'>
-TankONO                 : 35.9 
+TankONO                 : 35.9
 Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://bit.ly/3izRnLE !
-Tesco                   : 36.5 
-Globus                  : 36.9 
-Makro                   : 36.5 
+Tesco                   : 36.5
+Globus                  : 36.9
+Makro                   : 36.5
 Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
-Shell Olomoucká         : 40.9 
+Shell Olomoucká         : 40.9
 Cena nezjistena -   Nazev: MOL Olomoucká            Fce: tF(tMappy(s))  Url: https://mapy.cz/s/kepegubeve !
-MOL Olomoucká           : 39.9 
-Benzina Albert Modøice  : 38.4  -0.5 Cena: 38.4 Old: 38.9 2022-09-24 16:15:19 - zmena ceny 
+MOL Olomoucká           : 39.9
+Benzina Albert Modøice  : 38.4  -0.5 Cena: 38.4 Old: 38.9 2022-09-24 16:15:19 - zmena ceny
 Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
-OMV IKEA                : 43.9 
+OMV IKEA                : 43.9
 Cena nezjistena -   Nazev: EuroOil Opuštìná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
-EuroOil Opuštìná        : 38.9 
+EuroOil Opuštìná        : 38.9
 
 ---24.09.2022--16:15--peg-hp01--egp--bbDoChk.py---}~~
 
@@ -5014,15 +5014,15 @@ OkDone.
 ---02.10.2022--19:43--peg-hp01--egp--bbDoChk.py---{~~
 
 BenzinBrno GitV0.40 - Natural 95 prices in Brno - Python Version
-TankONO                 : 35.9 
-Tesco                   : 36.5 
-Globus                  : 36.9 
-Makro                   : 36.3  -0.2 Cena: 36.3 Old: 36.5 2022-10-02 19:43:45 - zmena ceny 
-Shell Olomoucká         : 39.9  -1.0 Cena: 39.9 Old: 40.9 2022-10-02 19:43:45 - zmena ceny 
-MOL Olomoucká           : 38.5  -1.4 Cena: 38.5 Old: 39.9 2022-10-02 19:43:45 - zmena ceny 
-Benzina Albert Modøice  : 37.9  -0.5 Cena: 37.9 Old: 38.4 2022-10-02 19:43:45 - zmena ceny 
-OMV IKEA                : 40.9  -3.0 Cena: 40.9 Old: 43.9 2022-10-02 19:43:45 - zmena ceny 
-EuroOil Opuštìná        : 37.7  -1.2 Cena: 37.7 Old: 38.9 2022-10-02 19:43:45 - zmena ceny 
+TankONO                 : 35.9
+Tesco                   : 36.5
+Globus                  : 36.9
+Makro                   : 36.3  -0.2 Cena: 36.3 Old: 36.5 2022-10-02 19:43:45 - zmena ceny
+Shell Olomoucká         : 39.9  -1.0 Cena: 39.9 Old: 40.9 2022-10-02 19:43:45 - zmena ceny
+MOL Olomoucká           : 38.5  -1.4 Cena: 38.5 Old: 39.9 2022-10-02 19:43:45 - zmena ceny
+Benzina Albert Modøice  : 37.9  -0.5 Cena: 37.9 Old: 38.4 2022-10-02 19:43:45 - zmena ceny
+OMV IKEA                : 40.9  -3.0 Cena: 40.9 Old: 43.9 2022-10-02 19:43:45 - zmena ceny
+EuroOil Opuštìná        : 37.7  -1.2 Cena: 37.7 Old: 38.9 2022-10-02 19:43:45 - zmena ceny
 
 ---02.10.2022--19:43--peg-hp01--egp--bbDoChk.py---}~~
 
@@ -5031,30 +5031,22 @@ Total time: 41.8993444442749
 ===============================================================================
 OkDone.
 
----04.10.2022--18:33--peg-hp01--egp--bbDoChk.py---{~~
+---04.10.2022--19:15--peg-hp01--egp--bbDoChk.py---{~~
 
 BenzinBrno GitV0.40 - Natural 95 prices in Brno - Python Version
-Traceback (most recent call last):
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
-    bbDoChk_main()
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
-    DoChk()
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
-    zmena = SaveXls(True)
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 63, in SaveXls
-    for i, n in enumerate(DejNoveCeny()):
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 39, in DejNoveCeny
-    Ceny = loop.run_until_complete(asyncio.gather(*tasks))
-  File "C:\Users\egp\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 642, in run_until_complete
-    return future.result()
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 20, in aEval
-    Cena = await eval(sFce)  # nazev promenne v promenne
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbCena.py", line 47, in tF
-    aval = await val
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 50, in tTankO
-    return await TankO(url)
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 62, in TankO
-    return await Cena
-  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbTankONO.py", line 36, in extract
-    item = float(item) / 100
-ValueError: could not convert string to float: '---'
+TankONO                 : 37.9  +2.0 Cena: 37.9 Old: 35.9 2022-10-04 19:16:19 - zmena ceny 
+Tesco                   : 37.5  +1.0 Cena: 37.5 Old: 36.5 2022-10-04 19:16:19 - zmena ceny 
+Globus                  : 38.9  +2.0 Cena: 38.9 Old: 36.9 2022-10-04 19:16:19 - zmena ceny 
+Makro                   : 37.5  +1.2 Cena: 37.5 Old: 36.3 2022-10-04 19:16:19 - zmena ceny 
+Shell Olomoucká         : 39.9 
+MOL Olomoucká           : 39.9  +1.4 Cena: 39.9 Old: 38.5 2022-10-04 19:16:19 - zmena ceny 
+Benzina Albert Modøice  : 37.9 
+OMV IKEA                : 42.39  +1.49 Cena: 42.39 Old: 40.9 2022-10-04 19:16:19 - zmena ceny 
+EuroOil Opuštìná        : 39.5  +1.8 Cena: 39.5 Old: 37.7 2022-10-04 19:16:19 - zmena ceny 
+
+---04.10.2022--19:16--peg-hp01--egp--bbDoChk.py---}~~
+
+Total time: 56.43270659446716
+===============================================================================
+===============================================================================
+OkDone.
