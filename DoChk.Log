@@ -5331,3 +5331,26 @@ Total time: 125.35221815109253
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---03.11.2022--13:31--peg-hp01--egp--bbDoChk.py---{~~
+
+BenzinBrno GitV0.40 - Natural 95 prices in Brno - Python Version
+Error v bbGetPage.py: url https://mapy.cz/s/kepegubeve 		 <class 'playwright._impl._api_types.TimeoutError'>
+Error v bbMapy.py: url https://mapy.cz/s/kepegubeve 		 <class 'AttributeError'>
+TankONO                 : 39.9 
+Tesco                   : 40.9  -1.0 Cena: 40.9 Old: 41.9 2022-11-03 13:32:33 - zmena ceny 
+Globus                  : 41.5  -1.4 Cena: 41.5 Old: 42.9 2022-11-03 13:32:33 - zmena ceny 
+Makro                   : 40.9  -1.0 Cena: 40.9 Old: 41.9 2022-11-03 13:32:33 - zmena ceny 
+Shell Olomoucká         : 43.5  -0.4 Cena: 43.5 Old: 43.9 2022-11-03 13:32:33 - zmena ceny 
+Cena nezjistena -   Nazev: MOL Olomoucká            Fce: tF(tMappy(s))  Url: https://mapy.cz/s/kepegubeve !
+MOL Olomoucká           : 43.9 
+Benzina Albert Modøice  : 43.5 
+OMV IKEA                : 44.5  -4.4 Cena: 44.5 Old: 48.9 2022-11-03 13:32:33 - zmena ceny 
+EuroOil Opuštìná        : 42.9 
+
+---03.11.2022--13:32--peg-hp01--egp--bbDoChk.py---}~~
+
+Total time: 77.39546966552734
+===============================================================================
+===============================================================================
+OkDone.
