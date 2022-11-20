@@ -15,15 +15,11 @@ Links:
 [. Log file .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log)
 [. Png file .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
 
-[![Ceny](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
-
----
-
-ppBB app is used as a Javascript renderer for:
-
 ## Benzin_Brno - Natural 95 prices in Brno - Python Version
 
-Google Sheet script to monitor petrol prices in Brno city.
+[![Ceny](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
+
+ppBB app is used as a Javascript renderer for Google Sheet script to monitor petrol prices in Brno city (not implemented yet).
 
 [![Benzin-Akt](https://docs.google.com/spreadsheets/d/e/2PACX-1vStPblBtmg4O4ddc6pOF9edeu-IzfsjxmynNpqzs3me9czw5K1aIIBw4HW9Cni9vM7Kse8QQTh0GG8a/pubchart?oid=678203108&format=image)](https://docs.google.com/spreadsheets/d/e/2PACX-1vStPblBtmg4O4ddc6pOF9edeu-IzfsjxmynNpqzs3me9czw5K1aIIBw4HW9Cni9vM7Kse8QQTh0GG8a/pubchart?oid=678203108&format=interactive)
 
