@@ -22,7 +22,9 @@ bbHlavDlta = 3  # pozice 'Delta Cena' v bbHlavicka
 bbHlavDate = 4  # pozice 'Old Datum' v bbHlavicka
 bbHlavaUrl = 5  # pozice 'Url' v bbHlavicka
 
-# Konfigurace benzinek - Nazev, Fce, Url
+# Konfigurace benzinek - Nazev, Fce, Url - "nejlevnější benzín" • Mapy.cz - https://bit.ly/3hDBXsh
+# [Benzin_Brno na Mapy.Cz](https://frame.mapy.cz/s/lohezoreba)
+# https://www.eurobit.cz/ceny
 bbBenzinky = [
     ['TankONO                ', 'tF(tTankO(s))', 'tF(tTankO(s))', r'http://www.tank-ono.cz/cz/index.php?page=cenik'],
     ['Tesco                  ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/mavadopata'],
@@ -34,6 +36,7 @@ bbBenzinky = [
     ['OMV IKEA               ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/jatejehoda'],
     ['EuroOil Opuštěná       ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/cutobofugo'],
     ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/mogofetafo'],
+    ['Eurobit                ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rafenusope'],
 ]
 
 # main
