@@ -5556,3 +5556,52 @@ Total time: 61.11179304122925
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---24.11.2022--16:52--peg-hp01--egp--bbDoChk.py---{~~
+
+BenzinBrno GitV0.41 - Natural 95 prices in Brno - Python Version
+Traceback (most recent call last):
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 39, in <module>
+    bbDoChk_main()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 35, in bbDoChk_main
+    DoChk()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbDoChk.py", line 24, in DoChk
+    zmena = SaveXls(True)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 63, in SaveXls
+    for i, n in enumerate(DejNoveCeny()):
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 39, in DejNoveCeny
+    Ceny = loop.run_until_complete(asyncio.gather(*tasks))
+  File "C:\Users\egp\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbSaveXls.py", line 20, in aEval
+    Cena = await eval(sFce)  # nazev promenne v promenne
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbCena.py", line 47, in tF
+    aval = await val
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 54, in tMappy
+    return await Mappy(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 63, in Mappy
+    Cena = await extract(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbMapy.py", line 13, in extract
+    page_source = await GetPage(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 151, in GetPage
+    return await page_content(url)
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 119, in page_content_playwright
+    page_content = await page_get()
+  File "C:\Users\egp\OneDrive\aaEgp_P2E2\1Drv\qqq_Prj\_myGit\ppBB\bbGetPage.py", line 88, in page_get
+    await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\async_api\_generated.py", line 7413, in goto
+    await self._impl_obj.goto(
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_page.py", line 496, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_frame.py", line 136, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 387, in wrap_api_call
+    return await cb()
+  File "c:\aaC\vEnv\vEnvPy\vEnv\lib\site-packages\playwright\_impl\_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.TimeoutError: Timeout 43212ms exceeded.
+=========================== logs ===========================
+navigating to "https://mapy.cz/s/cutobofugo", waiting until "load"
+============================================================
