@@ -44,7 +44,7 @@ It's not possible to use Trio with Playwright - https://bit.ly/3sJzFua
 
 ---
 
-Version: <mark>v4</mark> - Modified on <mark>20.11.2022 12:12</mark> - Daiki birtday!
+Version: <mark>v4</mark> - Modified on <mark>20.11.2022 12:12</mark>
 
 ---
 
