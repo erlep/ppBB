@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.42
+bbNmVR = 0.43
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -36,7 +36,7 @@ bbCenaMin = 36  # dolni mez ceny na ose X v grafu
 
 # brint - my print, pomoci *ssAll
 def brint(*ssAll):
-  if not(bbNoBBprn):
+  if not (bbNoBBprn):
     import inspect
     # Spojeni hodnot dict do retezce
     ss = ' '.join(str(v) for v in ssAll).strip()

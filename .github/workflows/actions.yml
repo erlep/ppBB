@@ -31,7 +31,7 @@ jobs:
       - name: execute py script # run main.py
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python bbDoChk.py
+        run: python bbDoChk.py > DoChk.Log
 
       - name: commit files
         run: |
