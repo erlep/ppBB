@@ -35,8 +35,8 @@ bbBenzinky = [
     ['Benzina Albert Modřice ', 'tF(tmBenz(s))', 'tF(tmBenz(s))', r'https://bit.ly/3ltfpd1'],
     ['OMV IKEA               ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/jatejehoda'],
     ['EuroOil Opuštěná       ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/cutobofugo'],
-    ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/mogofetafo'],
-    ['Eurobit                ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rafenusope'],
+    ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rodokobesa'],
+    ['Eurobit                ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/jajularama'],
 ]
 
 # main

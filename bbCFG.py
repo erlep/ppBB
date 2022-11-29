@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.44  # TimeZone
+bbNmVR = 0.45  # TimeZone
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -22,6 +22,7 @@ bbNoUrl = '--url--'
 bbProduct = True  # True / False  - ostra / ladici verze
 bbNoBBprn = True  # True / False  - ladeni tj. vypisovani dodatecnych informaci  ano / ne
 bbCenaNoF = True  # True / False  - NEformatovat cenu real na string: # 34.4  => 34,40 Kč
+bbHeadLes = True  # True / False - headless - NEzobrazobvat  prohlizec Chrome
 # Renderer
 bbRender = 'playwright'  # selenium | playwright | requests_html
 bbTimeGet = 43212  # timeout [miliseconds]
@@ -64,6 +65,9 @@ if __name__ == '__main__':
   ProgramInfo = '''
 -----------------------------------------------------
 History:
+  29.11.2022 0.45 - oprava ceny pro AVIA a EuroOil
+  28.11.2022 0.44 - implementace Github Actions
+
   28.11.2022 0.44 - implementace Github Actions
   03.06.2022 0.38 - zmena na skutecne async
   18.05.2022 0.37 - zmena na Trio async

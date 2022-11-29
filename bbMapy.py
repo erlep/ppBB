@@ -68,7 +68,9 @@ async def Mappy(url):
 async def bbMapy_main():
   # url = r'https://mapy.cz/s/cutobofugo' # EuroOil
   # url = r'https://mapy.cz/s/mogofetafo'  # AVIA
-  url = r'https://mapy.cz/s/rafenusope'  # Eurobit
+  url = r'https://mapy.cz/s/rodokobesa'  # AVIA
+  # url = r'https://mapy.cz/s/rafenusope'  # Eurobit
+  # url = r'https://mapy.cz/s/jajularama'  # Eurobit
   # print("def Mapy(r'https://mapy.cz/s/megolelafe'): ", Mappy(url))
   tst = await Mappy(url)
   print("def Mapy(", url, ": ", tst)

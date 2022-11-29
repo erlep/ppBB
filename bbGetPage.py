@@ -47,7 +47,7 @@ async def page_content_playwright(url):
   # Use async version of Playwright
   from playwright.async_api import async_playwright
   import json
-  from bbCFG import bbTimeGet
+  from bbCFG import bbTimeGet, bbHeadLes
 
   # print('url', url)
 
@@ -76,7 +76,7 @@ async def page_content_playwright(url):
       # context = await browser.new_context(storage_state='bbMakro.cookies.json')
 
       if 'mapy' in url:
-        browser = await pw.chromium.launch(headless=True)  # Don't Show the browser True / False  , slow_mo=50
+        browser = await pw.chromium.launch(headless=bbHeadLes)  # Don't Show the browser True / False  , slow_mo=50
         # context = await browser.new_context()
         context = await browser.new_context(
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
@@ -95,7 +95,7 @@ async def page_content_playwright(url):
           e = sys.exc_info()[0]
           print("Error v bbGetPage.py: url", url, '\t\t', e)
       elif 'makro' in url:
-        browser = await pw.chromium.launch(headless=True)  # Don't Show the browser True / False  , slow_mo=50
+        browser = await pw.chromium.launch(headless=bbHeadLes)  # Don't Show the browser True / False  , slow_mo=50
         context = await browser.new_context(
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
             storage_state='bbMakro.cookies.json'
@@ -106,7 +106,7 @@ async def page_content_playwright(url):
         await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
         # await page.locator("text=Natural").click()
       else:
-        browser = await pw.chromium.launch(headless=True)  # Don't Show the browser True / False  , slow_mo=50
+        browser = await pw.chromium.launch(headless=bbHeadLes)  # Don't Show the browser True / False  , slow_mo=50
         context = await browser.new_context()
         # Open new page
         page = await context.new_page()
