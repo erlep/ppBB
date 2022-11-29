@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.43
+bbNmVR = 0.44  # TimeZone
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -29,6 +29,8 @@ bbTimeGet = 43212  # timeout [miliseconds]
 bbDateMsk = "%Y-%m-%d %H:%M:%S"  # format casu - time.strftime("%Y/%m/%e %H:%M:%S") "%Y/%m/%d %H:%M"
 bbDateDMY = "%d.%m.%Y %H:%M"  # format casu
 bbDateLog = "%d.%m.%Y--%H:%M"  # format casu
+# TimeZone
+bbTimeZone = 'Europe/Amsterdam'
 # Formatovani Ceny (float) - Cena = '{:.2f}'.format(item)
 bbCenaMsk = '{:.2f}'  # format na 2 desetinna mista
 # Graf
@@ -62,6 +64,7 @@ if __name__ == '__main__':
   ProgramInfo = '''
 -----------------------------------------------------
 History:
+  28.11.2022 0.44 - implementace Github Actions
   03.06.2022 0.38 - zmena na skutecne async
   18.05.2022 0.37 - zmena na Trio async
   30.11.2021 0.24 - Shell Olomoucká: Mapy -> mBenz

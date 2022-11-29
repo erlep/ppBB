@@ -3,9 +3,11 @@
 # 18.05.2022 - zmena na asyncio, trio nelze s playwright
 import asyncio
 import time
+from datetime import datetime
+import pytz  # $ pip install pytz
 import pandas as pd
 from bbCena import F2f, tF
-from bbCFG import bbCsvFlNm, bbDateDMY, bbDateMsk, bbLogFlNm, bbXlsFlNm, bbXlsShNm, brint
+from bbCFG import bbCsvFlNm, bbDateDMY, bbDateMsk, bbLogFlNm, bbXlsFlNm, bbXlsShNm, brint, bbTimeZone
 from bbGlobus import tGlobu
 from bbLST import bbBenzinky, bbHlavaUrl, bbHlavCena, bbHlavDate, bbHlavDlta, bbHLAVICKA, bbHlavOldC, bbNoUrl, s
 from bbMakro import tMakro
@@ -51,9 +53,10 @@ def SaveXls(Dump=False):
   dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm, converters={bbHLAVICKA[bbHlavDate]: pd.to_datetime})
   # print(dfXls)
 
-  # Benzinky
-  # Now date
-  NowDate = 'Last status check on: ' + str(time.strftime(bbDateDMY))
+  # Benzinky - Now date
+  # NowDate = 'Last status check on: ' + str(time.strftime(bbDateDMY))
+  NowDate = 'Last status check on: ' + str(datetime.now(pytz.timezone(bbTimeZone)).strftime(bbDateDMY))
+
   # Hlavicka tabulky - ['Název', 'Cena', 'Old Cena', 'Delta Cena', 'Old Datum', 'Url']
   Hlava = bbHLAVICKA[:]
   Hlava[bbHlavaUrl] = NowDate
@@ -92,11 +95,12 @@ def SaveXls(Dump=False):
       else:
         OldDelt = str(OldDelt)
       # import time - strftime - https://bit.ly/3Edt2np
-      OldDate = time.strftime(bbDateMsk)
+      # OldDate = time.strftime(bbDateMsk)
+      OldDate = datetime.now(pytz.timezone(bbTimeZone)).strftime(bbDateMsk)
       zc = ' ' + str((OldDelt)) + ' Cena: ' + str(float(Cena)) + ' Old: ' + str(float(OldCena)) + ' ' + str(OldDate) + ' - zmena ceny '
       #  Vypis zmenu kdyz neni dump
       txt = n[0] + ': ' + str(Cena) + zc
-      print(txt) if not(Dump) else None
+      print(txt) if not (Dump) else None
       # Log protokol zmen - append to file - https://bit.ly/3mXdyhz
       with open(bbLogFlNm, "a", encoding='UTF-8') as LogF:
         LogF.write(txt+'\n')

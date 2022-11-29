@@ -2,6 +2,13 @@
 
 # from bbCFG import *
 import time
+import getpass
+import inspect
+import socket
+import sys
+from datetime import datetime
+import pytz  # $ pip install pytz
+from bbCFG import bbDateLog, bbTimeZone
 
 
 # Log object
@@ -9,20 +16,14 @@ class oLog:
   ''' class oLog '''
   def __init__(self, znak='x'):
     ''' konstruktor '''
-    import getpass
-    import inspect
-    import socket
-    import sys
-    import time
-
-    from bbCFG import bbDateLog
-
     self.start_time = time.time()
     self.zz = '-' * 2  # '--'
     self.z3 = '-' * 3  # '---'
     self.tilda = '~' * 2  # '~~'
     self.znak = znak
-    self.date = time.strftime(bbDateLog)
+    # Now with TimeZone
+    # self.date = time.strftime(bbDateLog)
+    self.date = datetime.now(pytz.timezone(bbTimeZone)).strftime(bbDateLog)
     # Getting name of windows computer running python script? - https://bit.ly/3wxEjw7
     self.PcNm = socket.gethostname()
     # current user - https://bit.ly/2ZXSfmW
@@ -48,6 +49,7 @@ log_start_time = time.time()
 # ---06.11.2021--06:16--PC5406257--proj_sw_backup--T_TmChk-2.bat---{~~
 def LogOpen():
   # start time
+  global log_start_time
   log_start_time = time.time()
   print()
   log = oLog('{')
