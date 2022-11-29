@@ -34,7 +34,7 @@ bbTimeZone = 'Europe/Amsterdam'
 # Formatovani Ceny (float) - Cena = '{:.2f}'.format(item)
 bbCenaMsk = '{:.2f}'  # format na 2 desetinna mista
 # Graf
-bbCenaMin = 36  # dolni mez ceny na ose X v grafu
+bbCenaMin = 35  # dolni mez ceny na ose X v grafu
 
 # brint - my print, pomoci *ssAll
 def brint(*ssAll):
