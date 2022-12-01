@@ -1,19 +1,20 @@
 # [ppBB - https://erlep.github.io/ppBB](https://erlep.github.io/ppBB)
 
-[ppBB (Python Project Benzin Brno)](https://github.com/erlep/ppBB) is **Python** application to monitor petrol prices in Brno city.
-The web scraping robot runs in the [AWS Cloud](https://aws.amazon.com).
+[**ppBB** (Python Project Benzin Brno)](https://github.com/erlep/ppBB) is **Python** application to monitor petrol prices in Brno city.
+The web scraping robot runs in the ~~[AWS Cloud](https://aws.amazon.com)~~ [GitHub Actions Cloud](https://github.com/).
 
-Tech-stack: Python, Pandas, Matplotlib, Asyncio, Beautiful Soup, Playwright, Streamlit
+Tech-stack: `Python, Pandas, Matplotlib, Asyncio, Beautiful Soup, Playwright, Streamlit`
 
 Links:
 
 [Benzin_Brno na Mapy.Cz](https://frame.mapy.cz/s/lohezoreba)
 
-[. Streamlit .](https://share.streamlit.io/erlep/ppbb/main/bbWeb.py)
+[. . Streamlit .](https://share.streamlit.io/erlep/ppbb/main/bbWeb.py)
 [. GitHub .](https://github.com/erlep/ppBB)
 [. CSV file .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.csv)
-[. Log file .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log)
-[. Png file .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
+[. History .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.Log)
+[. Log file .](https://raw.githubusercontent.com/erlep/ppBB/main/DoChk.Log)
+[. Png file . .](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
 
 ## Benzin_Brno - Natural 95 prices in Brno - Python Version
 
@@ -44,7 +45,7 @@ It's not possible to use Trio with Playwright - https://bit.ly/3sJzFua
 
 ---
 
-Version: <mark>v5</mark> - Modified on <mark>24.11.2022 17:17</mark>
+Version: <mark>v6</mark> - Modified on <mark>01.12.2022 19:10</mark>
 
 ---
 
