@@ -84148,3 +84148,28 @@ Total time: 33.65565013885498
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---14.01.2023--16:24--fv-az175-321--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV0.45 - Natural 95 prices in Brno - Python Version
+Error v bbGetPage.py: url https://mapy.cz/s/jatejehoda 		 <class 'playwright._impl._api_types.TimeoutError'>
+Error v bbMapy.py: url https://mapy.cz/s/jatejehoda 		 <class 'AttributeError'>
+TankONO                 : 34.9 
+Tesco                   : 35.9 
+Globus                  : 36.5 
+Makro                   : 35.5 
+Shell Olomoucká         : 38.5 
+MOL Olomoucká           : 38.5 
+Benzina Albert Modřice  : 34.9 
+Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
+OMV IKEA                : 38.9 
+EuroOil Opuštěná        : 37.5 
+AVIA                    : 34.89 
+Eurobit                 : 34.9 
+
+---14.01.2023--16:25--fv-az175-321--runner--bbDoChk.py---}~~
+
+Total time: 46.06022787094116
+===============================================================================
+===============================================================================
+OkDone.
