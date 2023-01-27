@@ -1,12 +1,12 @@
-Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 27.01.2023 15:47
-TankONO                ,36.5,35.9,+0.6,2023-01-27 15:48:12,http://www.tank-ono.cz/cz/index.php?page=cenik
+Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 27.01.2023 17:10
+TankONO                ,36.5,35.9,0.6,2023-01-27 15:48:12,http://www.tank-ono.cz/cz/index.php?page=cenik
 Tesco                  ,36.9,36.5,0.4,2023-01-25 11:48:34,https://mapy.cz/s/mavadopata
 Globus                 ,37.5,36.5,1.0,2023-01-25 00:08:08,https://www.globus.cz/brno/cerpaci-stanice-a-myci-linka.html
 Makro                  ,36.9,36.5,0.4,2023-01-25 06:25:30,https://www.makro.cz/prodejny/brno
 Shell Olomoucká        ,38.9,38.5,0.4,2023-01-24 07:47:59,https://mapy.cz/s/megolelafe
-MOL Olomoucká          ,39.5,38.9,+0.6,2023-01-27 15:48:12,https://mapy.cz/s/kepegubeve
+MOL Olomoucká          ,39.5,38.9,0.6,2023-01-27 15:48:12,https://mapy.cz/s/kepegubeve
 Benzina Albert Modřice ,36.9,36.5,0.4,2023-01-26 09:11:30,https://bit.ly/3ltfpd1
 OMV IKEA               ,39.79,38.9,0.89,2023-01-24 14:15:49,https://mapy.cz/s/jatejehoda
 EuroOil Opuštěná       ,37.9,37.5,0.4,2023-01-26 07:48:43,https://mapy.cz/s/cutobofugo
-AVIA                   ,35.9,35.89,0.01,2023-01-27 12:48:09,https://mapy.cz/s/rodokobesa
-Eurobit                ,35.9,34.9,1.0,2023-01-23 11:48:15,https://mapy.cz/s/jajularama
+AVIA                   ,35.89,35.9,-0.01,2023-01-27 17:10:50,https://mapy.cz/s/rodokobesa
+Eurobit                ,36.5,35.9,+0.6,2023-01-27 17:10:50,https://mapy.cz/s/jajularama
