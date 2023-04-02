@@ -172,7 +172,16 @@ Notes.Txt  - poznamky, dam tam vse odtud
 ================================================================================
 :ToDo
 --------------------------------------------------------------------------------
-excel tabulku jako jpg - nekde mam odkaz
+excel tabulku jako jpg - nekde mam odkaz - v gamilu
+panda table
+go https://bit.ly/3R1g1VFhttps://stackoverflow.com/questions/71955001/option-for-dataframe-image-module-convert-a-styled-dataframe-to-image-that-the
+https://stackoverflow.com/questions/26678467/export-a-pandas-dataframe-as-a-table-image
+https://stackoverflow.com/questions/19726663/how-to-save-the-pandas-dataframe-series-data-as-a-figure
+--------------------------------------------------------------------------------
+opravdovy async
+--------------------------------------------------------------------------------
+zobrazit zmenu ceny 3 dny
+--------------------------------------------------------------------------------
 ================================================================================
 https://www.w3schools.com/colors/colors_names.asp
 ================================================================================
