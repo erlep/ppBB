@@ -7,13 +7,14 @@ from datetime import datetime
 import pytz  # $ pip install pytz
 import pandas as pd
 from bbCena import F2f, tF
-from bbCFG import bbCsvFlNm, bbDateDMY, bbDateMsk, bbLogFlNm, bbXlsFlNm, bbXlsShNm, brint, bbTimeZone
+from bbCFG import bbCsvFlNm, bbDateDMY, bbDateMsk, bbLogFlNm, bbXlsFlNm, bbXlsShNm, brint, bbTimeZone, bbDnu
 from bbGlobus import tGlobu
 from bbLST import bbBenzinky, bbHlavaUrl, bbHlavCena, bbHlavDate, bbHlavDlta, bbHLAVICKA, bbHlavOldC, bbNoUrl, s
 from bbMakro import tMakro
 from bbMapy import tMappy
 from bbmBenzin import tmBenz
 from bbTankONO import tTankO
+from bbEurobit import tEuroB
 
 # asnyc verze Eval
 async def aEval(sStr, sFce, n):
@@ -52,11 +53,9 @@ def SaveXls(Dump=False):
   # df1 = pd.read_excel(file, converters= {'COLUMN': pd.to_datetime}) - https://bit.ly/3nsSsrL
   dfXls = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm, converters={bbHLAVICKA[bbHlavDate]: pd.to_datetime})
   # print(dfXls)
-
   # Benzinky - Now date
   # NowDate = 'Last status check on: ' + str(time.strftime(bbDateDMY))
   NowDate = 'Last status check on: ' + str(datetime.now(pytz.timezone(bbTimeZone)).strftime(bbDateDMY))
-
   # Hlavicka tabulky - ['Název', 'Cena', 'Old Cena', 'Delta Cena', 'Old Datum', 'Url']
   Hlava = bbHLAVICKA[:]
   Hlava[bbHlavaUrl] = NowDate
@@ -77,10 +76,13 @@ def SaveXls(Dump=False):
     OldCena = dfXls.iloc[i, bbHlavCena]
     OldDelt = dfXls.iloc[i, bbHlavDlta]
     OldDate = dfXls.iloc[i, bbHlavDate]
-    brint('Cena1', Cena, '  type(Cena)', type(Cena), '  OldDelt:', OldDelt, '  type(OldDelt)', type(OldDelt))
+    brint('Cena1', Cena, '  type(Cena)', type(Cena), '  OldDelt:', OldDelt, '  type(OldDelt)', type(OldDelt), '  OldDate:', OldDate)
+    # import time - strftime - https://bit.ly/3Edt2np
+    # NowDate = time.strftime(bbDateMsk)
+    NowDate = datetime.now(pytz.timezone(bbTimeZone)).strftime(bbDateMsk)
     # zmena ceny string
     zc = ''  # dlouhy
-    zz = ''  # jen +-
+    zz = ''  # jen +- tj. zmeny pro graf
     # Kdyz neni Zjistena cena
     if Cena == 0:
       Cena = OldCena
@@ -94,20 +96,26 @@ def SaveXls(Dump=False):
         OldDelt = '+' + str(OldDelt)
       else:
         OldDelt = str(OldDelt)
-      # import time - strftime - https://bit.ly/3Edt2np
-      # OldDate = time.strftime(bbDateMsk)
-      OldDate = datetime.now(pytz.timezone(bbTimeZone)).strftime(bbDateMsk)
-      zc = ' ' + str((OldDelt)) + ' Cena: ' + str(float(Cena)) + ' Old: ' + str(float(OldCena)) + ' ' + str(OldDate) + ' - zmena ceny '
+      zc = ' ' + str((OldDelt)) + ' Cena: ' + str(float(Cena)) + ' Old: ' + str(float(OldCena)) + ' ' + str(NowDate) + ' - zmena ceny '
       #  Vypis zmenu kdyz neni dump
       txt = n[0] + ': ' + str(Cena) + zc
       print(txt) if not (Dump) else None
       # Log protokol zmen - append to file - https://bit.ly/3mXdyhz
       with open(bbLogFlNm, "a", encoding='UTF-8') as LogF:
         LogF.write(txt+'\n')
-      # zmena
-      zz = OldDelt
     else:
       OldCena = dfXls.iloc[i, bbHlavOldC]
+    # zmena zapisuji 3 dny
+    print('OldDate', OldDate, type(OldDate))
+    print('NowDate', NowDate, type(NowDate))
+    print('\n\n\t rozdil', pd.to_datetime(NowDate, format=bbDateMsk)-pd.to_datetime(OldDate, format=bbDateMsk))
+    if (pd.to_datetime(NowDate, format=bbDateMsk)-pd.to_datetime(OldDate, format=bbDateMsk)) <= bbDnu:
+      # zmena za aktualni - 3 dny
+      zz = OldDelt
+    else:
+      # zadna zmena
+      NowDate = OldDate
+    # zmeny
     zmena.append(zz)
     # DataSet
     brint('#', i, ': Nazev:', n[0], ' Cena:', Cena, ' OldCena:', OldCena, ' OldDelt:', OldDelt, ' n[3]:', n[3])
@@ -115,7 +123,7 @@ def SaveXls(Dump=False):
     # lnk = '=HYPERLINK("http://www.someurl.com", "some website")'
     lnk = n[3]
     # lnk = '=HYPERLINK("' + lnk + '", "' + lnk + '")'
-    df.loc[i] = [n[0], Cena, OldCena, OldDelt, OldDate, lnk]
+    df.loc[i] = [n[0], Cena, OldCena, OldDelt, NowDate, lnk]
     # Vypisuj?
     if Dump:
       # Zjisti cenu
