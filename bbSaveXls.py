@@ -89,7 +89,9 @@ def SaveXls(Dump=False):
       print('Cena nezjistena - ', ' Nazev:', n[0], ' Fce:', n[1], ' Url:', n[3], '!')
     # Je Zmena Ceny
     if Cena != OldCena:
-      # Zmena ceny
+      # Zmena ceny - datum
+      OldDate = NowDate
+      # Zmena ceny - rozdil
       OldDelt = F2f(Cena - float(OldCena))
       # pridani +-
       if OldDelt > 0:
@@ -105,16 +107,17 @@ def SaveXls(Dump=False):
         LogF.write(txt+'\n')
     else:
       OldCena = dfXls.iloc[i, bbHlavOldC]
+    # pocet dni od zmeny ceny
+    DeltaDni = pd.to_datetime(NowDate, format=bbDateMsk)-pd.to_datetime(OldDate, format=bbDateMsk)
+    # Pandas Timedelta in Days - https://bit.ly/3MxImlV
+    DeltaDni = DeltaDni.days
+    brint('DeltaDni', DeltaDni, type(DeltaDni))
     # zmena zapisuji 3 dny
-    print('OldDate', OldDate, type(OldDate))
-    print('NowDate', NowDate, type(NowDate))
-    print('\n\n\t rozdil', pd.to_datetime(NowDate, format=bbDateMsk)-pd.to_datetime(OldDate, format=bbDateMsk))
-    if (pd.to_datetime(NowDate, format=bbDateMsk)-pd.to_datetime(OldDate, format=bbDateMsk)) <= bbDnu:
+    # print('bbDnu', bbDnu, type(bbDnu),'\n','OldDate', OldDate, type(OldDate),'\n','NowDate', NowDate, type(NowDate))
+    if DeltaDni <= bbDnu:
       # zmena za aktualni - 3 dny
       zz = OldDelt
-    else:
-      # zadna zmena
-      NowDate = OldDate
+      brint('platna zmena OldDelt', OldDelt, type(OldDelt))
     # zmeny
     zmena.append(zz)
     # DataSet
@@ -123,7 +126,7 @@ def SaveXls(Dump=False):
     # lnk = '=HYPERLINK("http://www.someurl.com", "some website")'
     lnk = n[3]
     # lnk = '=HYPERLINK("' + lnk + '", "' + lnk + '")'
-    df.loc[i] = [n[0], Cena, OldCena, OldDelt, NowDate, lnk]
+    df.loc[i] = [n[0], Cena, OldCena, OldDelt, OldDate, lnk]
     # Vypisuj?
     if Dump:
       # Zjisti cenu

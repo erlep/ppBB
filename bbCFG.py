@@ -18,7 +18,7 @@ bbCsvFlNm = bbCenFlNm + '.csv'    # nazev csv souboru
 bbPngFlNm = bbCenFlNm + '.png'    # nazev png souboru
 bbXlsShNm = bbNmBB.strip()  # sheet name, strip = trim
 bbNoUrl = '--url--'
-bbDnu = 3  # kolik dnu zobrazovat zmenu ceny
+bbDnu = int(3)  # kolik dnu zobrazovat zmenu ceny
 # Configurace App
 bbProduct = True  # True / False  - ostra / ladici verze
 bbNoBBprn = True  # True / False  - ladeni tj. vypisovani dodatecnych informaci  ano / ne

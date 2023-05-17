@@ -40,10 +40,8 @@ async def extract(url, Key):
   item = float(item) / 100
   # print("item:", item, '|| type:', type(item))
   # Cena
-  # Cena = bbCenaMsk.format(item)
   Cena = item
   # print("Cena:", Cena, '|| type:', type(Cena))
-  # print('Cena paliva -', Key, '- je:', Cena )
   return Cena
 
 # test function
@@ -53,8 +51,6 @@ async def tTankO(url=''):
   if bbProduct and (url != bbNoUrl):
     return await TankO(url)
   else:
-    # s = '19.9' + '   url: ' + url
-    # return s
     return 19.9
 
 # TankONO - vrati cenu za Natural "95" - pumpa: 'ČS Brno-Hviezdoslavova' - http://www.tank-ono.cz/cz/index.php?page=cenik

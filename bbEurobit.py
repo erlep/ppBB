@@ -18,7 +18,7 @@ async def extract(url=''):
   # "Brno - Podolí","chrudim1Natural":"35,90 Kč"}
   try:
     item = re.search(r'\"Brno - Podolí\",\"chrudim1Natural\":\"(35,90) Kč', item)
-    if not(item):
+    if not (item):
       return 0
     # prevedu na string
     item = str(item.group(1))
@@ -33,7 +33,6 @@ async def extract(url=''):
   item = float(item)
   Cena = item
   return Cena
-  return 0
 
 # test function
 async def tEuroB(url=''):
@@ -42,9 +41,7 @@ async def tEuroB(url=''):
   if bbProduct and (url != bbNoUrl):
     return await EuroB(url)
   else:
-    # s = '19.9' + '   url: ' + url
-    # return s
-    return 14.05
+    return 17.5
 
 # EuroB
 async def EuroB(url=''):
