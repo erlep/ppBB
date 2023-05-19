@@ -177,6 +177,11 @@ eurobit - https://mapy.cz/s/jajularama	https://www.eurobit.cz/ceny
 --------------------------------------------------------------------------------
 zobrazit zmenu ceny 3 dny
 --------------------------------------------------------------------------------
+Plotly Express in Python
+https://plotly.com/python/plotly-express
+https://plotly.com/python/axes/#setting-the-range-of-axes-manually
+Static image export hangs using kaleido - https://bit.ly/3ohBEXM
+--------------------------------------------------------------------------------
 excel tabulku jako jpg - nekde mam odkaz - v gamilu
 panda table
 go https://bit.ly/3R1g1VFhttps://stackoverflow.com/questions/71955001/option-for-dataframe-image-module-convert-a-styled-dataframe-to-image-that-the
