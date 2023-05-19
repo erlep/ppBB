@@ -6,8 +6,9 @@ import time
 from datetime import datetime
 import pytz  # $ pip install pytz
 import pandas as pd
+import dataframe_image as dfi
 from bbCena import F2f, tF
-from bbCFG import bbCsvFlNm, bbDateDMY, bbDateMsk, bbLogFlNm, bbXlsFlNm, bbXlsShNm, brint, bbTimeZone, bbDnu
+from bbCFG import bbCsvFlNm, bbDateDMY, bbDateMsk, bbLogFlNm, bbXlsFlNm, bbXlsShNm, brint, bbTimeZone, bbDnu, bbPngFxls
 from bbGlobus import tGlobu
 from bbLST import bbBenzinky, bbHlavaUrl, bbHlavCena, bbHlavDate, bbHlavDlta, bbHLAVICKA, bbHlavOldC, bbNoUrl, s
 from bbMakro import tMakro
@@ -116,7 +117,8 @@ def SaveXls(Dump=False):
     # print('bbDnu', bbDnu, type(bbDnu),'\n','OldDate', OldDate, type(OldDate),'\n','NowDate', NowDate, type(NowDate))
     if DeltaDni <= bbDnu:
       # zmena za aktualni - 3 dny
-      zz = OldDelt
+      # zz = OldDelt
+      zz = ' +'+str(OldDelt) if float(OldDelt) > 0 else str(OldDelt)
       brint('platna zmena OldDelt', OldDelt, type(OldDelt))
     # zmeny
     zmena.append(zz)
@@ -136,6 +138,11 @@ def SaveXls(Dump=False):
   df.to_excel(bbXlsFlNm, index=False, sheet_name=bbXlsShNm)
   # Save CSV
   df.to_csv(bbCsvFlNm, index=False)
+  # save xls to png - soubor bbPngFxls, ber jen sloupec Cena
+  df_styled = df.style.background_gradient(axis=0).hide(axis=0)
+  # How do I style a subset of a pandas dataframe? - https://bit.ly/3Ovn6i5
+  # df_styled = df.style.background_gradient(axis=None,subset=[bbHLAVICKA[bbHlavCena]])
+  dfi.export(df_styled, bbPngFxls)
   # print('zmena', zmena)
   return zmena
 

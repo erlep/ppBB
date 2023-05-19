@@ -19,6 +19,7 @@ Links:
 ## Benzin_Brno - Natural 95 prices in Brno - Python Version
 
 ppBB app is used as a Javascript renderer for Google Sheet script to monitor petrol prices in Brno city.
+[![Tabulka](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.xls.png)](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.xls.png)
 [![Ceny](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)](https://raw.githubusercontent.com/erlep/ppBB/main/bbCeny.png)
 [![Benzin-Akt](https://docs.google.com/spreadsheets/d/e/2PACX-1vStPblBtmg4O4ddc6pOF9edeu-IzfsjxmynNpqzs3me9czw5K1aIIBw4HW9Cni9vM7Kse8QQTh0GG8a/pubchart?oid=678203108&format=image)](https://docs.google.com/spreadsheets/d/e/2PACX-1vStPblBtmg4O4ddc6pOF9edeu-IzfsjxmynNpqzs3me9czw5K1aIIBw4HW9Cni9vM7Kse8QQTh0GG8a/pubchart?oid=678203108&format=interactive)
 [![Benzin-Vyvoj](https://docs.google.com/spreadsheets/d/e/2PACX-1vStPblBtmg4O4ddc6pOF9edeu-IzfsjxmynNpqzs3me9czw5K1aIIBw4HW9Cni9vM7Kse8QQTh0GG8a/pubchart?oid=451896964&format=image)](https://docs.google.com/spreadsheets/d/e/2PACX-1vStPblBtmg4O4ddc6pOF9edeu-IzfsjxmynNpqzs3me9czw5K1aIIBw4HW9Cni9vM7Kse8QQTh0GG8a/pubchart?oid=451896964&format=interactive)
@@ -45,7 +46,7 @@ It's not possible to use Trio with Playwright - https://bit.ly/3sJzFua
 
 ---
 
-Version: <mark>v7</mark> - Modified on <mark>09.12.2022 17:17</mark>
+Version: <mark>v8</mark> - Modified on <mark>19.05.2023 18:48</mark>
 
 ---
 

@@ -1,4 +1,5 @@
-kaleido==0.2.1
+dataframe_image == 0.1.11
+kaleido == 0.2.1
 # kaleido == 0.1.0.post1
 plotly == 5.10.0
 bs4 == 0.0.1
@@ -11,4 +12,3 @@ playwright == 1.25.2
 requests == 2.28.1
 streamlit == 1.12.2
 pytz == 2022.6
-

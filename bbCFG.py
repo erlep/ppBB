@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.47  # TimeZone
+bbNmVR = 0.48  # Tabulka
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -16,6 +16,7 @@ bbLogFlNm = bbCenFlNm + '.Log'    # nazev protokolu zmen
 bbXlsFlNm = bbCenFlNm + '.xlsx'   # nazev xls souboru
 bbCsvFlNm = bbCenFlNm + '.csv'    # nazev csv souboru
 bbPngFlNm = bbCenFlNm + '.png'    # nazev png souboru
+bbPngFxls = bbCenFlNm + '.xls.png' # nazev png souboru z xls souboru
 bbXlsShNm = bbNmBB.strip()  # sheet name, strip = trim
 bbNoUrl = '--url--'
 bbDnu = int(3)  # kolik dnu zobrazovat zmenu ceny
@@ -67,11 +68,10 @@ if __name__ == '__main__':
   ProgramInfo = '''
 -----------------------------------------------------
 History:
+  19.05.2023 0.48 - Excel table as .png
   19.05.2023 0.47 - fix kaleido==0.2.1 vs. kaleido == 0.1.0.post1
   14.05.2023 0.46 - Eurobit
   29.11.2022 0.45 - oprava ceny pro AVIA a EuroOil
-  28.11.2022 0.44 - implementace Github Actions
-
   28.11.2022 0.44 - implementace Github Actions
   03.06.2022 0.38 - zmena na skutecne async
   18.05.2022 0.37 - zmena na Trio async
