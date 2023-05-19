@@ -1,5 +1,5 @@
-# kaleido==0.2.1
-kaleido == 0.1.0.post1
+kaleido==0.2.1
+# kaleido == 0.1.0.post1
 plotly == 5.10.0
 bs4 == 0.0.1
 html5lib == 1.1

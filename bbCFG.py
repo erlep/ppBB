@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.46  # TimeZone
+bbNmVR = 0.47  # TimeZone
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -67,6 +67,7 @@ if __name__ == '__main__':
   ProgramInfo = '''
 -----------------------------------------------------
 History:
+  19.05.2023 0.47 - fix kaleido==0.2.1 vs. kaleido == 0.1.0.post1
   14.05.2023 0.46 - Eurobit
   29.11.2022 0.45 - oprava ceny pro AVIA a EuroOil
   28.11.2022 0.44 - implementace Github Actions
