@@ -1,12 +1,14 @@
-bs4==0.0.1
-html5lib==1.1
-kaleido==0.2.1
-lxml==4.9.1
-matplotlib==3.5.3
-openpyxl==3.0.10
-pandas==1.4.3
-playwright==1.25.2
-plotly==5.10.0
-requests==2.28.1
-streamlit==1.12.2
-pytz==2022.6
+# kaleido==0.2.1
+kaleido == 0.1.0.post1
+plotly == 5.10.0
+bs4 == 0.0.1
+html5lib == 1.1
+lxml == 4.9.1
+matplotlib == 3.5.3
+openpyxl == 3.0.10
+pandas == 1.4.3
+playwright == 1.25.2
+requests == 2.28.1
+streamlit == 1.12.2
+pytz == 2022.6
+

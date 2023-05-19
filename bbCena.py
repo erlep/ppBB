@@ -57,7 +57,7 @@ async def tF(val):
   if bbProduct:
     return val
   else:
-    return await val
+    return val
 
 # main
 async def bbCena_main():

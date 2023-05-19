@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.45  # TimeZone
+bbNmVR = 0.46  # TimeZone
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbNmVE = 'GitV' + '{:.2f}'.format(bbNmVR)
 bbNmDE = ' - Natural 95 prices in Brno - Python Version'
@@ -18,11 +18,12 @@ bbCsvFlNm = bbCenFlNm + '.csv'    # nazev csv souboru
 bbPngFlNm = bbCenFlNm + '.png'    # nazev png souboru
 bbXlsShNm = bbNmBB.strip()  # sheet name, strip = trim
 bbNoUrl = '--url--'
+bbDnu = int(3)  # kolik dnu zobrazovat zmenu ceny
 # Configurace App
 bbProduct = True  # True / False  - ostra / ladici verze
 bbNoBBprn = True  # True / False  - ladeni tj. vypisovani dodatecnych informaci  ano / ne
 bbCenaNoF = True  # True / False  - NEformatovat cenu real na string: # 34.4  => 34,40 Kč
-bbHeadLes = True  # True / False - headless - NEzobrazobvat  prohlizec Chrome
+bbHeadLes = True  # True / False  - headless - NEzobrazobvat  prohlizec Chrome
 # Renderer
 bbRender = 'playwright'  # selenium | playwright | requests_html
 bbTimeGet = 43212  # timeout [miliseconds]
@@ -36,6 +37,7 @@ bbTimeZone = 'Europe/Amsterdam'
 bbCenaMsk = '{:.2f}'  # format na 2 desetinna mista
 # Graf
 bbCenaMin = 33  # dolni mez ceny na ose X v grafu
+bbCenaCft = 0.02  # 0.1=10% - koeficient pro rozsah pro dolni a horni mez ceny na ose X v grafu
 
 # brint - my print, pomoci *ssAll
 def brint(*ssAll):
@@ -65,6 +67,7 @@ if __name__ == '__main__':
   ProgramInfo = '''
 -----------------------------------------------------
 History:
+  14.05.2023 0.46 - Eurobit
   29.11.2022 0.45 - oprava ceny pro AVIA a EuroOil
   28.11.2022 0.44 - implementace Github Actions
 

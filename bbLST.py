@@ -9,6 +9,7 @@ from bbMakro import tMakro
 from bbMapy import tMappy
 from bbmBenzin import tmBenz
 from bbTankONO import tTankO
+from bbEurobit import tEuroB
 
 # s - budouci promenna url
 s = bbNoUrl  # '--url--'
@@ -36,7 +37,8 @@ bbBenzinky = [
     ['OMV IKEA               ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/jatejehoda'],
     ['EuroOil Opuštěná       ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/cutobofugo'],
     ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rodokobesa'],
-    ['Eurobit                ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/jajularama'],
+    # ['Eurobit              ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/jajularama'],
+    ['Eurobit                ', 'tF(tEuroB(s))', 'tF(tEuroB(s))', r'https://www.eurobit.cz/ceny'],
 ]
 
 # main
@@ -55,8 +57,11 @@ async def bbLST_main():
   bbFce = await tF(tmBenz(s))  # 'Benzina Albert Modřice ', 'https://bit.ly/3ltfpd1'],
   bbFce = await tF(tMappy(s))  # 'OMV IKEA               ', 'https://mapy.cz/s/jatejehoda'],
   bbFce = await tF(tMappy(s))  # 'EuroOil Opuštěná       ', 'https://mapy.cz/s/cutobofugo'],
+  bbFce = await tF(tMappy(s))  # 'AVIA                   ', 'https://mapy.cz/s/rodokobesa'],
+  bbFce = await tF(tMappy(s))  # 'Eurobit                ', 'https://mapy.cz/s/jajularama'],
+  bbFce = await tF(tEuroB(s))  # 'Eurobit                ', 'https://www.eurobit.cz/ceny'],
   #
-  bbFce = await tF(tmBenz(s))
+  bbFce = await tF(tEuroB(s))
   print("bbFce:    ", bbFce)
   print('Nazvy benzinek')
   # print((list(zip(*bbBenzinky)))[0])
