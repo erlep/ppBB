@@ -1,0 +1,40 @@
+
+shGit.sh v1.0 App: shGit.sh  Path: /home/ec2-user/xGit/ppBB/shGit.sh 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   shGit.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Already up to date.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   shGit.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+---28.02.2022--09:15--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---{~~
+
+BenzinBrno GitV0.34 - Natural 95 prices in Brno - Python Version
+TankONO                 : 36.5 
+Tesco                   : 37.29 
+Globus                  : 37.9 
+Makro                   : 37.7 
+Shell Olomoucká         : 38.29 
+MOL Olomoucká           : 39.5 
+Benzina Albert Modřice  : 39.5 
+OMV IKEA                : 38.9 
+EuroOil Opuštěná        : 37.9 
+
+---28.02.2022--09:17--ip-172-31-6-101.eu-central-1.compute.internal--ec2-user--bbDoChk.py---}~~
+
+===============================================================================
+===============================================================================
+OkDone.
