@@ -250,7 +250,7 @@ olympia https://m.ceskybenzin.cz/okoli.php?id=3192&typ_palivo=1
 --------------------------------------------------------------------------------
 AVIA
 ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rodokobesa'],
-https://www.mbenzin.cz/Ceny-benzinu-a-nafty/Brno/AVIA-Videnska-131/17419
+https://www.mbenzin.cz/Ceny-benzinu-a-nafty/Brno/AVIA-Videnska-131/17419  https://bit.ly/3wIivSA
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

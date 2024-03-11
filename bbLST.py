@@ -36,7 +36,8 @@ bbBenzinky = [
     ['Benzina Albert Modřice ', 'tF(tmBenz(s))', 'tF(tmBenz(s))', r'https://bit.ly/3ltfpd1'],
     ['OMV IKEA               ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/jatejehoda'],
     ['EuroOil Opuštěná       ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/cutobofugo'],
-    ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rodokobesa'],
+    # ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rodokobesa'],
+    ['AVIA                   ', 'tF(tmBenz(s))', 'tF(tmBenz(s))', r'https://bit.ly/3wIivSA'],
     # ['Eurobit              ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/jajularama'],
     ['Eurobit                ', 'tF(tEuroB(s))', 'tF(tEuroB(s))', r'https://www.eurobit.cz/ceny'],
 ]
@@ -57,9 +58,10 @@ async def bbLST_main():
   bbFce = await tF(tmBenz(s))  # 'Benzina Albert Modřice ', 'https://bit.ly/3ltfpd1'],        mBenzin.cz
   bbFce = await tF(tMappy(s))  # 'OMV IKEA               ', 'https://mapy.cz/s/jatejehoda'],
   bbFce = await tF(tMappy(s))  # 'EuroOil Opuštěná       ', 'https://mapy.cz/s/cutobofugo'],
-  bbFce = await tF(tMappy(s))  # 'AVIA                   ', 'https://mapy.cz/s/rodokobesa'],
   bbFce = await tF(tMappy(s))  # 'Eurobit                ', 'https://mapy.cz/s/jajularama'],
   bbFce = await tF(tEuroB(s))  # 'Eurobit                ', 'https://www.eurobit.cz/ceny'],
+  bbFce = await tF(tMappy(s))  # 'AVIA                   ', 'https://mapy.cz/s/rodokobesa'],
+  bbFce = await tF(tmBenz(s))  # 'AVIA                   ', 'https://bit.ly/3wIivSA'],
   #
   bbFce = await tF(tEuroB(s))
   print("bbFce:    ", bbFce)

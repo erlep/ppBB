@@ -57,11 +57,9 @@ async def mBenz(url):
 
 # main
 async def bbmBenzin_main():
-  url = r'https://bit.ly/3ltfpd1'  # - nefunguje, UZ FUNGUJE
-  # url = r'https://www.mbenzin.cz/Ceny-benzinu-a-nafty/Modrice/Benzina-Albert-U-dalnice-744/16484' # - funguje
-  # potrebuji nove short url
-  # url = r'http://tinyurl.com/mBnzn'  # - nefunguje
-  print("mBenzin Benzina Albert Modřice - https://bit.ly/3ltfpd1:", await mBenz(url))
+  url = r'https://bit.ly/3ltfpd1'  # mBenzin Benzina Albert Modřice
+  url = r'https://bit.ly/3wIivSA'  # AVIA
+  print(f"{url=} Cena:", await mBenz(url))
   print('OkDone.')
 
 # __name__
