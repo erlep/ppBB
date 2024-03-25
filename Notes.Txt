@@ -239,6 +239,15 @@ playwright codegen https://mapy.cz/s/rodokobesa
 fce(s)
 ==> misto eval delat nazev fce jako objekt
 --------------------------------------------------------------------------------
+opravit formatovani ceny a zmeny ceny na 2 des. mista pomoci f-string
+--
+frmt_2f: str = '.2f'
+f: float = 1234.5678
+print(f'{f=:{frmt_2f}} {f=}')
+--
+AVIA                   : 36.9 +0.4 Cena: 36.9 Old: 36.5 2024-03-20 09:13:24 - zmena ceny
+Tesco                  : 37.76 -0.03 Cena: 37.76 Old: 37.79 2024-03-21 14:37:25 - zmena ceny
+--------------------------------------------------------------------------------
 opravdovy async
 --------------------------------------------------------------------------------
 How to save and load cookies in Playwright? https://bit.ly/47ECrUc
