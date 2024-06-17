@@ -1,0 +1,15 @@
+bs4 == 0.0.1
+dataframe_image == 0.2.3
+html5lib == 1.1
+kaleido == 0.2.1
+lxml == 4.9.4
+matplotlib == 3.8.2
+openpyxl == 3.1.2
+pandas == 2.1.4
+playwright == 1.40.0
+plotly == 5.18.0
+pytz == 2023.3.post1
+requests == 2.31.0
+streamlit == 1.29.0
+httpx == 0.26.0
+h2 == 4.1.0
