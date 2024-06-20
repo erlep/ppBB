@@ -78,8 +78,8 @@ async def bbMapy_main():
   # url = 'https://mapy.cz/s/cutobofugo'  # 'EuroOil Opuštěná       ', 'https://mapy.cz/s/cutobofugo'
   # url = 'https://mapy.cz/s/rodokobesa'  # 'AVIA                   ', 'https://mapy.cz/s/rodokobesa'
   # url = 'https://mapy.cz/s/jajularama'  # 'Eurobit                ', 'https://mapy.cz/s/jajularama'
-  url = 'https://mapy.cz/s/mavadopata'    # 'Tesco - mapy.cz        r'https://mapy.cz/s/mavadopata'],
-  url = 'https://mapy.cz/s/kepegubeve'  # 'MOL Olomoucká          ', 'https://mapy.cz/s/kepegubeve'
+  # url = 'https://mapy.cz/s/mavadopata'    # 'Tesco - mapy.cz        r'https://mapy.cz/s/mavadopata'],
+  # url = 'https://mapy.cz/s/kepegubeve'  # 'MOL Olomoucká          ', 'https://mapy.cz/s/kepegubeve'
 
   # print("def Mapy(r'https://mapy.cz/s/megolelafe'): ", Mappy(url))
   tst = await Mappy(url)

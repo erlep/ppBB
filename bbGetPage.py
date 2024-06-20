@@ -88,7 +88,7 @@ async def page_content_playwright(url):
           e = sys.exc_info()[0]
           print("Error v bbGetPage.py. new_page: url", url, '\t\t', e)
           return ''
-        await context.storage_state(path='bbMapy.cookies.json')
+        # await context.storage_state(path='bbMapy.cookies.json') # ukladani cookies vypnuto 20.06.2024 17:23
         await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
         # hledam zda je na strance tlacitko ' I agree' - Full Xpath /html/body/div[2]//div/div/div[2]/button[2]
         mapyTxt = ".szn-cmp-dialog-container"

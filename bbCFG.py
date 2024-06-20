@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.53  # Tabulka, zkouska mapy.cz
+bbNmVR = 0.54  # Tabulka, zkouska mapy.cz
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbFmt2 = '{:6.2f}'  # float with 2 decimals
 bbNmVE = 'GitV' + bbFmt2.format(bbNmVR)
@@ -25,7 +25,7 @@ bbDnu = int(3)  # kolik dnu zobrazovat zmenu ceny
 bbProduct = True  # True / False  - ostra / ladici verze
 bbNoBBprn = True  # True / False  - ladeni tj. vypisovani dodatecnych informaci  ano / ne
 bbCenaNoF = True  # True / False  - NEformatovat cenu real na string: # 34.4  => 34,40 Kč
-bbHeadLes = False  # True / False  - headless - NEzobrazobvat  prohlizec Chrome
+bbHeadLes = True  # True / False  - headless - NEzobrazobvat  prohlizec Chrome
 # Renderer
 bbRender = 'playwright'  # selenium | playwright | requests_html
 bbTimeGet = 30_000  # timeout [miliseconds] 30 sekund
