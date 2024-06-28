@@ -60,7 +60,7 @@ async def page_content_playwright(url):
       # 20.12.2023 - How to save and load cookies in Playwright? - https://bit.ly/48otNJb
       # BrowserContext - https://bit.ly/473ClUN
       # Playwright => Allow all cookies automatically - https://bit.ly/3Tu6Vny
-      cookies_file = ''
+      cookies_name = ''
       if 'mapy' in url:
         # mapy.cz
         cookies_name = 'bbMapy.cookies.json'
@@ -115,20 +115,24 @@ async def page_content_playwright(url):
         #   print("Error v bbGetPage.py. Neni Benzin: url", url, '\t\t', e)
       elif 'makro' in url:
         # makro.cz
-        cookies_file = 'bbMakro.cookies.json'
+        cookies_name = 'bbMakro.cookies.json'
         browser = await pw.chromium.launch(headless=bbHeadLes)  # Don't Show the browser True / False  , slow_mo=50
         context = await browser.new_context(
             user_agent=bbUsrAgnt,
-            storage_state=cookies_file
+            storage_state=cookies_name
         )
         # Open new page
-        page = await context.new_page()
-        # await context.storage_state(path='bbMakro.cookies.json')
-
-        # klikni na potvrzeni cookies
-        # Full Xpath /html/body/div[2]//div/div/div[2]/button[2]
-        await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
-        # await page.locator("text=Natural").click()
+        try:
+          page = await context.new_page()
+          await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
+          page_content = await page.content()
+          await context.close()
+          await browser.close()
+          return page_content
+        except:  # catch *all* exceptions # pylint: disable=bare-except
+          e = sys.exc_info()[0]
+          print("Error v bbGetPage.py. Neni povoleno cookies: url", url, '\t\t', e)
+          return ''
       else:
         # jine nez mapy a makro
         browser = await pw.chromium.launch(headless=bbHeadLes)  # Don't Show the browser True / False  , slow_mo=50
@@ -140,8 +144,8 @@ async def page_content_playwright(url):
       page_content = await page.content()
       # print('page_content', page_content)
       # # save the cookies
-      # if cookies_file != '':
-      #   with open(cookies_file, "w", encoding='UTF-8') as f:
+      # if cookies_name != '':
+      #   with open(cookies_name, "w", encoding='UTF-8') as f:
       #     await f.write(json.dumps(page_content.cookies()))
 
       await context.close()

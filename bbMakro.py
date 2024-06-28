@@ -12,12 +12,12 @@ async def extract(url=''):
   item = str(page_source)
   try:
     item = re.search(r"Natural\s95.+?element-position", item)
-    if not(item):
+    if not (item):
       return 0
     # prevedu na string
     item = str(item.group())
     item = re.search(r"\>\d.+?\<", item)
-    if not(item):
+    if not (item):
       return 0
     item = item.group().replace(">", "").replace("<", "").replace(",", ".")
   except:  # catch *all* exceptions # pylint: disable=bare-except
