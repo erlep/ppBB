@@ -30,7 +30,9 @@ bbBenzinky = [
     ['TankONO                ', 'tF(tTankO(s))', 'tF(tTankO(s))', r'https://www.tank-ono.cz/cz/index.php?page=cenik'],
     ['Tesco                  ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/mavadopata'],
     ['Globus                 ', 'tF(tGlobu(s))', 'tF(tGlobu(s))', r'https://www.globus.cz/brno/sluzby-a-produkty/cerpaci-stanice-a-myci-linka'],
-    ['Makro                  ', 'tF(tMakro(s))', 'tF(tMakro(s))', r'https://www.makro.cz/prodejny/brno'],
+    # ['Makro                  ', 'tF(tMakro(s))', 'tF(tMakro(s))', r'https://www.makro.cz/prodejny/brno'],
+    # Makro docasne pres mapy.cz nez opravim
+    ['Makro                  ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/lopagokoha'],
     ['Shell Olomoucká        ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/megolelafe'],
     ['MOL Olomoucká          ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/kepegubeve'],
     ['Benzina Albert Modřice ', 'tF(tmBenz(s))', 'tF(tmBenz(s))', r'https://bit.ly/3ltfpd1'],
