@@ -41,7 +41,7 @@ bbCenaMsk = '{:.2f}'  # format na 2 desetinna mista
 bbCenaMin = 33  # dolni mez ceny na ose X v grafu
 bbCenaCft = 0.02  # 0.1=10% - koeficient pro rozsah pro dolni a horni mez ceny na ose X v grafu
 # Chrome header
-bbUsrAgnt = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
+bbUsrAgnt = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 bbHeaders = {'User-Agent': f'{bbUsrAgnt}'}
 
 # brint - my print, pomoci *ssAll

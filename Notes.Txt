@@ -261,6 +261,12 @@ AVIA
 ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rodokobesa'],
 https://www.mbenzin.cz/Ceny-benzinu-a-nafty/Brno/AVIA-Videnska-131/17419  https://bit.ly/3wIivSA
 --------------------------------------------------------------------------------
+playwright headless chromium can't find selector, but finds it in UI mode - https://is.gd/l1MV8c
+--
+python playwright v async rezimu
+stranka mi pro headless=False vraci obsah
+kdyz ale mam headless=True, tak mi obsah nevrati.
+Jak stranku prelstim?
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ================================================================================
