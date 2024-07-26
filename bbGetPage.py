@@ -110,7 +110,7 @@ async def page_content_playwright(url):
       elif 'makro' in url:
         # makro.cz
         cookies_name = 'bbMakro.cookies.json'
-        browser = await pw.chromium.launch(headless=not (bbHeadLes))  # Don't Show the browser True / False  , slow_mo=50
+        browser = await pw.chromium.launch(headless=bbHeadLes)  # Don't Show the browser True / False  , slow_mo=50
         try:
           # context = await browser.new_context()
           context = await browser.new_context(
