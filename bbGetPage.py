@@ -75,12 +75,6 @@ async def page_content_playwright(url):
           e = sys.exc_info()[0]
           print("Error v bbGetPage.py. new_context: url", url, '\t\t', e)
           return ''
-        # cookies
-        # cookies_name = 'bbMapy.cookies.json'
-        # cookie_file = open(cookies_name)
-        # cookies = json.load(cookie_file)
-        # print('cookies', type(cookies), cookies)
-        # await context.add_cookies(cookies)
         # Open new page
         try:
           page = await context.new_page()
@@ -116,23 +110,26 @@ async def page_content_playwright(url):
       elif 'makro' in url:
         # makro.cz
         cookies_name = 'bbMakro.cookies.json'
-        browser = await pw.chromium.launch(headless=bbHeadLes)  # Don't Show the browser True / False  , slow_mo=50
-        context = await browser.new_context(
-            user_agent=bbUsrAgnt,
-            storage_state=cookies_name
-        )
-        # Open new page
+        browser = await pw.chromium.launch(headless=not (bbHeadLes))  # Don't Show the browser True / False  , slow_mo=50
         try:
-          page = await context.new_page()
-          await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
-          page_content = await page.content()
-          await context.close()
-          await browser.close()
-          return page_content
+          # context = await browser.new_context()
+          context = await browser.new_context(
+              user_agent=bbUsrAgnt,
+              storage_state=cookies_name
+          )
         except:  # catch *all* exceptions # pylint: disable=bare-except
           e = sys.exc_info()[0]
           print("Error v bbGetPage.py. Neni povoleno cookies: url", url, '\t\t', e)
           return ''
+        # Open new page
+        try:
+          page = await context.new_page()
+        except:  # catch *all* exceptions # pylint: disable=bare-except
+          e = sys.exc_info()[0]
+          print("Error v bbGetPage.py. new_page: url", url, '\t\t', e)
+          return ''
+        # await context.storage_state(path='bbMapy.cookies.json') # ukladani cookies vypnuto 20.06.2024 17:23
+        await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
       else:
         # jine nez mapy a makro
         browser = await pw.chromium.launch(headless=bbHeadLes)  # Don't Show the browser True / False  , slow_mo=50

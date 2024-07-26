@@ -4,13 +4,13 @@
     "value": "necessary",
     "domain": ".makro.cz",
     "path": "/",
-    "expires": 1751110056,
+    "expires": 1753525845,
     "httpOnly": false,
     "secure": true
   },
   {
     "name": "_sid",
-    "value": "1s05jm3fx1nnimxhilbtrvl5",
+    "value": "eopa13ybagtaablsr1zfwogt",
     "domain": "www.makro.cz",
     "path": "/",
     "expires": -1,
