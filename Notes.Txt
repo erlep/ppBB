@@ -261,16 +261,46 @@ AVIA
 ['AVIA                   ', 'tF(tMappy(s))', 'tF(tMappy(s))', r'https://mapy.cz/s/rodokobesa'],
 https://www.mbenzin.cz/Ceny-benzinu-a-nafty/Brno/AVIA-Videnska-131/17419  https://bit.ly/3wIivSA
 --------------------------------------------------------------------------------
+napsat kterou verzi python pouzivam v praci, jak nahodim venv, cestu k projektu __py
+git clone https://ek3@bitbucket.org/ek3/csv2html.git
+git clone git@bitbucket.org:ek3/csv2html.git
+--
+git clone https://github.com/erlep/ppBB.git
+git clone git@github.com:erlep/ppBB.git
+--------------------------------------------------------------------------------
 playwright headless chromium can't find selector, but finds it in UI mode - https://is.gd/l1MV8c
 --
 python playwright v async rezimu
 stranka mi pro headless=False vraci obsah
 kdyz ale mam headless=True, tak mi obsah nevrati.
 Jak stranku prelstim?
+--
+gemini
+--
+Explicitně počkejte na načítání:
+page.wait_for_load_state(): Počkejte, až se stránka úplně načte.
+page.wait_for_selector(): Počkejte, až se objeví konkrétní prvek na stránce.
+page.wait_for_function(): Počkejte, až bude splněna určitá podmínka na
+
+async with async_playwright() as p:
+    browser = await p.chromium.launch(headless=True)
+    page = await browser.new_page()
+    await page.goto("https://example.com")
+    await page.wait_for_selector("#content")  # Počkejte na prvek s ID "content"
+    content = await page.inner_html("#content")
+    print(content)
+--
+3. Změňte nastavení prohlížeče:
+browser = await p.chromium.launch(headless=True, args=['--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage'])
+--
+4. Použijte uživatelské agenty a viewporty:
+await page.set_viewport_size({"width": 1280, "height": 720})
+await page.set_extra_http_headers({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'})
+
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ================================================================================
 https://www.w3schools.com/colors/colors_names.asp
 ================================================================================
 ================================================================================
-zz
