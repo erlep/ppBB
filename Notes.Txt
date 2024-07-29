@@ -262,11 +262,28 @@ AVIA
 https://www.mbenzin.cz/Ceny-benzinu-a-nafty/Brno/AVIA-Videnska-131/17419  https://bit.ly/3wIivSA
 --------------------------------------------------------------------------------
 napsat kterou verzi python pouzivam v praci, jak nahodim venv, cestu k projektu __py
+--
+python -V
+Python 3.11.9
+--
+adresar ./.vscode
+--
+asi budu muset predelat na ssh
+https://ek3@bitbucket.org/ek3/__py.git
+git clone https://github.com/erlep/ppBB.git
+git clone ssh://git@code.onsemi.com/dptgear/gear.git
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 git clone https://ek3@bitbucket.org/ek3/csv2html.git
 git clone git@bitbucket.org:ek3/csv2html.git
 --
 git clone https://github.com/erlep/ppBB.git
 git clone git@github.com:erlep/ppBB.git
+
+git remote get-url origin
+https://ek3@bitbucket.org/ek3/__py.git
+asi budu muset predelat na ssh
 --------------------------------------------------------------------------------
 playwright headless chromium can't find selector, but finds it in UI mode - https://is.gd/l1MV8c
 --
