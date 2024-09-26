@@ -1,0 +1,74 @@
+[
+  {
+    "name": "szncsr",
+    "value": "1718892955",
+    "domain": ".mapy.cz",
+    "path": "/",
+    "expires": 1721315756.068327,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "user-flags",
+    "value": "",
+    "domain": ".mapy.cz",
+    "path": "/",
+    "expires": 1753456599.628465,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "sds",
+    "value": "f8847fc9-4947-46fe-a9ca-71dd343dd1a5",
+    "domain": ".mapy.cz",
+    "path": "/",
+    "expires": 1753456563.129229,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "last-redirect",
+    "value": "1",
+    "domain": ".mapy.cz",
+    "path": "/",
+    "expires": 1718897465.453976,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "__cw_snc",
+    "value": "1",
+    "domain": ".mapy.cz",
+    "path": "/",
+    "expires": 1718900165.662113,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "User-Id",
+    "value": "b87bbf3bd091656a",
+    "domain": ".mapy.cz",
+    "path": "/",
+    "expires": 1750432566.155436,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "site_lang2",
+    "value": "cs",
+    "domain": ".mapy.cz",
+    "path": "/",
+    "expires": 1753456598.569602,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "lps",
+    "value": "eyJfZnJlc2giOmZhbHNlLCJfcGVybWFuZW50Ijp0cnVlfQ.ZnRH1w.uAWuKP7PTcKsEJRjRHFuQQ-dyvQ",
+    "domain": ".mapy.cz",
+    "path": "/",
+    "expires": 1721574999.628571,
+    "httpOnly": true,
+    "secure": true
+  }
+]
