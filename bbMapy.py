@@ -69,19 +69,19 @@ async def bbMapy_main():
   # url = r'https://mapy.cz/s/cutobofugo' # EuroOil
   # url = r'https://mapy.cz/s/mogofetafo'  # AVIA
   # url = r'https://mapy.cz/s/rafenusope'  # Eurobit
-  # new urls
-  url = 'https://bit.ly/3izRnLE'        # 'Tesco - mapy.cz        ', 'https://bit.ly/3izRnLE'
-  url = 'https://mapy.cz/s/megolelafe'  # 'Shell Olomoucká        ', 'https://mapy.cz/s/megolelafe'
-  url = 'https://mapy.cz/s/kepegubeve'  # 'MOL Olomoucká          ', 'https://mapy.cz/s/kepegubeve'
-  url = 'https://mapy.cz/s/jatejehoda'  # 'OMV IKEA               ', 'https://mapy.cz/s/jatejehoda'
-  url = 'https://bit.ly/3izRnLE'        # 'Tesco - mapy.cz        ', 'https://bit.ly/3izRnLE'
   # url = 'https://mapy.cz/s/cutobofugo'  # 'EuroOil Opuštěná       ', 'https://mapy.cz/s/cutobofugo'
   # url = 'https://mapy.cz/s/rodokobesa'  # 'AVIA                   ', 'https://mapy.cz/s/rodokobesa'
   # url = 'https://mapy.cz/s/jajularama'  # 'Eurobit                ', 'https://mapy.cz/s/jajularama'
-  # url = 'https://mapy.cz/s/mavadopata'    # 'Tesco - mapy.cz        r'https://mapy.cz/s/mavadopata'],
-  # url = 'https://mapy.cz/s/kepegubeve'  # 'MOL Olomoucká          ', 'https://mapy.cz/s/kepegubeve'
+  # new urls
+  url = 'https://bit.ly/3izRnLE'        # 'Tesco - mapy.cz        ', 'https://bit.ly/3izRnLE'
+  url = 'https://bit.ly/3izRnLE'        # 'Tesco - mapy.cz        ', 'https://bit.ly/3izRnLE'
+  url = 'https://mapy.cz/s/jatejehoda'  # 'OMV IKEA               https://mapy.cz/s/jatejehoda
+  url = 'https://mapy.cz/s/kepegubeve'  # 'MOL Olomoucká          https://mapy.cz/s/kepegubeve
+  url = 'https://mapy.cz/s/lopagokoha'  # 'Makro                  https://mapy.cz/s/lopagokoha
+  url = 'https://mapy.cz/s/mavadopata'  # 'Tesco - mapy.cz        https://mapy.cz/s/mavadopata
+  url = 'https://mapy.cz/s/megolelafe'  # 'Shell Olomoucká        https://mapy.cz/s/megolelafe
 
-  # print("def Mapy(r'https://mapy.cz/s/megolelafe'): ", Mappy(url))
+  # test
   tst = await Mappy(url)
   print("def Mapy(", url, ": ", tst)
   print('OkDone.')
