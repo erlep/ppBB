@@ -4751,3 +4751,27 @@ Total time:  11.36 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---11.01.2025--08:11--fv-az1315-966--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+ERROR: bbSaveXls Globus                  Url:https://www.globus.cz/brno/sluzby-a-produkty/cerpaci-stanice-a-myci-linka Error message: 
+TankONO                 : 34.5 		Elapsed time:   1.19
+Tesco                   : 34.9 		Elapsed time:   7.93
+Cena nezjistena -   Nazev: Globus                   Fce: tF(tGlobu(s))  Url: https://www.globus.cz/brno/sluzby-a-produkty/cerpaci-stanice-a-myci-linka !
+Globus                  : 34.9 		Elapsed time:   5.51
+Makro                   : 34.9 		Elapsed time:   7.66
+Shell Olomoucká         : 37.9 		Elapsed time:   7.57
+MOL Olomoucká           : 37.9 		Elapsed time:   7.99
+Benzina Albert Modřice  : 33.9 		Elapsed time:   1.67
+OMV IKEA                : 37.9 		Elapsed time:   7.63
+EuroOil Opuštěná        : 36.5 		Elapsed time:   7.88
+AVIA                    : 33.9 		Elapsed time:   1.55
+Eurobit                 : 35.5 		Elapsed time:   1.81
+
+---11.01.2025--08:11--fv-az1315-966--runner--bbDoChk.py---}~~
+
+Total time:  16.41 seconds.
+===============================================================================
+===============================================================================
+OkDone.
