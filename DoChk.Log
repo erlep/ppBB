@@ -8307,3 +8307,52 @@ Total time:  33.66 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---12.01.2025--17:32--fv-az788-354--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/megolelafe 		 <class 'AttributeError'>
+ERROR: bbSaveXls OMV IKEA                Url:https://mapy.cz/s/jatejehoda Error message: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mapy.cz/s/jatejehoda", waiting until "load"
+
+ERROR: bbSaveXls EuroOil Opuštěná        Url:https://mapy.cz/s/cutobofugo Error message: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mapy.cz/s/cutobofugo", waiting until "load"
+
+ERROR: bbSaveXls Tesco                   Url:https://mapy.cz/s/mavadopata Error message: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mapy.cz/s/mavadopata", waiting until "load"
+
+ERROR: bbSaveXls MOL Olomoucká           Url:https://mapy.cz/s/kepegubeve Error message: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mapy.cz/s/kepegubeve", waiting until "load"
+
+ERROR: bbSaveXls Makro                   Url:https://mapy.cz/s/lopagokoha Error message: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mapy.cz/s/lopagokoha", waiting until "load"
+
+TankONO                 : 34.5 		Elapsed time:   1.30
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 35.29 		Elapsed time:  31.22
+Globus                  : 34.9 		Elapsed time:   1.16
+Cena nezjistena -   Nazev: Makro                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/lopagokoha !
+Makro                   : 34.9 		Elapsed time:  31.26
+Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká         : 37.9 		Elapsed time:   6.40
+Cena nezjistena -   Nazev: MOL Olomoucká            Fce: tF(tMappy(s))  Url: https://mapy.cz/s/kepegubeve !
+MOL Olomoucká           : 37.9 		Elapsed time:  31.26
+Benzina Albert Modřice  : 34.5 		Elapsed time:   2.35
+Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
+OMV IKEA                : 37.9 		Elapsed time:  30.98
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštěná        : 36.5 		Elapsed time:  31.02
+AVIA                    : 34.5 		Elapsed time:   2.13
+Eurobit                 : 35.5 		Elapsed time:   2.06
+
+---12.01.2025--17:33--fv-az788-354--runner--bbDoChk.py---}~~
+
+Total time:  37.17 seconds.
+===============================================================================
+===============================================================================
+OkDone.
