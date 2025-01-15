@@ -14190,3 +14190,37 @@ Total time:  12.91 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---15.01.2025--03:53--fv-az1670-257--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/mavadopata 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/jatejehoda 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/cutobofugo 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/megolelafe 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/kepegubeve 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/lopagokoha 		 <class 'AttributeError'>
+TankONO                 : 34.5 		Elapsed time:   1.23
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 35.29 		Elapsed time:   5.58
+Globus                  : 34.9 		Elapsed time:   1.05
+Cena nezjistena -   Nazev: Makro                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/lopagokoha !
+Makro                   : 35.1 		Elapsed time:   5.69
+Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká         : 37.9 		Elapsed time:   5.63
+Cena nezjistena -   Nazev: MOL Olomoucká            Fce: tF(tMappy(s))  Url: https://mapy.cz/s/kepegubeve !
+MOL Olomoucká           : 37.9 		Elapsed time:   5.68
+Benzina Albert Modřice  : 34.5 		Elapsed time:   1.77
+Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
+OMV IKEA                : 37.9 		Elapsed time:   5.57
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštěná        : 36.5 		Elapsed time:   5.61
+AVIA                    : 34.5 		Elapsed time:   1.69
+Eurobit                 : 35.5 		Elapsed time:   2.05
+
+---15.01.2025--03:53--fv-az1670-257--runner--bbDoChk.py---}~~
+
+Total time:  20.39 seconds.
+===============================================================================
+===============================================================================
+OkDone.
