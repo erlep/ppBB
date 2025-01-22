@@ -28,7 +28,7 @@ bbCenaNoF = True  # True / False  - NEformatovat cenu real na string: # 34.4  =>
 bbHeadLes = True  # True / False  - headless - NEzobrazobvat  prohlizec Chrome
 # Renderer
 bbRender = 'playwright'  # selenium | playwright | requests_html
-bbTimeGet = 30_000  # timeout [miliseconds] 30 sekund
+bbTimeGet = 50_000  # timeout [miliseconds] 30 sekund
 # import time - strftime - https://bit.ly/3Edt2np
 bbDateMsk = "%Y-%m-%d %H:%M:%S"  # format casu - time.strftime("%Y/%m/%e %H:%M:%S") "%Y/%m/%d %H:%M"
 bbDateDMY = "%d.%m.%Y %H:%M"  # format casu
