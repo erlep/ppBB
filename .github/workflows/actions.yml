@@ -1,4 +1,4 @@
-# GitHub Action Yaml v8b - 24.01.2025 17:55
+# GitHub Action Yaml v9 - 24.01.2025 18:14
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -10,9 +10,9 @@ on:
 
 jobs:
   build:
-    # runs-on: ubuntu-22.04
+    runs-on: ubuntu-22.04
     # runs-on: ubuntu-24.04
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository content
