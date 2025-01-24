@@ -1,4 +1,4 @@
-# GitHub Action Yaml v7 - 24.01.2025 17:22
+# GitHub Action Yaml v8 - 24.01.2025 17:43
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -30,12 +30,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # zzzzzzzzzzzzzzzz
       - name: Install Playwright dependencies
         run: |
           sudo npx playwright install-deps
-      # zzzzzzzzzzzzzzzz
-      - name: Install Playwright
+
+          - name: Install Playwright
         run: |
           playwright install
 
