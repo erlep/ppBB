@@ -1,4 +1,4 @@
-# GitHub Action Yaml v9 - 24.01.2025 18:14
+# GitHub Action Yaml v10 - 24.01.2025 18:31
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -21,8 +21,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          # python-version: "3.10" # install the python version needed
-          python-version: "3.11" # install the python version needed
+          python-version: "3.10" # install the python version needed
+          # python-version: "3.11" # install the python version needed
           # python-version: "3.12" # install the python version needed
 
       - name: Install python packages
