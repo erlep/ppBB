@@ -9,9 +9,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    # runs-on: ubuntu-22.04
     # runs-on: ubuntu-24.04
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout repo content
@@ -20,8 +20,8 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10" # install the python version needed
-          # python-version: "3.11" # install the python version needed
+          # python-version: "3.10" # install the python version needed
+          python-version: "3.11" # install the python version needed
           # python-version: "3.12" # install the python version needed
 
       - name: install python packages
@@ -29,6 +29,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # zzzzzzzzzzzzzzzz
+      - name: sudo apt-get update
+        run: |
+          sudo apt-get update && sudo apt-get install -y \
+          libwoff1 \
+          libvpx7 \
+          libopus0 \
+          libwebpdemux2 \
+          libharfbuzz-icu0 \
+          libhyphen0 \
+          libflite1 \
+          libegl1 \
+          libevdev2 \
+          libgles2 \
+          gstreamer1.0-libav
+      # zzzzzzzzzzzzzzzz
       - name: playwright install
         run: |
           playwright install
