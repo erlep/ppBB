@@ -1,4 +1,4 @@
-# GitHub Action Yaml v14
+# GitHub Action Yaml v15
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -45,7 +45,8 @@ jobs:
       - name: execute py script # run main.py
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python bbDoChk.py >> DoChk.Log
+        # run: python bbDoChk.py >> DoChk.Log
+        run: xvfb-run -a python bbDoChk.py >> DoChk.Log
 
       - name: commit files
         run: |
