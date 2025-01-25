@@ -34423,3 +34423,36 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/subprocess.py", line 571, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpqyajgyt3', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpqyajgyt3/temp.png', '/home/runner/.dataframe_image/tmpqyajgyt3/temp.html']' returned non-zero exit status 1.
+
+---25.01.2025--18:26--fv-az1921-95--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/cutobofugo 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/kepegubeve 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/jatejehoda 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/lopagokoha 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/mavadopata 		 <class 'AttributeError'>
+TankONO                 : 34.9 		Elapsed time:   1.36
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 35.79 		Elapsed time:   7.75
+Globus                  : 35.4 		Elapsed time:   1.23
+Cena nezjistena -   Nazev: Makro                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/lopagokoha !
+Makro                   : 35.29 		Elapsed time:   7.36
+Shell Olomoucká         : 38.5 		Elapsed time:   8.82
+Cena nezjistena -   Nazev: MOL Olomoucká            Fce: tF(tMappy(s))  Url: https://mapy.cz/s/kepegubeve !
+MOL Olomoucká           : 38.9 		Elapsed time:   7.35
+Benzina Albert Modřice  : 34.9 		Elapsed time:   2.17
+Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
+OMV IKEA                : 38.5 		Elapsed time:   7.35
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštěná        : 36.9 		Elapsed time:   7.31
+AVIA                    : 34.9 		Elapsed time:   1.97
+Eurobit                 : 35.9 		Elapsed time:   2.95
+The exception message is: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpcpmxqjgs', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpcpmxqjgs/temp.png', '/home/runner/.dataframe_image/tmpcpmxqjgs/temp.html']' returned non-zero exit status 1.
+
+---25.01.2025--18:27--fv-az1921-95--runner--bbDoChk.py---}~~
+
+Total time:  22.67 seconds.
+===============================================================================
+===============================================================================
+OkDone.
