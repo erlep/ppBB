@@ -1,4 +1,4 @@
-# GitHub Action Yaml v13 - furt nefacha
+# GitHub Action Yaml v14
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -40,7 +40,6 @@ jobs:
 
       - name: Set permissions
         run: |
-          sudo chmod +x /opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/playwright/driver/playwright.sh
           sudo chmod 777 .
 
       - name: execute py script # run main.py
