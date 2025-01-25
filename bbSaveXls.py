@@ -157,7 +157,13 @@ def SaveXls(Dump=False):
   df_styled = df.style.background_gradient(axis=0).hide(axis=0)
   # How do I style a subset of a pandas dataframe? - https://bit.ly/3Ovn6i5
   # df_styled = df.style.background_gradient(axis=None,subset=[bbHLAVICKA[bbHlavCena]])
-  dfi.export(df_styled, bbPngFxls)
+
+  # dfi.export na Githubu pada fix
+  try:
+    dfi.export(df_styled, bbPngFxls)
+  except Exception as ex:  # pylint: disable=broad-except
+    print("The exception message is:", ex)
+
   # print('zmena', zmena)
   return zmena
 
