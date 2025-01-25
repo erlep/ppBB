@@ -175,3 +175,15 @@ def bbSaveXls_main():
 # __name__
 if __name__ == '__main__':
   bbSaveXls_main()
+
+###################################################
+# # alternativa
+# import matplotlib.pyplot as plt
+# import pandas as pd
+
+# df_styled = df.style.background_gradient()
+# fig, ax = plt.subplots(figsize=(12, 8))
+# ax.axis('tight')
+# ax.axis('off')
+# ax.table(cellText=df_styled.data.values, colLabels=df_styled.data.columns, cellLoc='center', loc='center')
+# plt.savefig(bbPngFxls)

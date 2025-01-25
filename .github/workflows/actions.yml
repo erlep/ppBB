@@ -1,4 +1,4 @@
-# GitHub Action Yaml v15
+# GitHub Action Yaml v16 od geminy
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -10,9 +10,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    # runs-on: ubuntu-22.04
     # runs-on: ubuntu-24.04
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository content
@@ -46,7 +46,8 @@ jobs:
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
         # run: python bbDoChk.py >> DoChk.Log
-        run: xvfb-run -a python bbDoChk.py >> DoChk.Log
+        # run: xvfb-run -a python bbDoChk.py >> DoChk.Log
+        run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py >> DoChk.Log
 
       - name: commit files
         run: |
