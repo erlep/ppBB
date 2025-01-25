@@ -1,4 +1,4 @@
-# GitHub Action Yaml v16 od geminy
+# GitHub Action Yaml v17 tee
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -47,7 +47,7 @@ jobs:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
         # run: python bbDoChk.py >> DoChk.Log
         # run: xvfb-run -a python bbDoChk.py >> DoChk.Log
-        run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py >> DoChk.Log
+        run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py |& tee -a DoChk.Log
 
       - name: commit files
         run: |
