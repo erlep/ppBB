@@ -34377,3 +34377,49 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/subprocess.py", line 571, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmplo5b_mon', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmplo5b_mon/temp.png', '/home/runner/.dataframe_image/tmplo5b_mon/temp.html']' returned non-zero exit status 1.
+
+---25.01.2025--18:11--fv-az1774-47--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/mavadopata 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/kepegubeve 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/cutobofugo 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/lopagokoha 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/jatejehoda 		 <class 'AttributeError'>
+TankONO                 : 34.9 		Elapsed time:   1.43
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 35.79 		Elapsed time:   7.03
+Globus                  : 35.4 		Elapsed time:   1.36
+Cena nezjistena -   Nazev: Makro                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/lopagokoha !
+Makro                   : 35.29 		Elapsed time:   7.42
+Shell Olomoucká         : 38.5 		Elapsed time:   8.61
+Cena nezjistena -   Nazev: MOL Olomoucká            Fce: tF(tMappy(s))  Url: https://mapy.cz/s/kepegubeve !
+MOL Olomoucká           : 38.9 		Elapsed time:   7.06
+Benzina Albert Modřice  : 34.9 		Elapsed time:   2.31
+Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
+OMV IKEA                : 38.5 		Elapsed time:   7.43
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštěná        : 36.9 		Elapsed time:   7.07
+AVIA                    : 34.9 		Elapsed time:   2.01
+Eurobit                 : 35.9 		Elapsed time:   2.13
+Traceback (most recent call last):
+  File "/home/runner/work/ppBB/ppBB/bbDoChk.py", line 39, in <module>
+    bbDoChk_main()
+  File "/home/runner/work/ppBB/ppBB/bbDoChk.py", line 35, in bbDoChk_main
+    DoChk()
+  File "/home/runner/work/ppBB/ppBB/bbDoChk.py", line 24, in DoChk
+    zmena = SaveXls(True)
+            ^^^^^^^^^^^^^
+  File "/home/runner/work/ppBB/ppBB/bbSaveXls.py", line 160, in SaveXls
+    dfi.export(df_styled, bbPngFxls)
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/dataframe_image/_pandas_accessor.py", line 224, in export
+    img_str = converter(html)
+              ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/dataframe_image/converter/browser/base.py", line 197, in run
+    im = self.screenshot(html)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/dataframe_image/converter/browser/chrome_converter.py", line 143, in screenshot
+    subprocess.run(
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpqyajgyt3', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpqyajgyt3/temp.png', '/home/runner/.dataframe_image/tmpqyajgyt3/temp.html']' returned non-zero exit status 1.
