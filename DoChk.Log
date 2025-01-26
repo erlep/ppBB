@@ -36668,3 +36668,30 @@ Total time:  23.58 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---26.01.2025--15:52--fv-az1296-655--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/cutobofugo 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/mavadopata 		 <class 'AttributeError'>
+TankONO                 : 34.9 		Elapsed time:   1.10
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 35.79 		Elapsed time:   6.24
+Globus                  : 35.4 		Elapsed time:   1.08
+Makro                   : 35.29 		Elapsed time:   7.44
+Shell Olomoucká         : 38.5 		Elapsed time:   7.46
+MOL Olomoucká           : 38.9 		Elapsed time:   8.04
+Benzina Albert Modřice  : 34.9 		Elapsed time:   1.87
+OMV IKEA                : 38.5 		Elapsed time:   7.42
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštěná        : 36.9 		Elapsed time:   5.87
+AVIA                    : 34.9 		Elapsed time:   1.64
+Eurobit                 : 35.9 		Elapsed time:   1.77
+The exception message is: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpxpc71bam', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpxpc71bam/temp.png', '/home/runner/.dataframe_image/tmpxpc71bam/temp.html']' returned non-zero exit status 1.
+
+---26.01.2025--15:52--fv-az1296-655--runner--bbDoChk.py---}~~
+
+Total time:  16.24 seconds.
+===============================================================================
+===============================================================================
+OkDone.
