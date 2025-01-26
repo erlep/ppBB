@@ -37414,3 +37414,26 @@ Total time:  15.06 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---26.01.2025--22:11--fv-az1931-375--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 		Elapsed time:   1.10
+Tesco                   : 35.79 		Elapsed time:   7.00
+Globus                  : 35.4 		Elapsed time:   0.96
+Makro                   : 35.29 		Elapsed time:   7.07
+Shell Olomoucká         : 38.5 		Elapsed time:   7.19
+MOL Olomoucká           : 38.9 		Elapsed time:   7.04
+Benzina Albert Modřice  : 34.9 		Elapsed time:   1.73
+OMV IKEA                : 38.5 		Elapsed time:   6.82
+EuroOil Opuštěná        : 36.9 		Elapsed time:   7.26
+AVIA                    : 34.9 		Elapsed time:   1.48
+Eurobit                 : 35.9 		Elapsed time:   1.81
+The exception message is: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpsg_n6n5g', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpsg_n6n5g/temp.png', '/home/runner/.dataframe_image/tmpsg_n6n5g/temp.html']' returned non-zero exit status 1.
+
+---26.01.2025--22:12--fv-az1931-375--runner--bbDoChk.py---}~~
+
+Total time:  13.98 seconds.
+===============================================================================
+===============================================================================
+OkDone.
