@@ -39829,3 +39829,28 @@ Total time:  21.37 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---27.01.2025--22:28--fv-az1675-679--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/megolelafe 		 <class 'AttributeError'>
+TankONO                 : 34.9 		Elapsed time:   1.38
+Tesco                   : 35.81  +0.02 Cena: 35.81 Old: 35.79 2025-01-27 22:29:06 - zmena ceny 
+Globus                  : 35.4 		Elapsed time:   1.58
+Makro                   : 35.29 		Elapsed time:   9.45
+Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká         : 38.5 		Elapsed time:   8.20
+MOL Olomoucká           : 38.9 		Elapsed time:   9.76
+Benzina Albert Modřice  : 34.9 		Elapsed time:   2.40
+OMV IKEA                : 38.5 		Elapsed time:   9.42
+EuroOil Opuštěná        : 36.9 		Elapsed time:   9.61
+AVIA                    : 34.9 		Elapsed time:   2.06
+Eurobit                 : 35.9 		Elapsed time:   2.56
+The exception message is: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmptep_5tzb', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmptep_5tzb/temp.png', '/home/runner/.dataframe_image/tmptep_5tzb/temp.html']' returned non-zero exit status 1.
+
+---27.01.2025--22:29--fv-az1675-679--runner--bbDoChk.py---}~~
+
+Total time:  23.52 seconds.
+===============================================================================
+===============================================================================
+OkDone.
