@@ -40064,3 +40064,34 @@ Total time:  14.75 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---28.01.2025--00:13--fv-az1944-760--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/lopagokoha 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/mavadopata 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/megolelafe 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/jatejehoda 		 <class 'AttributeError'>
+TankONO                 : 34.9 		Elapsed time:   1.40
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 35.81 		Elapsed time:   6.55
+Globus                  : 35.4 		Elapsed time:   1.13
+Cena nezjistena -   Nazev: Makro                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/lopagokoha !
+Makro                   : 35.29 		Elapsed time:   6.50
+Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká         : 38.5 		Elapsed time:   6.91
+MOL Olomoucká           : 38.9 		Elapsed time:   8.59
+Benzina Albert Modřice  : 34.9 		Elapsed time:   1.94
+Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
+OMV IKEA                : 38.5 		Elapsed time:   7.05
+EuroOil Opuštěná        : 36.9 		Elapsed time:   7.25
+AVIA                    : 34.9 		Elapsed time:   1.79
+Eurobit                 : 35.9 		Elapsed time:   2.96
+The exception message is: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpvjmz6rwj', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpvjmz6rwj/temp.png', '/home/runner/.dataframe_image/tmpvjmz6rwj/temp.html']' returned non-zero exit status 1.
+
+---28.01.2025--00:13--fv-az1944-760--runner--bbDoChk.py---}~~
+
+Total time:  23.48 seconds.
+===============================================================================
+===============================================================================
+OkDone.
