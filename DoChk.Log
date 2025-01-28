@@ -41051,3 +41051,32 @@ Total time:  17.96 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---28.01.2025--10:53--fv-az1787-278--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/mavadopata 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/jatejehoda 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/cutobofugo 		 <class 'AttributeError'>
+TankONO                 : 34.9 		Elapsed time:   1.16
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 35.79 		Elapsed time:   6.28
+Globus                  : 35.4 		Elapsed time:   1.20
+Makro                   : 35.29 		Elapsed time:   6.93
+Shell Olomoucká         : 38.5 		Elapsed time:   6.52
+MOL Olomoucká           : 38.9 		Elapsed time:   6.83
+Benzina Albert Modřice  : 34.9 		Elapsed time:   1.83
+Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
+OMV IKEA                : 38.5 		Elapsed time:   6.35
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštěná        : 36.9 		Elapsed time:   6.66
+AVIA                    : 34.9 		Elapsed time:   1.68
+Eurobit                 : 35.9 		Elapsed time:   1.78
+The exception message is: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpyyok1140', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpyyok1140/temp.png', '/home/runner/.dataframe_image/tmpyyok1140/temp.html']' returned non-zero exit status 1.
+
+---28.01.2025--10:53--fv-az1787-278--runner--bbDoChk.py---}~~
+
+Total time:  21.10 seconds.
+===============================================================================
+===============================================================================
+OkDone.
