@@ -41018,3 +41018,36 @@ Total time:  31.10 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---28.01.2025--10:40--fv-az1921-454--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+Error v bbMapy.py: url https://mapy.cz/s/cutobofugo 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/megolelafe 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/lopagokoha 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/kepegubeve 		 <class 'AttributeError'>
+Error v bbMapy.py: url https://mapy.cz/s/mavadopata 		 <class 'AttributeError'>
+TankONO                 : 34.9 		Elapsed time:   1.58
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 35.79 		Elapsed time:   9.32
+Globus                  : 35.4 		Elapsed time:   1.43
+Cena nezjistena -   Nazev: Makro                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/lopagokoha !
+Makro                   : 35.29 		Elapsed time:   9.19
+Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká         : 38.5 		Elapsed time:   9.13
+Cena nezjistena -   Nazev: MOL Olomoucká            Fce: tF(tMappy(s))  Url: https://mapy.cz/s/kepegubeve !
+MOL Olomoucká           : 38.9 		Elapsed time:   9.28
+Benzina Albert Modřice  : 34.9 		Elapsed time:   2.20
+OMV IKEA                : 38.5 		Elapsed time:   9.97
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštěná        : 36.9 		Elapsed time:   8.78
+AVIA                    : 34.9 		Elapsed time:   2.03
+Eurobit                 : 35.9 		Elapsed time:   3.85
+The exception message is: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpk4x16px6', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpk4x16px6/temp.png', '/home/runner/.dataframe_image/tmpk4x16px6/temp.html']' returned non-zero exit status 1.
+
+---28.01.2025--10:40--fv-az1921-454--runner--bbDoChk.py---}~~
+
+Total time:  17.96 seconds.
+===============================================================================
+===============================================================================
+OkDone.
