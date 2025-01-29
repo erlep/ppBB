@@ -43894,3 +43894,27 @@ Total time:  24.30 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+Matplotlib is building the font cache; this may take a moment.
+
+---29.01.2025--22:26--fv-az1934-851--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 		Elapsed time:   1.16
+Tesco                   : 35.79 		Elapsed time:   7.85
+Globus                  : 35.4 		Elapsed time:   1.19
+Makro                   : 35.29 		Elapsed time:   7.57
+Shell Olomoucká         : 37.9 		Elapsed time:   7.80
+MOL Olomoucká           : 37.9 		Elapsed time:   7.70
+Benzina Albert Modřice  : 34.9 		Elapsed time:   1.82
+OMV IKEA                : 38.5 		Elapsed time:   7.33
+EuroOil Opuštěná        : 36.9 		Elapsed time:   7.91
+AVIA                    : 34.9 		Elapsed time:   1.68
+Eurobit                 : 35.9 		Elapsed time:   2.09
+The exception message is: Command '['--enable-logging', '--disable-gpu', '--headless=old', '--crash-dumps-dir=/home/runner/.dataframe_image/tmpt3jq1adf', '--force-device-scale-factor=1', '--window-size=1400,900', '--hide-scrollbars', '--screenshot=/home/runner/.dataframe_image/tmpt3jq1adf/temp.png', '/home/runner/.dataframe_image/tmpt3jq1adf/temp.html']' returned non-zero exit status 1.
+
+---29.01.2025--22:27--fv-az1934-851--runner--bbDoChk.py---}~~
+
+Total time:  42.56 seconds.
+===============================================================================
+===============================================================================
+OkDone.
