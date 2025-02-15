@@ -73840,3 +73840,26 @@ Total time:  29.71 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+Matplotlib is building the font cache; this may take a moment.
+
+---15.02.2025--19:41--fv-az1049-328--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 		Elapsed time:   1.35
+Tesco                   : 35.2 		Elapsed time:   8.88
+Globus                  : 35.4 		Elapsed time:   1.16
+Makro                   : 34.7 		Elapsed time:   8.44
+Shell Olomoucká         : 37.9 		Elapsed time:   8.30
+MOL Olomoucká           : 37.9 		Elapsed time:   8.53
+Benzina Albert Modřice  : 35.9 		Elapsed time:   2.29
+OMV IKEA                : 37.9 		Elapsed time:   8.09
+EuroOil Opuštěná        : 36.9 		Elapsed time:   8.58
+AVIA                    : 34.9 		Elapsed time:   2.16
+Eurobit                 : 35.9 		Elapsed time:   3.07
+
+---15.02.2025--19:42--fv-az1049-328--runner--bbDoChk.py---}~~
+
+Total time:  98.83 seconds.
+===============================================================================
+===============================================================================
+OkDone.
