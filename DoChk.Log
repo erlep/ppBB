@@ -74951,3 +74951,25 @@ Total time:  32.01 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---16.02.2025--11:13--fv-az1979-234--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.55 - Natural 95 prices in Brno - Python Version
+TankONO                 : 34.9 		Elapsed time:   1.52
+Tesco                   : 35.2 		Elapsed time:  10.22
+Globus                  : 35.4 		Elapsed time:   1.39
+Makro                   : 34.7 		Elapsed time:   9.82
+Shell Olomoucká         : 37.9 		Elapsed time:   9.61
+MOL Olomoucká           : 37.9 		Elapsed time:   9.74
+Benzina Albert Modřice  : 35.5 		Elapsed time:   2.24
+OMV IKEA                : 37.9 		Elapsed time:   9.49
+EuroOil Opuštěná        : 36.9 		Elapsed time:   9.86
+AVIA                    : 34.9 		Elapsed time:   1.98
+Eurobit                 : 35.9 		Elapsed time:   4.92
+
+---16.02.2025--11:14--fv-az1979-234--runner--bbDoChk.py---}~~
+
+Total time:  39.53 seconds.
+===============================================================================
+===============================================================================
+OkDone.
