@@ -8,6 +8,9 @@ def Graf():
   import matplotlib.pyplot as plt
   import os
 
+  # Zkus přepnout matplotlib backend - peg 11.05.2025 17:18 NETESTOVANO
+  # matplotlib.use('Agg')
+
   # Xls file
   df = pd.read_excel(bbXlsFlNm, sheet_name=bbXlsShNm, converters={bbHLAVICKA[bbHlavDate]: pd.to_datetime})
   # Název - trim
