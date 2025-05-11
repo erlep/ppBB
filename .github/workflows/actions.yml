@@ -34,6 +34,11 @@ jobs:
         run: |
           sudo npx playwright install-deps
 
+      - name: Install additional dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dbus-x11 libnss3 libxss1 libasound2
+
       - name: Install Playwright
         run: |
           playwright install
@@ -47,8 +52,8 @@ jobs:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
         # run: python bbDoChk.py >> DoChk.Log
         # run: xvfb-run -a python bbDoChk.py >> DoChk.Log
-        run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py |& tee -a DoChk.Log
-
+        # run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py |& tee -a DoChk.Log
+        run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py --disable-dev-shm-usage --no-sandbox |& tee -a DoChk.Log
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
