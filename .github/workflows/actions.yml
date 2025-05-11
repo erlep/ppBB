@@ -53,7 +53,7 @@ jobs:
         # run: python bbDoChk.py >> DoChk.Log
         # run: xvfb-run -a python bbDoChk.py >> DoChk.Log
         # run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py |& tee -a DoChk.Log
-        run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py --disable-dev-shm-usage --no-sandbox --disable-gpu --disable-software-rasterizer |& tee -a DoChk.Log
+        run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py --disable-dev-shm-usage --no-sandbox --disable-gpu --disable-software-rasterizer --disable-dbus |& tee -a DoChk.Log
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
