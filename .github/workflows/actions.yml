@@ -1,4 +1,4 @@
-# GitHub Action Yaml v17 tee - 12.05.2025 14:01 !!! navrat k v17, v19
+# GitHub Action Yaml v17 tee - 12.05.2025 14:01 !!! navrat k v17, v20
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -38,7 +38,7 @@ jobs:
       - name: Install additional dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y dbus-x11 libnss3 libxss1 liboss4-salsa-asound2 libasound2
+          sudo apt-get install -y dbus-x11 libnss3 libxss1 liboss4-salsa-asound2
 
       - name: Install Playwright
         run: |
