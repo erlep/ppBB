@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.55  # Tabulka, zkouska mapy.cz
+bbNmVR = 0.56  # playwrite issue
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbFmt2 = '{:6.2f}'  # float with 2 decimals
 bbNmVE = 'GitV' + bbFmt2.format(bbNmVR)
