@@ -3,7 +3,7 @@
 
 # Globalni promenne
 bbNmBB = 'BenzinBrno '
-bbNmVR = 0.56  # playwrite issue
+bbNmVR = 0.57  # playwrite + Github Action fixed
 # bbNmVE = 'v' + str(bbNmVR).format()
 bbFmt2 = '{:6.2f}'  # float with 2 decimals
 bbNmVE = 'GitV' + bbFmt2.format(bbNmVR)
@@ -75,6 +75,7 @@ if __name__ == '__main__':
   ProgramInfo = '''
 -----------------------------------------------------
 History:
+  15.05.2025 0.57 - playwrite + Github Action fixed
   11.03.2024 0.52 - AVIA zmena z tMappy() https://mapy.cz/s/rodokobesa na tmBenz() https://bit.ly/3wIivSA
   03.01.2024 0.51 - opraveno try aby nepadalo aj.
   21.12.2023 0.50 - opraveny mapy.cz na podporu Cookies
