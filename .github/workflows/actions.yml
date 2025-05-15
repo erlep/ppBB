@@ -1,4 +1,4 @@
-# GitHub Action Yaml v17 tee - 12.05.2025 14:01 !!! navrat k v17, v20
+# GitHub Action Yaml v17 tee - 12.05.2025 14:01 !!! navrat k v17, v21
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -21,8 +21,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          # python-version: "3.10" # install the python version needed
-          python-version: "3.11" # install the python version needed
+          python-version: "3.10" # install the python version needed
+          # python-version: "3.11" # install the python version needed
           # python-version: "3.12" # install the python version needed
 
       - name: Install python packages
