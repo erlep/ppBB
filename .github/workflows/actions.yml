@@ -1,4 +1,4 @@
-# GitHub Action Yaml v24 - 15.05.2025 15:34
+# GitHub Action Yaml v25
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -60,7 +60,7 @@ jobs:
 
         run: |
           xvfb-run --server-args="-screen 0 1400x900x24" \
-          python bbDoChk.py --disable-dev-shm-usage --no-sandbox |& tee -a DoChk.Log
+          python bbDoChk.py --no-sandbox --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage |& tee -a DoChk.Log
 
       - name: Commit files
         run: |
