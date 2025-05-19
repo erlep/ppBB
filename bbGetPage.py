@@ -47,6 +47,8 @@ def page_content_selenium(url):
 async def page_content_playwright(url):
   # Use async version of Playwright
   from playwright.async_api import async_playwright
+  from playwright.config import BROWSER_ARGS  # playwright konfigurace
+
   import json
   from bbCFG import bbTimeGet, bbHeadLes, bbUsrAgnt
   # print('url', url)
