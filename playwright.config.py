@@ -1,13 +1,6 @@
-﻿from playwright.sync_api import Playwright, sync_playwright
-from playwright.sync_api import expect
+﻿# playwright.config.py
 
-# Playwright test runner config (if using `pytest` or `playwright test`)
-# If you're using Playwright directly in a script, this config is optional.
-
-def pytest_configure(config):
-  config.option.headless = True
-
-# Optional: for direct use in scripts
+# Argumenty pro Chromium při asynchronním použití Playwrightu
 BROWSER_ARGS = [
     "--no-sandbox",
     "--disable-gpu",
