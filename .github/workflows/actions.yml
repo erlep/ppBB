@@ -1,4 +1,4 @@
-# GitHub Action Yaml v25
+# GitHub Action Yaml v26
 name: python bbDoChk.py
 # Node.js 16 ➜ Node.js 20
 
@@ -46,7 +46,7 @@ jobs:
 
       - name: Install Playwright browsers
         run: |
-          python -m playwright install --with-deps
+          python -m playwright install chromium --with-deps
 
       - name: Set permissions
         run: sudo chmod 777 .
@@ -58,9 +58,31 @@ jobs:
         # run: xvfb-run -a python bbDoChk.py >> DoChk.Log
         # run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py |& tee -a DoChk.Log
 
+        # run: |
+        #   xvfb-run --server-args="-screen 0 1400x900x24" \
+        #   python bbDoChk.py --no-sandbox --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage |& tee -a DoChk.Log
+
         run: |
           xvfb-run --server-args="-screen 0 1400x900x24" \
-          python bbDoChk.py --no-sandbox --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage |& tee -a DoChk.Log
+          python bbDoChk.py \
+            --no-sandbox \
+            --disable-gpu \
+            --disable-software-rasterizer \
+            --disable-dev-shm-usage \
+            --disable-setuid-sandbox \
+            --disable-accelerated-2d-canvas \
+            --disable-accelerated-video-decode \
+            --disable-features=UseOzonePlatform \
+            --disable-background-networking \
+            --disable-default-apps \
+            --disable-extensions \
+            --disable-sync \
+            --metrics-recording-only \
+            --mute-audio \
+            --no-first-run \
+            --no-zygote \
+            --single-process \
+            --headless=new |& tee -a DoChk.Log
 
       - name: Commit files
         run: |
