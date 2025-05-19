@@ -1703,3 +1703,39 @@ Total time:  10.65 seconds.
 ===============================================================================
 ===============================================================================
 OkDone.
+
+---19.05.2025--15:55--pkrvmf6wy0o8zjz--runner--bbDoChk.py---{~~
+
+BenzinBrno GitV  0.57 - Natural 95 prices in Brno - Python Version
+ERROR: bbSaveXls Tesco                   Url:https://mapy.cz/s/mavadopata Error message: No module named 'playwright_config'
+ERROR: bbSaveXls Makro                   Url:https://mapy.cz/s/lopagokoha Error message: No module named 'playwright_config'
+ERROR: bbSaveXls Shell Olomoucká         Url:https://mapy.cz/s/megolelafe Error message: No module named 'playwright_config'
+ERROR: bbSaveXls MOL Olomoucká           Url:https://mapy.cz/s/kepegubeve Error message: No module named 'playwright_config'
+ERROR: bbSaveXls OMV IKEA                Url:https://mapy.cz/s/jatejehoda Error message: No module named 'playwright_config'
+ERROR: bbSaveXls EuroOil Opuštěná        Url:https://mapy.cz/s/cutobofugo Error message: No module named 'playwright_config'
+ERROR: bbSaveXls Eurobit                 Url:https://www.eurobit.cz/ceny Error message: No module named 'playwright_config'
+TankONO                 : 31.9 		Elapsed time:   0.99
+Cena nezjistena -   Nazev: Tesco                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/mavadopata !
+Tesco                   : 32.5 		Elapsed time:   0.03
+Globus                  : 32.4 		Elapsed time:   0.86
+Cena nezjistena -   Nazev: Makro                    Fce: tF(tMappy(s))  Url: https://mapy.cz/s/lopagokoha !
+Makro                   : 31.9 		Elapsed time:   0.00
+Cena nezjistena -   Nazev: Shell Olomoucká          Fce: tF(tMappy(s))  Url: https://mapy.cz/s/megolelafe !
+Shell Olomoucká         : 35.5 		Elapsed time:   0.00
+Cena nezjistena -   Nazev: MOL Olomoucká            Fce: tF(tMappy(s))  Url: https://mapy.cz/s/kepegubeve !
+MOL Olomoucká           : 35.5 		Elapsed time:   0.00
+Benzina Albert Modřice  : 31.9 		Elapsed time:   1.53
+Cena nezjistena -   Nazev: OMV IKEA                 Fce: tF(tMappy(s))  Url: https://mapy.cz/s/jatejehoda !
+OMV IKEA                : 35.5 		Elapsed time:   0.00
+Cena nezjistena -   Nazev: EuroOil Opuštěná         Fce: tF(tMappy(s))  Url: https://mapy.cz/s/cutobofugo !
+EuroOil Opuštěná        : 34.5 		Elapsed time:   0.00
+AVIA                    : 31.9 		Elapsed time:   1.36
+Cena nezjistena -   Nazev: Eurobit                  Fce: tF(tEuroB(s))  Url: https://www.eurobit.cz/ceny !
+Eurobit                 : 32.5 		Elapsed time:   0.00
+
+---19.05.2025--15:55--pkrvmf6wy0o8zjz--runner--bbDoChk.py---}~~
+
+Total time:  11.34 seconds.
+===============================================================================
+===============================================================================
+OkDone.
