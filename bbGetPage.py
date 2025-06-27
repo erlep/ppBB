@@ -88,19 +88,22 @@ async def page_content_playwright(url):
         await page.goto(url, timeout=bbTimeGet)  # Wait for 10 second
         # hledam zda je na strance tlacitko ' I agree' - Full Xpath /html/body/div[2]//div/div/div[2]/button[2]
         mapyTxt = ".szn-cmp-dialog-container"
-        if (await page.locator(mapyTxt).is_visible(timeout=bbTimeGet)):
-          # print('jsem v ', mapyTxt)
-          try:
-            await page.locator(mapyTxt).click(timeout=bbTimeGet)
-            # zavru prohlizec
-            page_content = await page.content()
-            await context.close()
-            await browser.close()
-            return page_content
-          except:  # catch *all* exceptions # pylint: disable=bare-except
-            e = sys.exc_info()[0]
-            print("Error v bbGetPage.py. Neni povoleno cookies: url", url, '\t\t', e)
-            return ''
+        # oprava 27.06.2025 13:35 - nezna .is_visible(timeout=bbTimeGet)):
+        # if (await page.locator(mapyTxt).is_visible(timeout=bbTimeGet)):
+        if (await page.wait_for_selector(mapyTxt, timeout=bbTimeGet)):
+          if (await page.locator(mapyTxt).is_visible()):
+            # print('jsem v ', mapyTxt)
+            try:
+              await page.locator(mapyTxt).click(timeout=bbTimeGet)
+              # zavru prohlizec
+              page_content = await page.content()
+              await context.close()
+              await browser.close()
+              return page_content
+            except:  # catch *all* exceptions # pylint: disable=bare-except
+              e = sys.exc_info()[0]
+              print("Error v bbGetPage.py. Neni povoleno cookies: url", url, '\t\t', e)
+              return ''
         # await page.locator("text=Benzín").click()
         # Click td:has-text("Benzín")
         # hledam zda je na strance  'Benzín'
