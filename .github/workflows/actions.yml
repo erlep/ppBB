@@ -1,0 +1,79 @@
+# GitHub Action Yaml v27
+name: python bbDoChk.py
+# Node.js 16 ➜ Node.js 20
+
+on:
+  schedule:
+    # - cron: '0 0 * * 1' # At 00:00 on Monday
+    # kazdych 15 minut spustit https://crontab.guru/#15_*_*_*_*
+    - cron: "*/16 * * * *"
+
+jobs:
+  build:
+    # runs-on: ubuntu-22.04
+    # runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v4 # checkout the repository content to github runner
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          # python-version: "3.10" # install the python version needed
+          python-version: "3.11" # install the python version needed
+          # python-version: "3.12" # install the python version needed
+
+      - name: Install system dependencies (Chromium + ALSA fix)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libasound2t64 \
+            libnss3 \
+            libxss1 \
+            libatk-bridge2.0-0 \
+            libgtk-3-0 \
+            libxshmfence1 \
+            libgbm1 \
+            dbus-x11
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install --upgrade playwright
+
+      - name: Install Playwright browsers
+        run: |
+          python -m playwright install chromium --with-deps
+
+      - name: Set permissions
+        run: sudo chmod 777 .
+
+      - name: Execute Python script
+        env:
+          SOME_SECRET: ${{ secrets.SOME_SECRET }}
+        # run: python bbDoChk.py >> DoChk.Log
+        # run: xvfb-run -a python bbDoChk.py >> DoChk.Log
+        # run: xvfb-run --server-args="-screen 0 1400x900x24" python bbDoChk.py |& tee -a DoChk.Log
+
+        # run: |
+        #   xvfb-run --server-args="-screen 0 1400x900x24" \
+        #   python bbDoChk.py --no-sandbox --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage |& tee -a DoChk.Log
+
+        run: |
+          python bbDoChk.py |& tee -a DoChk.Log
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || git commit -a -m "ppBB bot update" --allow-empty
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

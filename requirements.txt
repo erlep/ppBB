@@ -1,0 +1,15 @@
+bs4
+dataframe_image
+html5lib
+kaleido
+lxml
+matplotlib
+openpyxl
+pandas
+playwright
+plotly
+pytz
+requests
+streamlit
+httpx
+h2
