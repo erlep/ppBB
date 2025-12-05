@@ -331,6 +331,34 @@ sudo apt-get install libasound2
 ** nize funguje **
 git clone git@github.com:erlep/ppBB.git
 --------------------------------------------------------------------------------
+TODO: pomoci AI zkus ziskat data z Makro
+do souboru yyMakro.py vytvor kod ktery
+- nacte stanku https://www.makro.cz/prodejny/brno
+- najdi na ni text Natural 95 Kč/l 31,90
+- a zobraz "Makro cena: 31,90"
+- 31,90 je cena a muze se menit
+- v html to je
+<div class="prices slides"><div class="price slide element-position"><div><div class="field-name">Natural 95</div><div class="field-measure">Kč/l</div></div>
+- pouzij asyncio
+- stranka deteku webcrawling a nedovoli ji pythonu nacist
+- proto pouzij neco co detekci skenovani obejde a umi cist stranku s javascriptem
+==
+
+python -m pip install --upgrade pip
+python -m pip install cloudscraper beautifulsoup4
+python yyMakro.py
+
+python -m pip install --upgrade pip
+python -m pip install pyppeteer
+python yyMakro.py
+
+python -m pip install --upgrade pip
+python -m pip install requests-html lxml_html_clean
+python yyMakro.py
+
+==
+c:\aaC\vEnv\vEnvPy_3.11\vEnv\Scripts\python.exe
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ================================================================================
 https://www.w3schools.com/colors/colors_names.asp
