@@ -1,67 +1,75 @@
 import asyncio
 import re
-import subprocess
-import json
-from pathlib import Path
+
+import cloudscraper
+from bs4 import BeautifulSoup
 
 
 URL = "https://www.makro.cz/prodejny/brno"
-CACHE_FILE = Path("makro_price_cache.txt")
 
 
 async def fetch_makro_price() -> str | None:
-  """
-  Fallback přístup když všechno ostatní selže:
-  1. Zkusí curl s --http2
-  2. Pokud selže, použije manuální cache
-  """
+  # Use cloudscraper in async context
+  loop = asyncio.get_event_loop()
 
-  # Metoda 1: Zkus curl s HTTP/2 (méně detekce než Python knihovny)
-  try:
-    result = await asyncio.create_subprocess_exec(
-        "curl",
-        "-s",
-        "-L",
-        "--http2",
-        "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "-H", "Accept-Language: cs-CZ,cs;q=0.9",
-        URL,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE
+  def _fetch():
+    scraper = cloudscraper.create_scraper(
+        browser={
+            "browser": "chrome",
+            "platform": "windows",
+            "desktop": True,
+        }
     )
-    stdout, stderr = await result.communicate()
 
-    if result.returncode == 0 and stdout:
-      html = stdout.decode("utf-8", errors="ignore")
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "cs-CZ,cs;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+    }
 
-      # Regex pro Natural 95 cenu
-      m = re.search(
-          r"Natural\s*95[\s\S]{0,200}?(\d{1,3}[.,]\d{2})",
-          html,
-          re.IGNORECASE,
-      )
+    response = scraper.get(URL, headers=headers, timeout=30)
+    response.raise_for_status()
+    return response.text
 
-      if m:
-        price = m.group(1)
-        # Ulož do cache
-        CACHE_FILE.write_text(price, encoding="utf-8")
-        return price
-  except Exception as e:
-    print(f"Curl failed: {e}")
+  # Run in executor to avoid blocking
+  html = await loop.run_in_executor(None, _fetch)
 
-  # Metoda 2: Přečti z cache (pokud existuje)
-  if CACHE_FILE.exists():
-    try:
-      cached = CACHE_FILE.read_text(encoding="utf-8").strip()
-      if cached and re.match(r"^\d{1,3}[.,]\d{2}$", cached):
-        print("⚠️ Používám cached cenu (curl selhal)")
-        return cached
-    except Exception:
-      pass
+  # Parse with BeautifulSoup
+  soup = BeautifulSoup(html, "html.parser")
 
-  # Metoda 3: Hardcodovaný fallback (aktualizuj ručně)
-  print("⚠️ Všechny metody selhaly. Vraťte cenu z cache nebo aktualizujte ručně.")
-  return None
+  # Find all price cards
+  cards = soup.select(".price.slide.element-position")
+  price = None
+
+  for card in cards:
+    name_el = card.select_one(".field-name")
+    if name_el:
+      name = name_el.get_text(strip=True)
+      if "Natural" in name and "95" in name:
+        card_text = card.get_text()
+        m = re.search(r"(\d{1,3}[.,]\d{2})", card_text)
+        if m:
+          price = m.group(1)
+          break
+
+  # Fallback: regex search in full HTML
+  if not price:
+    m = re.search(
+        r"Natural\s*95[\s\S]*?Kč/l[\s\S]*?(\d{1,3}[.,]\d{2})",
+        html,
+        re.IGNORECASE,
+    )
+    price = m.group(1) if m else None
+
+  return price
 async def main():
   price = await fetch_makro_price()
   if price:
