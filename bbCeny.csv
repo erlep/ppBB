@@ -1,6 +1,6 @@
-Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 09.03.2026 16:10
-TankONO                ,34.9,33.9,+1.0,2026-03-09 16:10:20,https://www.tank-ono.cz/cz/index.php?page=cenik
-Tesco                  ,34.52,34.5,+0.02,2026-03-09 16:10:20,https://mapy.cz/s/mavadopata
+Název,Cena,Old Cena,Delta Cena,Old Datum,Last status check on: 09.03.2026 17:12
+TankONO                ,34.9,33.9,1.0,2026-03-09 16:10:20,https://www.tank-ono.cz/cz/index.php?page=cenik
+Tesco                  ,34.5,34.52,-0.02,2026-03-09 17:12:48,https://mapy.cz/s/mavadopata
 Globus                 ,35.9,33.9,2.0,2026-03-09 12:04:21,https://www.globus.cz/brno/sluzby-a-produkty/cerpaci-stanice-a-myci-linka
 Makro                  ,35.9,34.9,1.0,2026-03-09 12:49:37,https://mapy.cz/s/lopagokoha
 Shell Olomoucká        ,37.9,36.9,1.0,2026-03-05 20:43:10,https://mapy.cz/s/megolelafe
